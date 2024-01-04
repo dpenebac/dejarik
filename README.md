@@ -1,5 +1,5 @@
-###Versioning
-- Python 3.12
+### Versioning
+- Python 3.12 (use py)
 - Vivado 2022.2? 
 - STM32CubeIDE Version
 - blah
