@@ -1,0 +1,156 @@
+<mxfile host="65bd71144e">
+    <diagram name="Page-1" id="ILkNMCB-ckAdee0KeORi">
+        <mxGraphModel dx="840" dy="959" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="te0FBZQKtLvTDMSE9k3K-7" value="FPGA" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="590" y="80" width="380" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="CgRlXd0XPTFSaaGUKUqt-2" value="UART RX&lt;br&gt;(Custom HDL)" style="rounded=0;whiteSpace=wrap;html=1;" parent="te0FBZQKtLvTDMSE9k3K-7" vertex="1">
+                    <mxGeometry x="55" y="35" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="CgRlXd0XPTFSaaGUKUqt-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="te0FBZQKtLvTDMSE9k3K-7" source="CgRlXd0XPTFSaaGUKUqt-7" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="355" y="64.9655172413793" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="CgRlXd0XPTFSaaGUKUqt-7" value="Matrix Driver&lt;br&gt;(Custom HDL)" style="rounded=0;whiteSpace=wrap;html=1;" parent="te0FBZQKtLvTDMSE9k3K-7" vertex="1">
+                    <mxGeometry x="205" y="35" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="CgRlXd0XPTFSaaGUKUqt-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="te0FBZQKtLvTDMSE9k3K-7" source="CgRlXd0XPTFSaaGUKUqt-2" target="CgRlXd0XPTFSaaGUKUqt-7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="te0FBZQKtLvTDMSE9k3K-8" value="PC" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="80" width="380" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="te0FBZQKtLvTDMSE9k3K-10" value="GUI" style="rounded=0;whiteSpace=wrap;html=1;" parent="te0FBZQKtLvTDMSE9k3K-8" vertex="1">
+                    <mxGeometry x="55" y="35" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="te0FBZQKtLvTDMSE9k3K-12" value="GUI Data Converter" style="rounded=0;whiteSpace=wrap;html=1;" parent="te0FBZQKtLvTDMSE9k3K-8" vertex="1">
+                    <mxGeometry x="205" y="35" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="te0FBZQKtLvTDMSE9k3K-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="te0FBZQKtLvTDMSE9k3K-8" source="te0FBZQKtLvTDMSE9k3K-10" target="te0FBZQKtLvTDMSE9k3K-12" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="te0FBZQKtLvTDMSE9k3K-35" value="rgb_info" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="te0FBZQKtLvTDMSE9k3K-15" target="CgRlXd0XPTFSaaGUKUqt-2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="te0FBZQKtLvTDMSE9k3K-15" value="RS232" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="115" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="te0FBZQKtLvTDMSE9k3K-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="te0FBZQKtLvTDMSE9k3K-12" target="te0FBZQKtLvTDMSE9k3K-15" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="385" y="144.9655172413793" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="te0FBZQKtLvTDMSE9k3K-16" value="FPGA" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="590" y="240" width="380" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="te0FBZQKtLvTDMSE9k3K-17" value="UART RX&lt;br&gt;(Custom HDL)" style="rounded=0;whiteSpace=wrap;html=1;" parent="te0FBZQKtLvTDMSE9k3K-16" vertex="1">
+                    <mxGeometry x="55" y="35" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="te0FBZQKtLvTDMSE9k3K-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="te0FBZQKtLvTDMSE9k3K-16" source="te0FBZQKtLvTDMSE9k3K-19" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="355" y="64.9655172413793" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="te0FBZQKtLvTDMSE9k3K-19" value="Matrix Driver&lt;br&gt;(Custom HDL)" style="rounded=0;whiteSpace=wrap;html=1;" parent="te0FBZQKtLvTDMSE9k3K-16" vertex="1">
+                    <mxGeometry x="205" y="35" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="te0FBZQKtLvTDMSE9k3K-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="te0FBZQKtLvTDMSE9k3K-16" source="te0FBZQKtLvTDMSE9k3K-17" target="te0FBZQKtLvTDMSE9k3K-19" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="te0FBZQKtLvTDMSE9k3K-21" value="STM32" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="240" width="520" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="te0FBZQKtLvTDMSE9k3K-22" value="Game Logic" style="rounded=0;whiteSpace=wrap;html=1;" parent="te0FBZQKtLvTDMSE9k3K-21" vertex="1">
+                    <mxGeometry x="55" y="35" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="te0FBZQKtLvTDMSE9k3K-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="te0FBZQKtLvTDMSE9k3K-21" source="te0FBZQKtLvTDMSE9k3K-23" target="te0FBZQKtLvTDMSE9k3K-28" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="te0FBZQKtLvTDMSE9k3K-23" value="Game Logic Data Conversion" style="rounded=0;whiteSpace=wrap;html=1;" parent="te0FBZQKtLvTDMSE9k3K-21" vertex="1">
+                    <mxGeometry x="205" y="35" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="te0FBZQKtLvTDMSE9k3K-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="te0FBZQKtLvTDMSE9k3K-21" source="te0FBZQKtLvTDMSE9k3K-22" target="te0FBZQKtLvTDMSE9k3K-23" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="te0FBZQKtLvTDMSE9k3K-28" value="USART TX" style="rounded=0;whiteSpace=wrap;html=1;" parent="te0FBZQKtLvTDMSE9k3K-21" vertex="1">
+                    <mxGeometry x="370" y="35" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="te0FBZQKtLvTDMSE9k3K-32" value="rgb_info" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="te0FBZQKtLvTDMSE9k3K-28" target="te0FBZQKtLvTDMSE9k3K-17" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="te0FBZQKtLvTDMSE9k3K-38" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Potential Errors&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- crc&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- parity error&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- data not finished expected&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1220" y="273" width="170" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="te0FBZQKtLvTDMSE9k3K-39" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Generate uart state machine implementation using a protobuffy idea&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;START&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;CRC(?)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;ADDRESS_START&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;SIZE&lt;br&gt;DATA&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;..&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;..&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;..&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;END&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1220" y="48" width="380" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="h1CI1jJdYWx2VReyzGrE-3" value="if we want to communicate errors, then we would need to create a tx as well&lt;br&gt;- more complicated&lt;br&gt;- perhaps easier to debug&lt;br&gt;- the stm32 is doing the same thing for each error?, just simply retransmit&lt;br&gt;&lt;br&gt;if we only care about if there is an error or not, a single line set high should be enough to set the stm32&amp;nbsp;&lt;br&gt;to some status to try and rewrite the data to it" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1220" y="343" width="570" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="hAK6SzXhCe6GWckzacqC-31" value="PC" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="720" y="420" width="380" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="hAK6SzXhCe6GWckzacqC-32" value="GUI" style="rounded=0;whiteSpace=wrap;html=1;" parent="hAK6SzXhCe6GWckzacqC-31" vertex="1">
+                    <mxGeometry x="55" y="35" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="hAK6SzXhCe6GWckzacqC-33" value="GUI Data Converter" style="rounded=0;whiteSpace=wrap;html=1;" parent="hAK6SzXhCe6GWckzacqC-31" vertex="1">
+                    <mxGeometry x="205" y="35" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="hAK6SzXhCe6GWckzacqC-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="hAK6SzXhCe6GWckzacqC-31" source="hAK6SzXhCe6GWckzacqC-32" target="hAK6SzXhCe6GWckzacqC-33" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="hAK6SzXhCe6GWckzacqC-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="hAK6SzXhCe6GWckzacqC-33" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1130" y="485" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hAK6SzXhCe6GWckzacqC-42" value="rgb_info" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="hAK6SzXhCe6GWckzacqC-38" target="hAK6SzXhCe6GWckzacqC-32" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="hAK6SzXhCe6GWckzacqC-38" value="RS232" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="570" y="455" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="hAK6SzXhCe6GWckzacqC-39" value="Configuration Modes&lt;br&gt;- Live&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;- when pc &amp;lt;-&amp;gt; board, most likely would want to change the board while the gui is changing as well&lt;br&gt;- Standard (default)&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;- no changes being made so fpga constantly drives pin of currently viewed image" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1220" y="543" width="570" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="hAK6SzXhCe6GWckzacqC-44" value="STM32" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="420" width="520" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="hAK6SzXhCe6GWckzacqC-45" value="Game Logic" style="rounded=0;whiteSpace=wrap;html=1;" parent="hAK6SzXhCe6GWckzacqC-44" vertex="1">
+                    <mxGeometry x="55" y="35" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="hAK6SzXhCe6GWckzacqC-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="hAK6SzXhCe6GWckzacqC-44" source="hAK6SzXhCe6GWckzacqC-47" target="hAK6SzXhCe6GWckzacqC-49" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="hAK6SzXhCe6GWckzacqC-47" value="Game Logic Data Conversion" style="rounded=0;whiteSpace=wrap;html=1;" parent="hAK6SzXhCe6GWckzacqC-44" vertex="1">
+                    <mxGeometry x="205" y="35" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="hAK6SzXhCe6GWckzacqC-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="hAK6SzXhCe6GWckzacqC-44" source="hAK6SzXhCe6GWckzacqC-45" target="hAK6SzXhCe6GWckzacqC-47" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="hAK6SzXhCe6GWckzacqC-49" value="USART TX" style="rounded=0;whiteSpace=wrap;html=1;" parent="hAK6SzXhCe6GWckzacqC-44" vertex="1">
+                    <mxGeometry x="370" y="35" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="hAK6SzXhCe6GWckzacqC-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="hAK6SzXhCe6GWckzacqC-49" target="hAK6SzXhCe6GWckzacqC-38" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="hAK6SzXhCe6GWckzacqC-51" value="Visualizing (also kinda the product)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="28" width="210" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="hAK6SzXhCe6GWckzacqC-52" value="Product" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="20" y="198" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="hAK6SzXhCe6GWckzacqC-53" value="Debugging" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="380" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="test" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="625" width="40" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
