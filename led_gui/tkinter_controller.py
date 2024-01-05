@@ -1,3 +1,8 @@
+'''
+This is all old stuff, using as reference for new led_gui.py
+'''
+
+
 import tkinter as tk
 from tkinter import colorchooser
 import tkinter.filedialog as filedialog

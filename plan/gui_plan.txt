@@ -42,6 +42,9 @@ Features Needed
     - i'd say for now stick with default colors
   - Fill
     - okey this is probably on the same difficulty level as save subset but whatever we ball
+  - Get Color
+    - useful but maybe not necessary if we only have a limited amount of color mappings
+    - makes it easier than having to go back to select the button over and over again
   
 - PNG preview
   - tkinter buttons are large so can't edit and view entire thing at once
