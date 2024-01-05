@@ -1,0 +1,48 @@
+Two different configurations/modes needed
+- live
+- design
+
+Live will be when the pc is directly connected to the fpga and led_matrix.
+That means serial configuration will need to be updated on a change in any color.
+This is also how the main "applications," eg. dejarik, will work as well.
+	- therefore we do not want a scenario in which we are sending the entire matrix over the line every time a single color is changed
+	- therefore we need to solve the problem of how the serial interface protocol works here as well
+
+Design will be used when we simply want to draw an initial board layout and edit/configure it to save directly to some json file.
+This json file will be used to generate C matrices (most likely) for the stm32 (or even fpga register logic) to then write to the 
+matrix.
+	- we want this load to be direct so that the custom device does not have to generate its own logic to generate the board layout.
+	- also due to the pixelyness of the 64x64, certain mathematical properties will show some ugly thing that we want to fix 
+    (gen_dejarik.py is a good example)
+
+Features Needed
+- Save/Load 
+  - Load Full
+    - loads entire (board) to 0x0 
+  - Load Subset
+    - loads a smaller image to some specified location
+  - Save Full
+    - saves entire (board) from 0x0 to specified sizes
+  - Save Subset
+    - save a subset of the full (board) starting gat specified location and end at specifed location
+    - this sounds very hard
+
+- Modes (explained above)
+  - Live
+  - Design
+  - This should be chosen at the start to enable the serial communication or not
+
+- Editing
+  - Toggle/Select Color
+    - black is default so don't want to have to "select" black
+    - what about white?
+  - Configurable Color Selection
+    - system as a whole should be dyanmic enough to allow for the colors within the color selection button section to be dynamic and 
+      automatically change the fpga/stm32 logic to handle the new colors as well
+    - i'd say for now stick with default colors
+  - Fill
+    - okey this is probably on the same difficulty level as save subset but whatever we ball
+  
+- PNG preview
+  - tkinter buttons are large so can't edit and view entire thing at once
+  - solution is to have a small window that can view the entire board while editing
