@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="dejarik_xbar_0_synth_1" LaunchDir="C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/dejarik_xbar_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="dejarik_rst_clk_wiz_1_100M_0_synth_1" LaunchDir="C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/dejarik_rst_clk_wiz_1_100M_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="dejarik_lmb_bram_0_synth_1" LaunchDir="C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/dejarik_lmb_bram_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="dejarik_axi_uart16550_0_0_synth_1" LaunchDir="C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/dejarik_axi_uart16550_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="dejarik_ilmb_v10_0_synth_1" LaunchDir="C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/dejarik_ilmb_v10_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="dejarik_microblaze_0_0_synth_1" LaunchDir="C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/dejarik_microblaze_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="dejarik_dlmb_v10_0_synth_1" LaunchDir="C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/dejarik_dlmb_v10_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="dejarik_ilmb_v10_0_synth_1"/>
+	</Run>
+	<Run Id="dejarik_dlmb_bram_if_cntlr_0_synth_1" LaunchDir="C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/dejarik_dlmb_bram_if_cntlr_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="dejarik_ilmb_bram_if_cntlr_0_synth_1" LaunchDir="C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/dejarik_ilmb_bram_if_cntlr_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="dejarik_axi_intc_0_0_synth_1" LaunchDir="C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/dejarik_axi_intc_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="dejarik_mdm_1_0_synth_1" LaunchDir="C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/dejarik_mdm_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="dejarik_reset_inv_0_0_synth_1" LaunchDir="C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/dejarik_reset_inv_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="dejarik_clk_wiz_1_0_synth_1" LaunchDir="C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/dejarik_clk_wiz_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="dejarik_ioiptest_0_3_synth_1" LaunchDir="C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/dejarik_ioiptest_0_3_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="dejarik_xbar_0_synth_1"/>
+		<Parent Id="dejarik_rst_clk_wiz_1_100M_0_synth_1"/>
+		<Parent Id="dejarik_lmb_bram_0_synth_1"/>
+		<Parent Id="dejarik_axi_uart16550_0_0_synth_1"/>
+		<Parent Id="dejarik_ilmb_v10_0_synth_1"/>
+		<Parent Id="dejarik_microblaze_0_0_synth_1"/>
+		<Parent Id="dejarik_dlmb_v10_0_synth_1"/>
+		<Parent Id="dejarik_dlmb_bram_if_cntlr_0_synth_1"/>
+		<Parent Id="dejarik_ilmb_bram_if_cntlr_0_synth_1"/>
+		<Parent Id="dejarik_axi_intc_0_0_synth_1"/>
+		<Parent Id="dejarik_mdm_1_0_synth_1"/>
+		<Parent Id="dejarik_reset_inv_0_0_synth_1"/>
+		<Parent Id="dejarik_clk_wiz_1_0_synth_1"/>
+		<Parent Id="dejarik_ioiptest_0_3_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+
