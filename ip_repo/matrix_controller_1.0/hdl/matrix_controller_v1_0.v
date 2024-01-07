@@ -15,7 +15,16 @@
 	)
 	(
 		// Users to add ports here
-
+		output wire r1, g1, b1,
+		output wire r2, g2, b2,
+		output wire gnd0, gnd1,
+		output wire clk,
+		output wire lat,
+		output wire HA,
+		output wire HB,
+		output wire HC,
+		output wire HD,
+		output wire HE,
 		// User ports ends
 		// Do not modify the ports beyond this line
 
@@ -48,6 +57,21 @@
 		.C_S_AXI_DATA_WIDTH(C_S00_AXI_DATA_WIDTH),
 		.C_S_AXI_ADDR_WIDTH(C_S00_AXI_ADDR_WIDTH)
 	) matrix_controller_v1_0_S00_AXI_inst (
+		.R1(r1),
+		.G1(g1),
+		.B1(b1),
+		.R2(r2),
+		.G2(g2),
+		.B2(b2),
+		.GND0(gnd0),
+		.GND1(gnd1),
+		.CLK(clk),
+		.LAT(lat),
+		.HA(HA),
+		.HB(HB),
+		.HC(HC),
+		.HD(HD),
+		.HE(HE),
 		.S_AXI_ACLK(s00_axi_aclk),
 		.S_AXI_ARESETN(s00_axi_aresetn),
 		.S_AXI_AWADDR(s00_axi_awaddr),

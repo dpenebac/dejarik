@@ -15,7 +15,21 @@
 	)
 	(
 		// Users to add ports here
-
+		output wire R1,
+		output wire G1,
+		output wire B1,
+		output wire R2,
+		output wire G2,
+		output wire B2,
+		output wire GND0,
+		output wire GND1,
+		output wire CLK,
+		output wire LAT,
+		output wire HA,
+		output wire HB,
+		output wire HC,
+		output wire HD,
+		output wire HE,
 		// User ports ends
 		// Do not modify the ports beyond this line
 
@@ -706,7 +720,35 @@
 	end    
 
 	// Add user logic here
+	assign R1 = 1;
+	assign G1 = 0;
+	assign B1 = 0;
+	assign R2 = 1;
+	assign G2 = 0;
+	assign B2 = 0;
 
+	assign gnd0 = 0;
+	assign gnd1 = 0;	
+	
+	assign HA = 0;
+	assign HB = 0;
+	assign HC = 0;
+	assign HD = 0;
+	assign HE = 0;
+
+	// assuming S_AXI_ACLK is 200MHZ, this should be 40MHZ clk
+	reg [3:0] counter;
+  always @(posedge S_AXI_ACLK) begin
+    if (counter == 4'h7) begin
+      counter <= 4'h0;
+      CLK <= ~CLK;
+			LAT <= 1;
+    end else begin	
+      counter <= counter + 1;
+			LAT <= 0;
+    end
+  end
+	
 	// User logic ends
 
 	endmodule
