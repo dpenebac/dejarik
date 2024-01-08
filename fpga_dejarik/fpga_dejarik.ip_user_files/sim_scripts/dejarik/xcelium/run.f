@@ -5,12 +5,6 @@
 -makelib xcelium_lib/xpm \
   "C:/Users/peneb/Desktop/FPGA/Vivado/2022.1/data/ip/xpm/xpm_VCOMP.vhd" \
 -endlib
--makelib xcelium_lib/microblaze_v11_0_9 \
-  "../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ipshared/057e/hdl/microblaze_v11_0_vh_rfs.vhd" \
--endlib
--makelib xcelium_lib/xil_defaultlib \
-  "../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_microblaze_0_0/sim/dejarik_microblaze_0_0.vhd" \
--endlib
 -makelib xcelium_lib/axi_lite_ipif_v3_0_4 \
   "../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd" \
 -endlib
@@ -104,11 +98,24 @@
 -makelib xcelium_lib/xil_defaultlib \
   "../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_axi_uartlite_0_0/sim/dejarik_axi_uartlite_0_0.vhd" \
 -endlib
+-makelib xcelium_lib/microblaze_v11_0_9 \
+  "../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ipshared/057e/hdl/microblaze_v11_0_vh_rfs.vhd" \
+-endlib
 -makelib xcelium_lib/xil_defaultlib \
+  "../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_microblaze_0_0/sim/dejarik_microblaze_0_0.vhd" \
+-endlib
+-makelib xcelium_lib/xlconcat_v2_1_4 \
+  "../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ipshared/4b67/hdl/xlconcat_v2_1_vl_rfs.v" \
+-endlib
+-makelib xcelium_lib/xil_defaultlib \
+  "../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_xlconcat_0_3/sim/dejarik_xlconcat_0_3.v" \
+  "../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ipshared/a73b/hdl/ioiptest_v1_0_S00_AXI.v" \
+  "../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ipshared/a73b/hdl/ioiptest_v1_0.v" \
+  "../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_ioiptest_0_4/sim/dejarik_ioiptest_0_4.v" \
+  "../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ipshared/eb7b/hdl/matrix_controller_v1_0_S00_AXI.v" \
+  "../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ipshared/eb7b/hdl/matrix_controller_v1_0.v" \
+  "../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_matrix_controller_0_13/sim/dejarik_matrix_controller_0_13.v" \
   "../../../../fpga_dejarik.gen/sources_1/bd/dejarik/sim/dejarik.v" \
-  "../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ipshared/d9fc/hdl/ioiptest_v1_0_S00_AXI.v" \
-  "../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ipshared/d9fc/hdl/ioiptest_v1_0.v" \
-  "../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_ioiptest_0_2/sim/dejarik_ioiptest_0_2.v" \
 -endlib
 -makelib xcelium_lib/xil_defaultlib \
   glbl.v

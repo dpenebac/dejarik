@@ -1,0 +1,280 @@
+
+*** Running vivado
+    with args -log dejarik_matrix_controller_0_13.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source dejarik_matrix_controller_0_13.tcl
+
+
+
+****** Vivado v2022.1 (64-bit)
+  **** SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+  **** IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source dejarik_matrix_controller_0_13.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/peneb/Desktop/git/dejarik/ip_repo/ioiptest_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/peneb/Desktop/git/dejarik/ip_repo/matrix_controller_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/peneb/Desktop/FPGA/Vivado/2022.1/data/ip'.
+Command: synth_design -top dejarik_matrix_controller_0_13 -part xc7a35ticsg324-1L -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Device 21-403] Loading part xc7a35ticsg324-1L
+
+*** Running vivado
+    with args -log dejarik_matrix_controller_0_13.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source dejarik_matrix_controller_0_13.tcl
+
+
+
+****** Vivado v2022.1 (64-bit)
+  **** SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+  **** IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source dejarik_matrix_controller_0_13.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/peneb/Desktop/git/dejarik/ip_repo/ioiptest_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/peneb/Desktop/git/dejarik/ip_repo/matrix_controller_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/peneb/Desktop/FPGA/Vivado/2022.1/data/ip'.
+Command: synth_design -top dejarik_matrix_controller_0_13 -part xc7a35ticsg324-1L -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Device 21-403] Loading part xc7a35ticsg324-1L
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 10256
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1637.434 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'dejarik_matrix_controller_0_13' [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_matrix_controller_0_13/synth/dejarik_matrix_controller_0_13.v:53]
+INFO: [Synth 8-6157] synthesizing module 'matrix_controller_v1_0' [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ipshared/eb7b/hdl/matrix_controller_v1_0.v:4]
+INFO: [Synth 8-6157] synthesizing module 'matrix_controller_v1_0_S00_AXI' [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ipshared/eb7b/hdl/matrix_controller_v1_0_S00_AXI.v:4]
+INFO: [Synth 8-226] default block is never used [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ipshared/eb7b/hdl/matrix_controller_v1_0_S00_AXI.v:302]
+INFO: [Synth 8-226] default block is never used [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ipshared/eb7b/hdl/matrix_controller_v1_0_S00_AXI.v:667]
+INFO: [Synth 8-6155] done synthesizing module 'matrix_controller_v1_0_S00_AXI' (0#1) [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ipshared/eb7b/hdl/matrix_controller_v1_0_S00_AXI.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'matrix_controller_v1_0' (0#1) [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ipshared/eb7b/hdl/matrix_controller_v1_0.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'dejarik_matrix_controller_0_13' (0#1) [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_matrix_controller_0_13/synth/dejarik_matrix_controller_0_13.v:53]
+WARNING: [Synth 8-6014] Unused sequential element counter2_reg was removed.  [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ipshared/eb7b/hdl/matrix_controller_v1_0_S00_AXI.v:746]
+WARNING: [Synth 8-3848] Net GND0 in module/entity matrix_controller_v1_0_S00_AXI does not have driver. [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ipshared/eb7b/hdl/matrix_controller_v1_0_S00_AXI.v:24]
+WARNING: [Synth 8-3848] Net GND1 in module/entity matrix_controller_v1_0_S00_AXI does not have driver. [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ipshared/eb7b/hdl/matrix_controller_v1_0_S00_AXI.v:25]
+WARNING: [Synth 8-3848] Net matrix_c in module/entity matrix_controller_v1_0 does not have driver. [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ipshared/eb7b/hdl/matrix_controller_v1_0.v:21]
+WARNING: [Synth 8-7129] Port GND0 in module matrix_controller_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port GND1 in module matrix_controller_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LAT in module matrix_controller_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[2] in module matrix_controller_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[1] in module matrix_controller_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[0] in module matrix_controller_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[2] in module matrix_controller_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[1] in module matrix_controller_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[0] in module matrix_controller_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port matrix_c in module matrix_controller_v1_0 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1687.461 ; gain = 50.027
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1687.461 ; gain = 50.027
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1687.461 ; gain = 50.027
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.049 . Memory (MB): peak = 1687.461 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1760.043 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.033 . Memory (MB): peak = 1760.105 ; gain = 0.062
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1760.105 ; gain = 122.672
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35ticsg324-1L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1760.105 ; gain = 122.672
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1760.105 ; gain = 122.672
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'MATRIX_C' [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ipshared/eb7b/hdl/matrix_controller_v1_0_S00_AXI.v:745]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1760.105 ; gain = 122.672
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    6 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 33    
+	                7 Bit    Registers := 2     
+	                6 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 32    
+	  32 Input   32 Bit        Muxes := 32    
+	   2 Input    6 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port GND0 in module matrix_controller_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port GND1 in module matrix_controller_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LAT in module matrix_controller_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[2] in module matrix_controller_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[1] in module matrix_controller_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[0] in module matrix_controller_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[2] in module matrix_controller_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[1] in module matrix_controller_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[0] in module matrix_controller_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port matrix_c in module dejarik_matrix_controller_0_13 is either unconnected or has no load
+WARNING: [Synth 8-3332] Sequential element (MATRIX_C__0) is unused and will be removed from module matrix_controller_v1_0_S00_AXI.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1760.105 ; gain = 122.672
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1760.105 ; gain = 122.672
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1760.105 ; gain = 122.672
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1760.105 ; gain = 122.672
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1760.105 ; gain = 122.672
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1760.105 ; gain = 122.672
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1760.105 ; gain = 122.672
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1760.105 ; gain = 122.672
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1760.105 ; gain = 122.672
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1760.105 ; gain = 122.672
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |LUT1  |     1|
+|2     |LUT2  |     1|
+|3     |LUT3  |     1|
+|4     |LUT4  |     3|
+|5     |LUT5  |     2|
+|6     |LUT6  |   418|
+|7     |MUXF7 |   128|
+|8     |FDRE  |  1073|
+|9     |FDSE  |     1|
++------+------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1760.105 ; gain = 122.672
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 13 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:26 . Memory (MB): peak = 1760.105 ; gain = 50.027
+Synthesis Optimization Complete : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1760.105 ; gain = 122.672
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 1760.105 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 128 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'dejarik_matrix_controller_0_13' is not ideal for floorplanning, since the cellview 'matrix_controller_v1_0_S00_AXI' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1760.105 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: 4b7111de
+INFO: [Common 17-83] Releasing license: Synthesis
+27 Infos, 28 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 1760.105 ; gain = 122.672
+INFO: [Common 17-1381] The checkpoint 'C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/dejarik_matrix_controller_0_13_synth_1/dejarik_matrix_controller_0_13.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP dejarik_matrix_controller_0_13, cache-ID = 8a6e9c4d2adf4685
+INFO: [Coretcl 2-1174] Renamed 2 cell refs.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/dejarik_matrix_controller_0_13_synth_1/dejarik_matrix_controller_0_13.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file dejarik_matrix_controller_0_13_utilization_synth.rpt -pb dejarik_matrix_controller_0_13_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Jan  7 15:49:49 2024...

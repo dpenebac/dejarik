@@ -2,10 +2,9 @@ vlib work
 vlib riviera
 
 vlib riviera/xpm
-vlib riviera/microblaze_v11_0_9
-vlib riviera/xil_defaultlib
 vlib riviera/axi_lite_ipif_v3_0_4
 vlib riviera/axi_intc_v4_1_17
+vlib riviera/xil_defaultlib
 vlib riviera/lmb_v10_v3_0_12
 vlib riviera/lmb_bram_if_cntlr_v4_0_21
 vlib riviera/blk_mem_gen_v8_4_5
@@ -22,12 +21,13 @@ vlib riviera/util_vector_logic_v2_0_2
 vlib riviera/lib_pkg_v1_0_2
 vlib riviera/lib_srl_fifo_v1_0_2
 vlib riviera/axi_uartlite_v2_0_30
+vlib riviera/microblaze_v11_0_9
+vlib riviera/xlconcat_v2_1_4
 
 vmap xpm riviera/xpm
-vmap microblaze_v11_0_9 riviera/microblaze_v11_0_9
-vmap xil_defaultlib riviera/xil_defaultlib
 vmap axi_lite_ipif_v3_0_4 riviera/axi_lite_ipif_v3_0_4
 vmap axi_intc_v4_1_17 riviera/axi_intc_v4_1_17
+vmap xil_defaultlib riviera/xil_defaultlib
 vmap lmb_v10_v3_0_12 riviera/lmb_v10_v3_0_12
 vmap lmb_bram_if_cntlr_v4_0_21 riviera/lmb_bram_if_cntlr_v4_0_21
 vmap blk_mem_gen_v8_4_5 riviera/blk_mem_gen_v8_4_5
@@ -44,6 +44,8 @@ vmap util_vector_logic_v2_0_2 riviera/util_vector_logic_v2_0_2
 vmap lib_pkg_v1_0_2 riviera/lib_pkg_v1_0_2
 vmap lib_srl_fifo_v1_0_2 riviera/lib_srl_fifo_v1_0_2
 vmap axi_uartlite_v2_0_30 riviera/axi_uartlite_v2_0_30
+vmap microblaze_v11_0_9 riviera/microblaze_v11_0_9
+vmap xlconcat_v2_1_4 riviera/xlconcat_v2_1_4
 
 vlog -work xpm  -sv2k12 "+incdir+../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ipshared/4e49" "+incdir+../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ipshared/ec67/hdl" \
 "C:/Users/peneb/Desktop/FPGA/Vivado/2022.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv" \
@@ -51,12 +53,6 @@ vlog -work xpm  -sv2k12 "+incdir+../../../../fpga_dejarik.gen/sources_1/bd/dejar
 
 vcom -work xpm -93 \
 "C:/Users/peneb/Desktop/FPGA/Vivado/2022.1/data/ip/xpm/xpm_VCOMP.vhd" \
-
-vcom -work microblaze_v11_0_9 -93 \
-"../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ipshared/057e/hdl/microblaze_v11_0_vh_rfs.vhd" \
-
-vcom -work xil_defaultlib -93 \
-"../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_microblaze_0_0/sim/dejarik_microblaze_0_0.vhd" \
 
 vcom -work axi_lite_ipif_v3_0_4 -93 \
 "../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd" \
@@ -151,11 +147,24 @@ vcom -work axi_uartlite_v2_0_30 -93 \
 vcom -work xil_defaultlib -93 \
 "../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_axi_uartlite_0_0/sim/dejarik_axi_uartlite_0_0.vhd" \
 
+vcom -work microblaze_v11_0_9 -93 \
+"../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ipshared/057e/hdl/microblaze_v11_0_vh_rfs.vhd" \
+
+vcom -work xil_defaultlib -93 \
+"../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_microblaze_0_0/sim/dejarik_microblaze_0_0.vhd" \
+
+vlog -work xlconcat_v2_1_4  -v2k5 "+incdir+../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ipshared/4e49" "+incdir+../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ipshared/ec67/hdl" \
+"../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ipshared/4b67/hdl/xlconcat_v2_1_vl_rfs.v" \
+
 vlog -work xil_defaultlib  -v2k5 "+incdir+../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ipshared/4e49" "+incdir+../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ipshared/ec67/hdl" \
+"../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_xlconcat_0_3/sim/dejarik_xlconcat_0_3.v" \
+"../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ipshared/a73b/hdl/ioiptest_v1_0_S00_AXI.v" \
+"../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ipshared/a73b/hdl/ioiptest_v1_0.v" \
+"../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_ioiptest_0_4/sim/dejarik_ioiptest_0_4.v" \
+"../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ipshared/eb7b/hdl/matrix_controller_v1_0_S00_AXI.v" \
+"../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ipshared/eb7b/hdl/matrix_controller_v1_0.v" \
+"../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_matrix_controller_0_13/sim/dejarik_matrix_controller_0_13.v" \
 "../../../../fpga_dejarik.gen/sources_1/bd/dejarik/sim/dejarik.v" \
-"../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ipshared/d9fc/hdl/ioiptest_v1_0_S00_AXI.v" \
-"../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ipshared/d9fc/hdl/ioiptest_v1_0.v" \
-"../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_ioiptest_0_2/sim/dejarik_ioiptest_0_2.v" \
 
 vlog -work xil_defaultlib \
 "glbl.v"

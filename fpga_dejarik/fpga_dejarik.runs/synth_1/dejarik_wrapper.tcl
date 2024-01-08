@@ -71,7 +71,6 @@ proc create_report { reportName command } {
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
 set_param chipscope.maxJobs 4
-set_param xicom.use_bs_reader 1
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a35ticsg324-1L
 
@@ -96,9 +95,6 @@ OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_verilog -library xil_defaultlib C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/hdl/dejarik_wrapper.v
 add_files C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.srcs/sources_1/bd/dejarik/dejarik.bd
-set_property used_in_implementation false [get_files -all c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_microblaze_0_0/dejarik_microblaze_0_0.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_microblaze_0_0/dejarik_microblaze_0_0_ooc_debug.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_microblaze_0_0/dejarik_microblaze_0_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_axi_intc_0_0/dejarik_axi_intc_0_0.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_axi_intc_0_0/dejarik_axi_intc_0_0_clocks.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_axi_intc_0_0/dejarik_axi_intc_0_0_ooc.xdc]
@@ -119,6 +115,9 @@ set_property used_in_implementation false [get_files -all c:/Users/peneb/Desktop
 set_property used_in_implementation false [get_files -all c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_axi_uartlite_0_0/dejarik_axi_uartlite_0_0_board.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_axi_uartlite_0_0/dejarik_axi_uartlite_0_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_axi_uartlite_0_0/dejarik_axi_uartlite_0_0.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_microblaze_0_0/dejarik_microblaze_0_0.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_microblaze_0_0/dejarik_microblaze_0_0_ooc_debug.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_microblaze_0_0/dejarik_microblaze_0_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/dejarik_ooc.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_microblaze_0_0/data/mb_bootloop_le.elf]
 

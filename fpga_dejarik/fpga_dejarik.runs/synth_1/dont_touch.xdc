@@ -6,9 +6,6 @@
 # Block Designs: bd/dejarik/dejarik.bd
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==dejarik || ORIG_REF_NAME==dejarik} -quiet] -quiet
 
-# IP: bd/dejarik/ip/dejarik_microblaze_0_0/dejarik_microblaze_0_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==dejarik_microblaze_0_0 || ORIG_REF_NAME==dejarik_microblaze_0_0} -quiet] -quiet
-
 # IP: bd/dejarik/ip/dejarik_axi_intc_0_0/dejarik_axi_intc_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==dejarik_axi_intc_0_0 || ORIG_REF_NAME==dejarik_axi_intc_0_0} -quiet] -quiet
 
@@ -48,7 +45,16 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==dejarik_res
 # IP: bd/dejarik/ip/dejarik_axi_uartlite_0_0/dejarik_axi_uartlite_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==dejarik_axi_uartlite_0_0 || ORIG_REF_NAME==dejarik_axi_uartlite_0_0} -quiet] -quiet
 
-# IP: bd/dejarik/ip/dejarik_ioiptest_0_2/dejarik_ioiptest_0_2.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==dejarik_ioiptest_0_2 || ORIG_REF_NAME==dejarik_ioiptest_0_2} -quiet] -quiet
+# IP: bd/dejarik/ip/dejarik_microblaze_0_0/dejarik_microblaze_0_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==dejarik_microblaze_0_0 || ORIG_REF_NAME==dejarik_microblaze_0_0} -quiet] -quiet
+
+# IP: bd/dejarik/ip/dejarik_xlconcat_0_3/dejarik_xlconcat_0_3.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==dejarik_xlconcat_0_3 || ORIG_REF_NAME==dejarik_xlconcat_0_3} -quiet] -quiet
+
+# IP: bd/dejarik/ip/dejarik_ioiptest_0_4/dejarik_ioiptest_0_4.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==dejarik_ioiptest_0_4 || ORIG_REF_NAME==dejarik_ioiptest_0_4} -quiet] -quiet
+
+# IP: bd/dejarik/ip/dejarik_matrix_controller_0_13/dejarik_matrix_controller_0_13.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==dejarik_matrix_controller_0_13 || ORIG_REF_NAME==dejarik_matrix_controller_0_13} -quiet] -quiet
 
 # XDC: c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/dejarik_ooc.xdc

@@ -1,0 +1,79 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Sun Jan  7 15:48:27 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_matrix_controller_0_13'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of dejarik_matrix_controller_0_13 (xilinx.com:user:matrix_controller:1.0) from (Rev. 11) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Sun Jan  7 15:48:27 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_ioiptest_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of dejarik_ioiptest_0_4 (xilinx.com:user:ioiptest:1.0) from (Rev. 3) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Sun Jan  7 15:22:16 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_matrix_controller_0_13'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of dejarik_matrix_controller_0_13 (xilinx.com:user:matrix_controller:1.0 (Rev. 11)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Sun Jan  7 15:22:16 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_ioiptest_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of dejarik_ioiptest_0_4 (xilinx.com:user:ioiptest:1.0 (Rev. 3)) to Vivado generation flows.
+

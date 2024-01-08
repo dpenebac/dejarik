@@ -1,5 +1,4 @@
 vhdl xil_defaultlib  \
-"../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_microblaze_0_0/sim/dejarik_microblaze_0_0.vhd" \
 "../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_axi_intc_0_0/sim/dejarik_axi_intc_0_0.vhd" \
 "../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_dlmb_v10_0/sim/dejarik_dlmb_v10_0.vhd" \
 "../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_ilmb_v10_0/sim/dejarik_ilmb_v10_0.vhd" \
@@ -8,5 +7,6 @@ vhdl xil_defaultlib  \
 "../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_mdm_1_0/sim/dejarik_mdm_1_0.vhd" \
 "../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_rst_clk_wiz_1_100M_0/sim/dejarik_rst_clk_wiz_1_100M_0.vhd" \
 "../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_axi_uartlite_0_0/sim/dejarik_axi_uartlite_0_0.vhd" \
+"../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_microblaze_0_0/sim/dejarik_microblaze_0_0.vhd" \
 
 nosort

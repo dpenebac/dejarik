@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a35ticsg324-1L" LaunchTime="1704579167">
+<GenRun Id="impl_1" LaunchPart="xc7a35ticsg324-1L" LaunchTime="1704678539">
   <File Type="ROUTE-PWR" Name="dejarik_wrapper_power_routed.rpt"/>
   <File Type="PA-TCL" Name="dejarik_wrapper.tcl"/>
   <File Type="BITSTR-MMI" Name="dejarik_wrapper.mmi"/>
@@ -142,4 +142,6 @@
   <BlockFileSet Type="BlockSrcs" Name="dejarik_dlmb_bram_if_cntlr_0"/>
   <BlockFileSet Type="BlockSrcs" Name="dejarik_ilmb_bram_if_cntlr_0"/>
   <BlockFileSet Type="BlockSrcs" Name="dejarik_lmb_bram_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="dejarik_ioiptest_0_4"/>
+  <BlockFileSet Type="BlockSrcs" Name="dejarik_matrix_controller_0_13"/>
 </GenRun>
