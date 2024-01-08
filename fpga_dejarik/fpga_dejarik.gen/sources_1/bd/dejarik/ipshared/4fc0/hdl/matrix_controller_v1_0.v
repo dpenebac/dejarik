@@ -15,6 +15,7 @@
 	)
 	(
 		// Users to add ports here
+		input  wire sys_c,
 		output wire r1, g1, b1,
 		output wire r2, g2, b2,
 		output wire gnd0, gnd1,
@@ -59,6 +60,7 @@
 		.C_S_AXI_DATA_WIDTH(C_S00_AXI_DATA_WIDTH),
 		.C_S_AXI_ADDR_WIDTH(C_S00_AXI_ADDR_WIDTH)
 	) matrix_controller_v1_0_S00_AXI_inst (
+		.SYS_C(sys_c),
 		.R1(r1),
 		.G1(g1),
 		.B1(b1),

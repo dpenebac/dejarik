@@ -33,9 +33,6 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==dejarik_clk
 # IP: bd/dejarik/ip/dejarik_rst_clk_wiz_1_100M_0/dejarik_rst_clk_wiz_1_100M_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==dejarik_rst_clk_wiz_1_100M_0 || ORIG_REF_NAME==dejarik_rst_clk_wiz_1_100M_0} -quiet] -quiet
 
-# IP: bd/dejarik/ip/dejarik_xbar_0/dejarik_xbar_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==dejarik_xbar_0 || ORIG_REF_NAME==dejarik_xbar_0} -quiet] -quiet
-
 # IP: bd/dejarik/ip/dejarik_microblaze_0_axi_periph_0/dejarik_microblaze_0_axi_periph_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==dejarik_microblaze_0_axi_periph_0 || ORIG_REF_NAME==dejarik_microblaze_0_axi_periph_0} -quiet] -quiet
 
@@ -56,5 +53,8 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==dejarik_ioi
 
 # IP: bd/dejarik/ip/dejarik_matrix_controller_0_13/dejarik_matrix_controller_0_13.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==dejarik_matrix_controller_0_13 || ORIG_REF_NAME==dejarik_matrix_controller_0_13} -quiet] -quiet
+
+# IP: bd/dejarik/ip/dejarik_xbar_0/dejarik_xbar_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==dejarik_xbar_0 || ORIG_REF_NAME==dejarik_xbar_0} -quiet] -quiet
 
 # XDC: c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/dejarik_ooc.xdc

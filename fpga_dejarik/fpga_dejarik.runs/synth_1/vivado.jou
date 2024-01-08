@@ -2,8 +2,8 @@
 # Vivado v2022.1 (64-bit)
 # SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
 # IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
-# Start of session at: Sun Jan  7 15:49:51 2024
-# Process ID: 16264
+# Start of session at: Mon Jan  8 08:00:43 2024
+# Process ID: 24348
 # Current directory: C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1
 # Command line: vivado.exe -log dejarik_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source dejarik_wrapper.tcl
 # Log file: C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/dejarik_wrapper.vds

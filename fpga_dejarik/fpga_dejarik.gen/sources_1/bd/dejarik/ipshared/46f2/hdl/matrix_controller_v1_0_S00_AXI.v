@@ -15,6 +15,7 @@
 	)
 	(
 		// Users to add ports here
+		input  wire SYS_C,
 		output wire R1,
 		output wire G1,
 		output wire B1,
@@ -742,7 +743,8 @@
 	// assuming S_AXI_ACLK is 100MHZ, this should be 40MHZ clk
 	reg [5:0] counter;
 	reg [5:0] counter2;
-	assign MATRIX_C = counter == 6'b111111 ? ~MATRIX_C : MATRIX_C;
+	// assign MATRIX_C = counter == 6'b111111 ? ~MATRIX_C : MATRIX_C;
+	assign MATRIX_C = SYS_C;
 	assign LAT = counter2 == 64 ? ~LAT : LAT;
 
 	always @(posedge S_AXI_ACLK) begin

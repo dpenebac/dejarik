@@ -1,6 +1,59 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Mon Jan  8 07:59:29 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_matrix_controller_0_13'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of dejarik_matrix_controller_0_13 (xilinx.com:user:matrix_controller:1.0) from (Rev. 14) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Mon Jan  8 07:46:13 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_matrix_controller_0_13'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of dejarik_matrix_controller_0_13 (xilinx.com:user:matrix_controller:1.0) from (Rev. 13) to (Rev. 14)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'dejarik_matrix_controller_0_13'. These changes may impact your design.
+
+
+-Upgrade has added port 'sys_c'
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
 | Date         : Sun Jan  7 15:48:27 2024
 | Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
 | Command      : upgrade_ip

@@ -22,6 +22,11 @@
       "mdm_1": "",
       "clk_wiz_1": "",
       "rst_clk_wiz_1_100M": "",
+      "reset_inv_0": "",
+      "axi_uartlite_0": "",
+      "microblaze_0": "",
+      "xlconcat_0": "",
+      "ioiptest_0": "",
       "microblaze_0_axi_periph": {
         "xbar": "",
         "s00_couplers": {},
@@ -30,11 +35,6 @@
         "m02_couplers": {},
         "m03_couplers": {}
       },
-      "reset_inv_0": "",
-      "axi_uartlite_0": "",
-      "microblaze_0": "",
-      "xlconcat_0": "",
-      "ioiptest_0": "",
       "matrix_controller_0": ""
     },
     "interface_ports": {
@@ -312,6 +312,125 @@
             "value": "true"
           }
         }
+      },
+      "reset_inv_0": {
+        "vlnv": "xilinx.com:ip:util_vector_logic:2.0",
+        "xci_name": "dejarik_reset_inv_0_2",
+        "xci_path": "ip\\dejarik_reset_inv_0_2\\dejarik_reset_inv_0_2.xci",
+        "inst_hier_path": "reset_inv_0",
+        "parameters": {
+          "C_OPERATION": {
+            "value": "not"
+          },
+          "C_SIZE": {
+            "value": "1"
+          }
+        }
+      },
+      "axi_uartlite_0": {
+        "vlnv": "xilinx.com:ip:axi_uartlite:2.0",
+        "xci_name": "dejarik_axi_uartlite_0_0",
+        "xci_path": "ip\\dejarik_axi_uartlite_0_0\\dejarik_axi_uartlite_0_0.xci",
+        "inst_hier_path": "axi_uartlite_0",
+        "parameters": {
+          "UARTLITE_BOARD_INTERFACE": {
+            "value": "usb_uart"
+          },
+          "USE_BOARD_FLOW": {
+            "value": "true"
+          }
+        }
+      },
+      "microblaze_0": {
+        "vlnv": "xilinx.com:ip:microblaze:11.0",
+        "xci_name": "dejarik_microblaze_0_0",
+        "xci_path": "ip\\dejarik_microblaze_0_0\\dejarik_microblaze_0_0.xci",
+        "inst_hier_path": "microblaze_0",
+        "parameters": {
+          "C_DEBUG_ENABLED": {
+            "value": "1"
+          },
+          "C_D_AXI": {
+            "value": "1"
+          },
+          "C_D_LMB": {
+            "value": "1"
+          },
+          "C_I_LMB": {
+            "value": "1"
+          }
+        },
+        "interface_ports": {
+          "DLMB": {
+            "vlnv": "xilinx.com:interface:lmb_rtl:1.0",
+            "mode": "Master",
+            "address_space_ref": "Data",
+            "base_address": {
+              "minimum": "0x00000000",
+              "maximum": "0xFFFFFFFF",
+              "width": "32"
+            }
+          },
+          "ILMB": {
+            "vlnv": "xilinx.com:interface:lmb_rtl:1.0",
+            "mode": "Master",
+            "address_space_ref": "Instruction",
+            "base_address": {
+              "minimum": "0x00000000",
+              "maximum": "0xFFFFFFFF",
+              "width": "32"
+            }
+          },
+          "M_AXI_DP": {
+            "vlnv": "xilinx.com:interface:aximm_rtl:1.0",
+            "mode": "Master",
+            "address_space_ref": "Data",
+            "base_address": {
+              "minimum": "0x00000000",
+              "maximum": "0xFFFFFFFF",
+              "width": "32"
+            }
+          }
+        },
+        "addressing": {
+          "address_spaces": {
+            "Data": {
+              "range": "4G",
+              "width": "32"
+            },
+            "Instruction": {
+              "range": "4G",
+              "width": "32"
+            }
+          }
+        },
+        "hdl_attributes": {
+          "BMM_INFO_PROCESSOR": {
+            "value": "microblaze-le > dejarik microblaze_0_local_memory/dlmb_bram_if_cntlr",
+            "value_src": "default"
+          },
+          "KEEP_HIERARCHY": {
+            "value": "yes",
+            "value_src": "default"
+          }
+        }
+      },
+      "xlconcat_0": {
+        "vlnv": "xilinx.com:ip:xlconcat:2.1",
+        "xci_name": "dejarik_xlconcat_0_3",
+        "xci_path": "ip\\dejarik_xlconcat_0_3\\dejarik_xlconcat_0_3.xci",
+        "inst_hier_path": "xlconcat_0",
+        "parameters": {
+          "NUM_PORTS": {
+            "value": "16"
+          }
+        }
+      },
+      "ioiptest_0": {
+        "vlnv": "xilinx.com:user:ioiptest:1.0",
+        "xci_name": "dejarik_ioiptest_0_4",
+        "xci_path": "ip\\dejarik_ioiptest_0_4\\dejarik_ioiptest_0_4.xci",
+        "inst_hier_path": "ioiptest_0"
       },
       "microblaze_0_axi_periph": {
         "vlnv": "xilinx.com:ip:axi_interconnect:2.1",
@@ -853,125 +972,6 @@
           }
         }
       },
-      "reset_inv_0": {
-        "vlnv": "xilinx.com:ip:util_vector_logic:2.0",
-        "xci_name": "dejarik_reset_inv_0_2",
-        "xci_path": "ip\\dejarik_reset_inv_0_2\\dejarik_reset_inv_0_2.xci",
-        "inst_hier_path": "reset_inv_0",
-        "parameters": {
-          "C_OPERATION": {
-            "value": "not"
-          },
-          "C_SIZE": {
-            "value": "1"
-          }
-        }
-      },
-      "axi_uartlite_0": {
-        "vlnv": "xilinx.com:ip:axi_uartlite:2.0",
-        "xci_name": "dejarik_axi_uartlite_0_0",
-        "xci_path": "ip\\dejarik_axi_uartlite_0_0\\dejarik_axi_uartlite_0_0.xci",
-        "inst_hier_path": "axi_uartlite_0",
-        "parameters": {
-          "UARTLITE_BOARD_INTERFACE": {
-            "value": "usb_uart"
-          },
-          "USE_BOARD_FLOW": {
-            "value": "true"
-          }
-        }
-      },
-      "microblaze_0": {
-        "vlnv": "xilinx.com:ip:microblaze:11.0",
-        "xci_name": "dejarik_microblaze_0_0",
-        "xci_path": "ip\\dejarik_microblaze_0_0\\dejarik_microblaze_0_0.xci",
-        "inst_hier_path": "microblaze_0",
-        "parameters": {
-          "C_DEBUG_ENABLED": {
-            "value": "1"
-          },
-          "C_D_AXI": {
-            "value": "1"
-          },
-          "C_D_LMB": {
-            "value": "1"
-          },
-          "C_I_LMB": {
-            "value": "1"
-          }
-        },
-        "interface_ports": {
-          "DLMB": {
-            "vlnv": "xilinx.com:interface:lmb_rtl:1.0",
-            "mode": "Master",
-            "address_space_ref": "Data",
-            "base_address": {
-              "minimum": "0x00000000",
-              "maximum": "0xFFFFFFFF",
-              "width": "32"
-            }
-          },
-          "ILMB": {
-            "vlnv": "xilinx.com:interface:lmb_rtl:1.0",
-            "mode": "Master",
-            "address_space_ref": "Instruction",
-            "base_address": {
-              "minimum": "0x00000000",
-              "maximum": "0xFFFFFFFF",
-              "width": "32"
-            }
-          },
-          "M_AXI_DP": {
-            "vlnv": "xilinx.com:interface:aximm_rtl:1.0",
-            "mode": "Master",
-            "address_space_ref": "Data",
-            "base_address": {
-              "minimum": "0x00000000",
-              "maximum": "0xFFFFFFFF",
-              "width": "32"
-            }
-          }
-        },
-        "addressing": {
-          "address_spaces": {
-            "Data": {
-              "range": "4G",
-              "width": "32"
-            },
-            "Instruction": {
-              "range": "4G",
-              "width": "32"
-            }
-          }
-        },
-        "hdl_attributes": {
-          "BMM_INFO_PROCESSOR": {
-            "value": "microblaze-le > dejarik microblaze_0_local_memory/dlmb_bram_if_cntlr",
-            "value_src": "default"
-          },
-          "KEEP_HIERARCHY": {
-            "value": "yes",
-            "value_src": "default"
-          }
-        }
-      },
-      "xlconcat_0": {
-        "vlnv": "xilinx.com:ip:xlconcat:2.1",
-        "xci_name": "dejarik_xlconcat_0_3",
-        "xci_path": "ip\\dejarik_xlconcat_0_3\\dejarik_xlconcat_0_3.xci",
-        "inst_hier_path": "xlconcat_0",
-        "parameters": {
-          "NUM_PORTS": {
-            "value": "16"
-          }
-        }
-      },
-      "ioiptest_0": {
-        "vlnv": "xilinx.com:user:ioiptest:1.0",
-        "xci_name": "dejarik_ioiptest_0_4",
-        "xci_path": "ip\\dejarik_ioiptest_0_4\\dejarik_ioiptest_0_4.xci",
-        "inst_hier_path": "ioiptest_0"
-      },
       "matrix_controller_0": {
         "vlnv": "xilinx.com:user:matrix_controller:1.0",
         "xci_name": "dejarik_matrix_controller_0_13",
@@ -1185,16 +1185,16 @@
           "clk_wiz_1/clk_out1",
           "microblaze_0_local_memory/LMB_Clk",
           "rst_clk_wiz_1_100M/slowest_sync_clk",
-          "microblaze_0_axi_periph/S00_ACLK",
           "axi_intc_0/s_axi_aclk",
-          "microblaze_0_axi_periph/M00_ACLK",
-          "microblaze_0_axi_periph/ACLK",
-          "microblaze_0_axi_periph/M01_ACLK",
-          "microblaze_0_axi_periph/M02_ACLK",
           "axi_uartlite_0/s_axi_aclk",
           "microblaze_0/Clk",
-          "microblaze_0_axi_periph/M03_ACLK",
           "ioiptest_0/s00_axi_aclk",
+          "microblaze_0_axi_periph/ACLK",
+          "microblaze_0_axi_periph/S00_ACLK",
+          "microblaze_0_axi_periph/M00_ACLK",
+          "microblaze_0_axi_periph/M01_ACLK",
+          "microblaze_0_axi_periph/M02_ACLK",
+          "microblaze_0_axi_periph/M03_ACLK",
           "matrix_controller_0/s00_axi_aclk"
         ]
       },
@@ -1226,22 +1226,23 @@
       "rst_clk_wiz_1_100M_peripheral_aresetn": {
         "ports": [
           "rst_clk_wiz_1_100M/peripheral_aresetn",
-          "microblaze_0_axi_periph/S00_ARESETN",
           "axi_intc_0/s_axi_aresetn",
-          "microblaze_0_axi_periph/M00_ARESETN",
+          "axi_uartlite_0/s_axi_aresetn",
+          "ioiptest_0/s00_axi_aresetn",
           "microblaze_0_axi_periph/ARESETN",
+          "microblaze_0_axi_periph/S00_ARESETN",
+          "microblaze_0_axi_periph/M00_ARESETN",
           "microblaze_0_axi_periph/M01_ARESETN",
           "microblaze_0_axi_periph/M02_ARESETN",
-          "axi_uartlite_0/s_axi_aresetn",
           "microblaze_0_axi_periph/M03_ARESETN",
-          "ioiptest_0/s00_axi_aresetn",
           "matrix_controller_0/s00_axi_aresetn"
         ]
       },
       "sys_clock_1": {
         "ports": [
           "sys_clock",
-          "clk_wiz_1/clk_in1"
+          "clk_wiz_1/clk_in1",
+          "matrix_controller_0/sys_c"
         ]
       },
       "xlconcat_0_dout": {
