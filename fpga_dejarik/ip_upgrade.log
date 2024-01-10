@@ -1,6 +1,1131 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Tue Jan  9 17:28:29 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_matrix_controller_0_13'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of dejarik_matrix_controller_0_13 (xilinx.com:user:matrix_controller:1.0) from (Rev. 64) to (Rev. 65)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Tue Jan  9 17:23:20 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_matrix_controller_0_13'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of dejarik_matrix_controller_0_13 (xilinx.com:user:matrix_controller:1.0) from (Rev. 63) to (Rev. 64)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Tue Jan  9 17:19:52 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_matrix_controller_0_13'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of dejarik_matrix_controller_0_13 (xilinx.com:user:matrix_controller:1.0) from (Rev. 62) to (Rev. 63)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Tue Jan  9 17:09:42 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_matrix_controller_0_13'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of dejarik_matrix_controller_0_13 (xilinx.com:user:matrix_controller:1.0) from (Rev. 61) to (Rev. 62)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Tue Jan  9 16:48:33 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_matrix_controller_0_13'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of dejarik_matrix_controller_0_13 (xilinx.com:user:matrix_controller:1.0) from (Rev. 60) to (Rev. 61)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Tue Jan  9 16:22:58 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_matrix_controller_0_13'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of dejarik_matrix_controller_0_13 (xilinx.com:user:matrix_controller:1.0) from (Rev. 59) to (Rev. 60)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Tue Jan  9 16:16:35 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_matrix_controller_0_13'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of dejarik_matrix_controller_0_13 (xilinx.com:user:matrix_controller:1.0) from (Rev. 58) to (Rev. 59)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Tue Jan  9 16:15:25 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_matrix_controller_0_13'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of dejarik_matrix_controller_0_13 (xilinx.com:user:matrix_controller:1.0) from (Rev. 57) to (Rev. 58)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Tue Jan  9 16:11:38 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_matrix_controller_0_13'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of dejarik_matrix_controller_0_13 (xilinx.com:user:matrix_controller:1.0) from (Rev. 56) to (Rev. 57)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Tue Jan  9 15:59:08 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_matrix_controller_0_13'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of dejarik_matrix_controller_0_13 (xilinx.com:user:matrix_controller:1.0) from (Rev. 55) to (Rev. 56)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Tue Jan  9 15:59:08 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_clk_generator_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of dejarik_clk_generator_0_0 (xilinx.com:module_ref:clk_generator:1.0 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Mon Jan  8 19:18:17 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_matrix_controller_0_13'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of dejarik_matrix_controller_0_13 (xilinx.com:user:matrix_controller:1.0) from (Rev. 54) to (Rev. 55)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Mon Jan  8 19:09:08 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_matrix_controller_0_13'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of dejarik_matrix_controller_0_13 (xilinx.com:user:matrix_controller:1.0) from (Rev. 53) to (Rev. 54)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Mon Jan  8 19:01:47 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_matrix_controller_0_13'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of dejarik_matrix_controller_0_13 (xilinx.com:user:matrix_controller:1.0) from (Rev. 52) to (Rev. 53)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Mon Jan  8 19:01:47 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_ioiptest_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of dejarik_ioiptest_0_4 (xilinx.com:user:ioiptest:1.0 (Rev. 4)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Mon Jan  8 18:47:08 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_matrix_controller_0_13'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of dejarik_matrix_controller_0_13 (xilinx.com:user:matrix_controller:1.0) from (Rev. 51) to (Rev. 52)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Mon Jan  8 18:38:01 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_matrix_controller_0_13'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of dejarik_matrix_controller_0_13 (xilinx.com:user:matrix_controller:1.0) from (Rev. 50) to (Rev. 51)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Mon Jan  8 18:25:25 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_matrix_controller_0_13'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of dejarik_matrix_controller_0_13 (xilinx.com:user:matrix_controller:1.0) from (Rev. 48) to (Rev. 50)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Mon Jan  8 16:51:56 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_matrix_controller_0_13'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of dejarik_matrix_controller_0_13 (xilinx.com:user:matrix_controller:1.0) from (Rev. 47) to (Rev. 48)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'dejarik_matrix_controller_0_13'. These changes may impact your design.
+
+
+-Upgrade has added port 'master_c'
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Mon Jan  8 16:33:22 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_matrix_controller_0_13'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of dejarik_matrix_controller_0_13 (xilinx.com:user:matrix_controller:1.0) from (Rev. 46) to (Rev. 47)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Mon Jan  8 16:27:51 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_matrix_controller_0_13'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of dejarik_matrix_controller_0_13 (xilinx.com:user:matrix_controller:1.0) from (Rev. 45) to (Rev. 46)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Mon Jan  8 16:22:01 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_matrix_controller_0_13'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of dejarik_matrix_controller_0_13 (xilinx.com:user:matrix_controller:1.0) from (Rev. 44) to (Rev. 45)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Mon Jan  8 16:10:10 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_matrix_controller_0_13'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of dejarik_matrix_controller_0_13 (xilinx.com:user:matrix_controller:1.0) from (Rev. 43) to (Rev. 44)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Mon Jan  8 15:59:40 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_matrix_controller_0_13'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of dejarik_matrix_controller_0_13 (xilinx.com:user:matrix_controller:1.0) from (Rev. 42) to (Rev. 43)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Mon Jan  8 15:50:45 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_matrix_controller_0_13'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of dejarik_matrix_controller_0_13 (xilinx.com:user:matrix_controller:1.0) from (Rev. 41) to (Rev. 42)
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'dejarik_matrix_controller_0_13'.
+
+
+-Upgrade has removed interface 'CLK_40MHZ'
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Mon Jan  8 15:45:21 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_matrix_controller_0_13'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of dejarik_matrix_controller_0_13 (xilinx.com:user:matrix_controller:1.0) from (Rev. 40) to (Rev. 41)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'dejarik_matrix_controller_0_13'. These changes may impact your design.
+
+
+-Upgrade has removed port 'clk_40mhz'
+
+-Upgrade has added port 'matrix_c'
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Mon Jan  8 15:16:00 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_matrix_controller_0_13'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of dejarik_matrix_controller_0_13 (xilinx.com:user:matrix_controller:1.0) from (Rev. 38) to (Rev. 40)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Mon Jan  8 15:00:59 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_matrix_controller_0_13'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of dejarik_matrix_controller_0_13 (xilinx.com:user:matrix_controller:1.0) from (Rev. 36) to (Rev. 38)
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'dejarik_matrix_controller_0_13'.
+
+
+-Upgrade has added interface 'CLK_40MHZ' (xilinx.com:signal:clock:1.0)
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Mon Jan  8 14:46:33 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_matrix_controller_0_13'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of dejarik_matrix_controller_0_13 (xilinx.com:user:matrix_controller:1.0) from (Rev. 35) to (Rev. 36)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Mon Jan  8 14:45:35 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_matrix_controller_0_13'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of dejarik_matrix_controller_0_13 (xilinx.com:user:matrix_controller:1.0) from (Rev. 34) to (Rev. 35)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Mon Jan  8 14:43:01 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_matrix_controller_0_13'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of dejarik_matrix_controller_0_13 (xilinx.com:user:matrix_controller:1.0) from (Rev. 33) to (Rev. 34)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Mon Jan  8 14:35:33 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_matrix_controller_0_13'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of dejarik_matrix_controller_0_13 (xilinx.com:user:matrix_controller:1.0) from (Rev. 32) to (Rev. 33)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Mon Jan  8 14:24:31 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_matrix_controller_0_13'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of dejarik_matrix_controller_0_13 (xilinx.com:user:matrix_controller:1.0) from (Rev. 31) to (Rev. 32)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Mon Jan  8 13:46:22 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_matrix_controller_0_13'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of dejarik_matrix_controller_0_13 (xilinx.com:user:matrix_controller:1.0) from (Rev. 30) to (Rev. 31)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Mon Jan  8 13:39:51 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_matrix_controller_0_13'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of dejarik_matrix_controller_0_13 (xilinx.com:user:matrix_controller:1.0) from (Rev. 29) to (Rev. 30)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Mon Jan  8 13:32:42 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_matrix_controller_0_13'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of dejarik_matrix_controller_0_13 (xilinx.com:user:matrix_controller:1.0) from (Rev. 28) to (Rev. 29)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Mon Jan  8 13:21:11 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_matrix_controller_0_13'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of dejarik_matrix_controller_0_13 (xilinx.com:user:matrix_controller:1.0) from (Rev. 27) to (Rev. 28)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Mon Jan  8 13:02:32 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_matrix_controller_0_13'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of dejarik_matrix_controller_0_13 (xilinx.com:user:matrix_controller:1.0) from (Rev. 26) to (Rev. 27)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Mon Jan  8 12:58:13 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_matrix_controller_0_13'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of dejarik_matrix_controller_0_13 (xilinx.com:user:matrix_controller:1.0 (Rev. 26)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Mon Jan  8 12:54:48 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_matrix_controller_0_13'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of dejarik_matrix_controller_0_13 (xilinx.com:user:matrix_controller:1.0) from (Rev. 25) to (Rev. 26)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'dejarik_matrix_controller_0_13'. These changes may impact your design.
+
+
+-Upgrade has added port 'clk_40mhz'
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Mon Jan  8 09:44:37 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_matrix_controller_0_13'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of dejarik_matrix_controller_0_13 (xilinx.com:user:matrix_controller:1.0) from (Rev. 24) to (Rev. 25)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'dejarik_matrix_controller_0_13'. These changes may impact your design.
+
+
+-Upgrade has removed port 'matrix_c'
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Mon Jan  8 09:40:57 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_matrix_controller_0_13'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of dejarik_matrix_controller_0_13 (xilinx.com:user:matrix_controller:1.0) from (Rev. 23) to (Rev. 24)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Mon Jan  8 09:16:05 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_matrix_controller_0_13'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of dejarik_matrix_controller_0_13 (xilinx.com:user:matrix_controller:1.0) from (Rev. 22) to (Rev. 23)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Mon Jan  8 09:13:02 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_matrix_controller_0_13'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of dejarik_matrix_controller_0_13 (xilinx.com:user:matrix_controller:1.0) from (Rev. 21) to (Rev. 22)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Mon Jan  8 08:45:17 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_matrix_controller_0_13'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of dejarik_matrix_controller_0_13 (xilinx.com:user:matrix_controller:1.0) from (Rev. 20) to (Rev. 21)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Mon Jan  8 08:38:14 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_matrix_controller_0_13'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of dejarik_matrix_controller_0_13 (xilinx.com:user:matrix_controller:1.0) from (Rev. 19) to (Rev. 20)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Mon Jan  8 08:33:58 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_matrix_controller_0_13'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of dejarik_matrix_controller_0_13 (xilinx.com:user:matrix_controller:1.0) from (Rev. 18) to (Rev. 19)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Mon Jan  8 08:31:02 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_matrix_controller_0_13'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of dejarik_matrix_controller_0_13 (xilinx.com:user:matrix_controller:1.0) from (Rev. 17) to (Rev. 18)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Mon Jan  8 08:25:31 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_matrix_controller_0_13'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of dejarik_matrix_controller_0_13 (xilinx.com:user:matrix_controller:1.0) from (Rev. 16) to (Rev. 17)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Mon Jan  8 08:10:10 2024
+| Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dejarik_matrix_controller_0_13'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of dejarik_matrix_controller_0_13 (xilinx.com:user:matrix_controller:1.0) from (Rev. 15) to (Rev. 16)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'dejarik_matrix_controller_0_13'. These changes may impact your design.
+
+
+-Upgrade has removed port 'sys_c'
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
 | Date         : Mon Jan  8 07:59:29 2024
 | Host         : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
 | Command      : upgrade_ip

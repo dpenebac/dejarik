@@ -1,10 +1,10 @@
 // Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
-// Date        : Sat Jan  6 09:19:26 2024
+// Date        : Mon Jan  8 15:48:13 2024
 // Host        : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode funcsim -rename_top dejarik_clk_wiz_1_0 -prefix
-//               dejarik_clk_wiz_1_0_ dejarik_clk_wiz_1_0_sim_netlist.v
+// Command     : write_verilog -force -mode funcsim
+//               c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_clk_wiz_1_0/dejarik_clk_wiz_1_0_sim_netlist.v
 // Design      : dejarik_clk_wiz_1_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -28,14 +28,14 @@ module dejarik_clk_wiz_1_0
   wire locked;
   (* RTL_KEEP = "yes" *) wire reset;
 
-  dejarik_clk_wiz_1_0_dejarik_clk_wiz_1_0_clk_wiz inst
+  dejarik_clk_wiz_1_0_clk_wiz inst
        (.clk_in1(clk_in1),
         .clk_out1(clk_out1),
         .locked(locked),
         .reset(reset));
 endmodule
 
-module dejarik_clk_wiz_1_0_dejarik_clk_wiz_1_0_clk_wiz
+module dejarik_clk_wiz_1_0_clk_wiz
    (clk_out1,
     reset,
     locked,

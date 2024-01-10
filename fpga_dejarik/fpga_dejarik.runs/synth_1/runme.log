@@ -26,68 +26,70 @@ INFO: [Designutils 20-5440] No compile time benefit to using incremental synthes
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 18448
+INFO: [Synth 8-7075] Helper process launched with PID 22940
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1629.895 ; gain = 0.000
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1634.598 ; gain = 0.000
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'dejarik_wrapper' [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/hdl/dejarik_wrapper.v:12]
 INFO: [Synth 8-6157] synthesizing module 'dejarik' [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/synth/dejarik.v:12]
-INFO: [Synth 8-6157] synthesizing module 'dejarik_axi_intc_0_0' [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-24348-DESKTOP-53FQC58/realtime/dejarik_axi_intc_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'dejarik_axi_intc_0_0' (0#1) [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-24348-DESKTOP-53FQC58/realtime/dejarik_axi_intc_0_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'dejarik_axi_uartlite_0_0' [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-24348-DESKTOP-53FQC58/realtime/dejarik_axi_uartlite_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'dejarik_axi_uartlite_0_0' (0#1) [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-24348-DESKTOP-53FQC58/realtime/dejarik_axi_uartlite_0_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'dejarik_clk_wiz_1_0' [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-24348-DESKTOP-53FQC58/realtime/dejarik_clk_wiz_1_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'dejarik_clk_wiz_1_0' (0#1) [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-24348-DESKTOP-53FQC58/realtime/dejarik_clk_wiz_1_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'dejarik_ioiptest_0_4' [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-24348-DESKTOP-53FQC58/realtime/dejarik_ioiptest_0_4_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'dejarik_ioiptest_0_4' (0#1) [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-24348-DESKTOP-53FQC58/realtime/dejarik_ioiptest_0_4_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'dejarik_matrix_controller_0_13' [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-24348-DESKTOP-53FQC58/realtime/dejarik_matrix_controller_0_13_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'dejarik_matrix_controller_0_13' (0#1) [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-24348-DESKTOP-53FQC58/realtime/dejarik_matrix_controller_0_13_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'dejarik_mdm_1_0' [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-24348-DESKTOP-53FQC58/realtime/dejarik_mdm_1_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'dejarik_mdm_1_0' (0#1) [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-24348-DESKTOP-53FQC58/realtime/dejarik_mdm_1_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'dejarik_microblaze_0_0' [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-24348-DESKTOP-53FQC58/realtime/dejarik_microblaze_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'dejarik_microblaze_0_0' (0#1) [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-24348-DESKTOP-53FQC58/realtime/dejarik_microblaze_0_0_stub.v:5]
-WARNING: [Synth 8-7071] port 'Interrupt_Ack' of module 'dejarik_microblaze_0_0' is unconnected for instance 'microblaze_0' [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/synth/dejarik.v:324]
-WARNING: [Synth 8-7023] instance 'microblaze_0' of module 'dejarik_microblaze_0_0' has 52 connections declared, but only 51 given [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/synth/dejarik.v:324]
-INFO: [Synth 8-6157] synthesizing module 'dejarik_microblaze_0_axi_periph_0' [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/synth/dejarik.v:534]
-INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_15QMGQ9' [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/synth/dejarik.v:1272]
-INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_15QMGQ9' (0#1) [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/synth/dejarik.v:1272]
-INFO: [Synth 8-6157] synthesizing module 'm01_couplers_imp_4XMICY' [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/synth/dejarik.v:1404]
-INFO: [Synth 8-6155] done synthesizing module 'm01_couplers_imp_4XMICY' (0#1) [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/synth/dejarik.v:1404]
-INFO: [Synth 8-6157] synthesizing module 'm02_couplers_imp_IEGGDY' [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/synth/dejarik.v:1536]
-INFO: [Synth 8-6155] done synthesizing module 'm02_couplers_imp_IEGGDY' (0#1) [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/synth/dejarik.v:1536]
-INFO: [Synth 8-6157] synthesizing module 'm03_couplers_imp_1IXBUET' [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/synth/dejarik.v:1682]
-INFO: [Synth 8-6155] done synthesizing module 'm03_couplers_imp_1IXBUET' (0#1) [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/synth/dejarik.v:1682]
-INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_4SZULP' [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/synth/dejarik.v:2062]
-INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_4SZULP' (0#1) [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/synth/dejarik.v:2062]
-INFO: [Synth 8-6157] synthesizing module 'dejarik_xbar_0' [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-24348-DESKTOP-53FQC58/realtime/dejarik_xbar_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'dejarik_xbar_0' (0#1) [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-24348-DESKTOP-53FQC58/realtime/dejarik_xbar_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'dejarik_microblaze_0_axi_periph_0' (0#1) [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/synth/dejarik.v:534]
-INFO: [Synth 8-6157] synthesizing module 'microblaze_0_local_memory_imp_ETMG7L' [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/synth/dejarik.v:1828]
-INFO: [Synth 8-6157] synthesizing module 'dejarik_dlmb_bram_if_cntlr_0' [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-24348-DESKTOP-53FQC58/realtime/dejarik_dlmb_bram_if_cntlr_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'dejarik_dlmb_bram_if_cntlr_0' (0#1) [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-24348-DESKTOP-53FQC58/realtime/dejarik_dlmb_bram_if_cntlr_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'dejarik_dlmb_v10_0' [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-24348-DESKTOP-53FQC58/realtime/dejarik_dlmb_v10_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'dejarik_dlmb_v10_0' (0#1) [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-24348-DESKTOP-53FQC58/realtime/dejarik_dlmb_v10_0_stub.v:5]
-WARNING: [Synth 8-7071] port 'LMB_Rst' of module 'dejarik_dlmb_v10_0' is unconnected for instance 'dlmb_v10' [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/synth/dejarik.v:1974]
-WARNING: [Synth 8-7023] instance 'dlmb_v10' of module 'dejarik_dlmb_v10_0' has 25 connections declared, but only 24 given [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/synth/dejarik.v:1974]
-INFO: [Synth 8-6157] synthesizing module 'dejarik_ilmb_bram_if_cntlr_0' [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-24348-DESKTOP-53FQC58/realtime/dejarik_ilmb_bram_if_cntlr_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'dejarik_ilmb_bram_if_cntlr_0' (0#1) [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-24348-DESKTOP-53FQC58/realtime/dejarik_ilmb_bram_if_cntlr_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'dejarik_ilmb_v10_0' [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-24348-DESKTOP-53FQC58/realtime/dejarik_ilmb_v10_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'dejarik_ilmb_v10_0' (0#1) [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-24348-DESKTOP-53FQC58/realtime/dejarik_ilmb_v10_0_stub.v:5]
-WARNING: [Synth 8-7071] port 'LMB_Rst' of module 'dejarik_ilmb_v10_0' is unconnected for instance 'ilmb_v10' [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/synth/dejarik.v:2020]
-WARNING: [Synth 8-7023] instance 'ilmb_v10' of module 'dejarik_ilmb_v10_0' has 25 connections declared, but only 24 given [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/synth/dejarik.v:2020]
-INFO: [Synth 8-6157] synthesizing module 'dejarik_lmb_bram_0' [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-24348-DESKTOP-53FQC58/realtime/dejarik_lmb_bram_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'dejarik_lmb_bram_0' (0#1) [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-24348-DESKTOP-53FQC58/realtime/dejarik_lmb_bram_0_stub.v:5]
-WARNING: [Synth 8-7071] port 'rsta_busy' of module 'dejarik_lmb_bram_0' is unconnected for instance 'lmb_bram' [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/synth/dejarik.v:2045]
-WARNING: [Synth 8-7071] port 'rstb_busy' of module 'dejarik_lmb_bram_0' is unconnected for instance 'lmb_bram' [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/synth/dejarik.v:2045]
-WARNING: [Synth 8-7023] instance 'lmb_bram' of module 'dejarik_lmb_bram_0' has 16 connections declared, but only 14 given [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/synth/dejarik.v:2045]
-INFO: [Synth 8-6155] done synthesizing module 'microblaze_0_local_memory_imp_ETMG7L' (0#1) [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/synth/dejarik.v:1828]
-INFO: [Synth 8-6157] synthesizing module 'dejarik_reset_inv_0_2' [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-24348-DESKTOP-53FQC58/realtime/dejarik_reset_inv_0_2_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'dejarik_reset_inv_0_2' (0#1) [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-24348-DESKTOP-53FQC58/realtime/dejarik_reset_inv_0_2_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'dejarik_rst_clk_wiz_1_100M_0' [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-24348-DESKTOP-53FQC58/realtime/dejarik_rst_clk_wiz_1_100M_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'dejarik_rst_clk_wiz_1_100M_0' (0#1) [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-24348-DESKTOP-53FQC58/realtime/dejarik_rst_clk_wiz_1_100M_0_stub.v:5]
-WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'dejarik_rst_clk_wiz_1_100M_0' is unconnected for instance 'rst_clk_wiz_1_100M' [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/synth/dejarik.v:505]
-WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'dejarik_rst_clk_wiz_1_100M_0' is unconnected for instance 'rst_clk_wiz_1_100M' [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/synth/dejarik.v:505]
-WARNING: [Synth 8-7023] instance 'rst_clk_wiz_1_100M' of module 'dejarik_rst_clk_wiz_1_100M_0' has 10 connections declared, but only 8 given [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/synth/dejarik.v:505]
+INFO: [Synth 8-6157] synthesizing module 'dejarik_axi_intc_0_0' [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-6196-DESKTOP-53FQC58/realtime/dejarik_axi_intc_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'dejarik_axi_intc_0_0' (0#1) [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-6196-DESKTOP-53FQC58/realtime/dejarik_axi_intc_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'dejarik_axi_uartlite_0_0' [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-6196-DESKTOP-53FQC58/realtime/dejarik_axi_uartlite_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'dejarik_axi_uartlite_0_0' (0#1) [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-6196-DESKTOP-53FQC58/realtime/dejarik_axi_uartlite_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'dejarik_clk_generator_0_0' [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-6196-DESKTOP-53FQC58/realtime/dejarik_clk_generator_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'dejarik_clk_generator_0_0' (0#1) [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-6196-DESKTOP-53FQC58/realtime/dejarik_clk_generator_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'dejarik_clk_wiz_1_0' [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-6196-DESKTOP-53FQC58/realtime/dejarik_clk_wiz_1_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'dejarik_clk_wiz_1_0' (0#1) [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-6196-DESKTOP-53FQC58/realtime/dejarik_clk_wiz_1_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'dejarik_ioiptest_0_4' [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-6196-DESKTOP-53FQC58/realtime/dejarik_ioiptest_0_4_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'dejarik_ioiptest_0_4' (0#1) [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-6196-DESKTOP-53FQC58/realtime/dejarik_ioiptest_0_4_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'dejarik_matrix_controller_0_13' [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-6196-DESKTOP-53FQC58/realtime/dejarik_matrix_controller_0_13_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'dejarik_matrix_controller_0_13' (0#1) [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-6196-DESKTOP-53FQC58/realtime/dejarik_matrix_controller_0_13_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'dejarik_mdm_1_0' [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-6196-DESKTOP-53FQC58/realtime/dejarik_mdm_1_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'dejarik_mdm_1_0' (0#1) [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-6196-DESKTOP-53FQC58/realtime/dejarik_mdm_1_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'dejarik_microblaze_0_0' [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-6196-DESKTOP-53FQC58/realtime/dejarik_microblaze_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'dejarik_microblaze_0_0' (0#1) [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-6196-DESKTOP-53FQC58/realtime/dejarik_microblaze_0_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'Interrupt_Ack' of module 'dejarik_microblaze_0_0' is unconnected for instance 'microblaze_0' [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/synth/dejarik.v:335]
+WARNING: [Synth 8-7023] instance 'microblaze_0' of module 'dejarik_microblaze_0_0' has 52 connections declared, but only 51 given [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/synth/dejarik.v:335]
+INFO: [Synth 8-6157] synthesizing module 'dejarik_microblaze_0_axi_periph_0' [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/synth/dejarik.v:545]
+INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_15QMGQ9' [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/synth/dejarik.v:1283]
+INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_15QMGQ9' (0#1) [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/synth/dejarik.v:1283]
+INFO: [Synth 8-6157] synthesizing module 'm01_couplers_imp_4XMICY' [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/synth/dejarik.v:1415]
+INFO: [Synth 8-6155] done synthesizing module 'm01_couplers_imp_4XMICY' (0#1) [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/synth/dejarik.v:1415]
+INFO: [Synth 8-6157] synthesizing module 'm02_couplers_imp_IEGGDY' [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/synth/dejarik.v:1547]
+INFO: [Synth 8-6155] done synthesizing module 'm02_couplers_imp_IEGGDY' (0#1) [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/synth/dejarik.v:1547]
+INFO: [Synth 8-6157] synthesizing module 'm03_couplers_imp_1IXBUET' [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/synth/dejarik.v:1693]
+INFO: [Synth 8-6155] done synthesizing module 'm03_couplers_imp_1IXBUET' (0#1) [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/synth/dejarik.v:1693]
+INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_4SZULP' [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/synth/dejarik.v:2073]
+INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_4SZULP' (0#1) [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/synth/dejarik.v:2073]
+INFO: [Synth 8-6157] synthesizing module 'dejarik_xbar_0' [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-6196-DESKTOP-53FQC58/realtime/dejarik_xbar_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'dejarik_xbar_0' (0#1) [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-6196-DESKTOP-53FQC58/realtime/dejarik_xbar_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'dejarik_microblaze_0_axi_periph_0' (0#1) [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/synth/dejarik.v:545]
+INFO: [Synth 8-6157] synthesizing module 'microblaze_0_local_memory_imp_ETMG7L' [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/synth/dejarik.v:1839]
+INFO: [Synth 8-6157] synthesizing module 'dejarik_dlmb_bram_if_cntlr_0' [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-6196-DESKTOP-53FQC58/realtime/dejarik_dlmb_bram_if_cntlr_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'dejarik_dlmb_bram_if_cntlr_0' (0#1) [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-6196-DESKTOP-53FQC58/realtime/dejarik_dlmb_bram_if_cntlr_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'dejarik_dlmb_v10_0' [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-6196-DESKTOP-53FQC58/realtime/dejarik_dlmb_v10_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'dejarik_dlmb_v10_0' (0#1) [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-6196-DESKTOP-53FQC58/realtime/dejarik_dlmb_v10_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'LMB_Rst' of module 'dejarik_dlmb_v10_0' is unconnected for instance 'dlmb_v10' [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/synth/dejarik.v:1985]
+WARNING: [Synth 8-7023] instance 'dlmb_v10' of module 'dejarik_dlmb_v10_0' has 25 connections declared, but only 24 given [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/synth/dejarik.v:1985]
+INFO: [Synth 8-6157] synthesizing module 'dejarik_ilmb_bram_if_cntlr_0' [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-6196-DESKTOP-53FQC58/realtime/dejarik_ilmb_bram_if_cntlr_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'dejarik_ilmb_bram_if_cntlr_0' (0#1) [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-6196-DESKTOP-53FQC58/realtime/dejarik_ilmb_bram_if_cntlr_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'dejarik_ilmb_v10_0' [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-6196-DESKTOP-53FQC58/realtime/dejarik_ilmb_v10_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'dejarik_ilmb_v10_0' (0#1) [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-6196-DESKTOP-53FQC58/realtime/dejarik_ilmb_v10_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'LMB_Rst' of module 'dejarik_ilmb_v10_0' is unconnected for instance 'ilmb_v10' [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/synth/dejarik.v:2031]
+WARNING: [Synth 8-7023] instance 'ilmb_v10' of module 'dejarik_ilmb_v10_0' has 25 connections declared, but only 24 given [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/synth/dejarik.v:2031]
+INFO: [Synth 8-6157] synthesizing module 'dejarik_lmb_bram_0' [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-6196-DESKTOP-53FQC58/realtime/dejarik_lmb_bram_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'dejarik_lmb_bram_0' (0#1) [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-6196-DESKTOP-53FQC58/realtime/dejarik_lmb_bram_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'rsta_busy' of module 'dejarik_lmb_bram_0' is unconnected for instance 'lmb_bram' [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/synth/dejarik.v:2056]
+WARNING: [Synth 8-7071] port 'rstb_busy' of module 'dejarik_lmb_bram_0' is unconnected for instance 'lmb_bram' [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/synth/dejarik.v:2056]
+WARNING: [Synth 8-7023] instance 'lmb_bram' of module 'dejarik_lmb_bram_0' has 16 connections declared, but only 14 given [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/synth/dejarik.v:2056]
+INFO: [Synth 8-6155] done synthesizing module 'microblaze_0_local_memory_imp_ETMG7L' (0#1) [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/synth/dejarik.v:1839]
+INFO: [Synth 8-6157] synthesizing module 'dejarik_reset_inv_0_2' [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-6196-DESKTOP-53FQC58/realtime/dejarik_reset_inv_0_2_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'dejarik_reset_inv_0_2' (0#1) [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-6196-DESKTOP-53FQC58/realtime/dejarik_reset_inv_0_2_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'dejarik_rst_clk_wiz_1_100M_0' [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-6196-DESKTOP-53FQC58/realtime/dejarik_rst_clk_wiz_1_100M_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'dejarik_rst_clk_wiz_1_100M_0' (0#1) [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/.Xil/Vivado-6196-DESKTOP-53FQC58/realtime/dejarik_rst_clk_wiz_1_100M_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'dejarik_rst_clk_wiz_1_100M_0' is unconnected for instance 'rst_clk_wiz_1_100M' [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/synth/dejarik.v:516]
+WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'dejarik_rst_clk_wiz_1_100M_0' is unconnected for instance 'rst_clk_wiz_1_100M' [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/synth/dejarik.v:516]
+WARNING: [Synth 8-7023] instance 'rst_clk_wiz_1_100M' of module 'dejarik_rst_clk_wiz_1_100M_0' has 10 connections declared, but only 8 given [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/synth/dejarik.v:516]
 INFO: [Synth 8-6157] synthesizing module 'dejarik_xlconcat_0_3' [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_xlconcat_0_3/synth/dejarik_xlconcat_0_3.v:53]
 INFO: [Synth 8-6157] synthesizing module 'xlconcat_v2_1_4_xlconcat' [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ipshared/4b67/hdl/xlconcat_v2_1_vl_rfs.v:14]
 INFO: [Synth 8-6155] done synthesizing module 'xlconcat_v2_1_4_xlconcat' (0#1) [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ipshared/4b67/hdl/xlconcat_v2_1_vl_rfs.v:14]
@@ -196,18 +198,18 @@ WARNING: [Synth 8-7129] Port In114[0] in module xlconcat_v2_1_4_xlconcat is eith
 WARNING: [Synth 8-7129] Port In115[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
 INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1687.879 ; gain = 57.984
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1689.730 ; gain = 55.133
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1687.879 ; gain = 57.984
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1689.730 ; gain = 55.133
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1687.879 ; gain = 57.984
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1689.730 ; gain = 55.133
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.034 . Memory (MB): peak = 1687.879 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.034 . Memory (MB): peak = 1689.730 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -236,37 +238,42 @@ Parsing XDC File [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.g
 Finished Parsing XDC File [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_axi_uartlite_0_0/dejarik_axi_uartlite_0_0/dejarik_axi_uartlite_0_0_in_context.xdc] for cell 'dejarik_i/axi_uartlite_0'
 Parsing XDC File [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_microblaze_0_0/dejarik_microblaze_0_0/dejarik_microblaze_0_0_in_context.xdc] for cell 'dejarik_i/microblaze_0'
 Finished Parsing XDC File [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_microblaze_0_0/dejarik_microblaze_0_0/dejarik_microblaze_0_0_in_context.xdc] for cell 'dejarik_i/microblaze_0'
-Parsing XDC File [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_ioiptest_0_4/dejarik_ioiptest_0_4/dejarik_ioiptest_0_4_in_context.xdc] for cell 'dejarik_i/ioiptest_0'
-Finished Parsing XDC File [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_ioiptest_0_4/dejarik_ioiptest_0_4/dejarik_ioiptest_0_4_in_context.xdc] for cell 'dejarik_i/ioiptest_0'
 Parsing XDC File [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_xbar_0/dejarik_xbar_0/dejarik_xbar_0_in_context.xdc] for cell 'dejarik_i/microblaze_0_axi_periph/xbar'
 Finished Parsing XDC File [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_xbar_0/dejarik_xbar_0/dejarik_xbar_0_in_context.xdc] for cell 'dejarik_i/microblaze_0_axi_periph/xbar'
+Parsing XDC File [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_ioiptest_0_4/dejarik_ioiptest_0_4/dejarik_ioiptest_0_4_in_context.xdc] for cell 'dejarik_i/ioiptest_0'
+Finished Parsing XDC File [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_ioiptest_0_4/dejarik_ioiptest_0_4/dejarik_ioiptest_0_4_in_context.xdc] for cell 'dejarik_i/ioiptest_0'
+Parsing XDC File [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_clk_generator_0_0/dejarik_clk_generator_0_0/dejarik_clk_generator_0_0_in_context.xdc] for cell 'dejarik_i/clk_generator_0'
+Finished Parsing XDC File [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_clk_generator_0_0/dejarik_clk_generator_0_0/dejarik_clk_generator_0_0_in_context.xdc] for cell 'dejarik_i/clk_generator_0'
 Parsing XDC File [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_matrix_controller_0_13/dejarik_matrix_controller_0_13/dejarik_matrix_controller_0_13_in_context.xdc] for cell 'dejarik_i/matrix_controller_0'
 Finished Parsing XDC File [c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_matrix_controller_0_13/dejarik_matrix_controller_0_13/dejarik_matrix_controller_0_13_in_context.xdc] for cell 'dejarik_i/matrix_controller_0'
 Parsing XDC File [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.srcs/constrs_1/new/ARTY-A7-Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'uart_rxd_out'. [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.srcs/constrs_1/new/ARTY-A7-Master.xdc:84]
+WARNING: [Vivado 12-584] No ports matched 'uart_txd_in'. [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.srcs/constrs_1/new/ARTY-A7-Master.xdc:85]
 Finished Parsing XDC File [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.srcs/constrs_1/new/ARTY-A7-Master.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.srcs/constrs_1/new/ARTY-A7-Master.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/dejarik_wrapper_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.srcs/constrs_1/new/ARTY-A7-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/dejarik_wrapper_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/dejarik_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Parsing XDC File [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/dont_touch.xdc]
 Finished Parsing XDC File [C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1687.879 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1689.730 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1687.879 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1689.730 ; gain = 0.000
 WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'dejarik_i/microblaze_0_local_memory/lmb_bram' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
 INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1687.879 ; gain = 57.984
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1689.730 ; gain = 55.133
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35ticsg324-1L
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1687.879 ; gain = 57.984
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1689.730 ; gain = 55.133
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -287,15 +294,16 @@ Applied set_property KEEP_HIERARCHY = SOFT for dejarik_i/reset_inv_0. (constrain
 Applied set_property KEEP_HIERARCHY = SOFT for dejarik_i/axi_uartlite_0. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for dejarik_i/microblaze_0. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for dejarik_i/xlconcat_0. (constraint file  auto generated constraint).
-Applied set_property KEEP_HIERARCHY = SOFT for dejarik_i/ioiptest_0. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for dejarik_i/microblaze_0_axi_periph/xbar. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for dejarik_i/microblaze_0_axi_periph. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for dejarik_i/ioiptest_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for dejarik_i/clk_generator_0. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for dejarik_i/matrix_controller_0. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1687.879 ; gain = 57.984
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1689.730 ; gain = 55.133
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1687.879 ; gain = 57.984
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1689.730 ; gain = 55.133
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -318,25 +326,25 @@ Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1687.879 ; gain = 57.984
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1689.730 ; gain = 55.133
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 1687.879 ; gain = 57.984
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1689.730 ; gain = 55.133
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 1687.879 ; gain = 57.984
+Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1689.730 ; gain = 55.133
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 1705.363 ; gain = 75.469
+Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1708.930 ; gain = 74.332
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -354,37 +362,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 1711.121 ; gain = 81.227
+Finished IO Insertion : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1715.723 ; gain = 81.125
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 1711.121 ; gain = 81.227
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1715.723 ; gain = 81.125
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 1711.121 ; gain = 81.227
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1715.723 ; gain = 81.125
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 1711.121 ; gain = 81.227
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1715.723 ; gain = 81.125
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 1711.121 ; gain = 81.227
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1715.723 ; gain = 81.125
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 1711.121 ; gain = 81.227
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1715.723 ; gain = 81.125
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -397,18 +405,19 @@ Report BlackBoxes:
 |1     |dejarik_xbar_0                 |         1|
 |2     |dejarik_axi_intc_0_0           |         1|
 |3     |dejarik_axi_uartlite_0_0       |         1|
-|4     |dejarik_clk_wiz_1_0            |         1|
-|5     |dejarik_ioiptest_0_4           |         1|
-|6     |dejarik_matrix_controller_0_13 |         1|
-|7     |dejarik_mdm_1_0                |         1|
-|8     |dejarik_microblaze_0_0         |         1|
-|9     |dejarik_reset_inv_0_2          |         1|
-|10    |dejarik_rst_clk_wiz_1_100M_0   |         1|
-|11    |dejarik_dlmb_bram_if_cntlr_0   |         1|
-|12    |dejarik_dlmb_v10_0             |         1|
-|13    |dejarik_ilmb_bram_if_cntlr_0   |         1|
-|14    |dejarik_ilmb_v10_0             |         1|
-|15    |dejarik_lmb_bram_0             |         1|
+|4     |dejarik_clk_generator_0_0      |         1|
+|5     |dejarik_clk_wiz_1_0            |         1|
+|6     |dejarik_ioiptest_0_4           |         1|
+|7     |dejarik_matrix_controller_0_13 |         1|
+|8     |dejarik_mdm_1_0                |         1|
+|9     |dejarik_microblaze_0_0         |         1|
+|10    |dejarik_reset_inv_0_2          |         1|
+|11    |dejarik_rst_clk_wiz_1_100M_0   |         1|
+|12    |dejarik_dlmb_bram_if_cntlr_0   |         1|
+|13    |dejarik_dlmb_v10_0             |         1|
+|14    |dejarik_ilmb_bram_if_cntlr_0   |         1|
+|15    |dejarik_ilmb_v10_0             |         1|
+|16    |dejarik_lmb_bram_0             |         1|
 +------+-------------------------------+----------+
 
 Report Cell Usage: 
@@ -417,41 +426,43 @@ Report Cell Usage:
 +------+----------------------------+------+
 |1     |dejarik_axi_intc_0          |     1|
 |2     |dejarik_axi_uartlite_0      |     1|
-|3     |dejarik_clk_wiz_1           |     1|
-|4     |dejarik_dlmb_bram_if_cntlr  |     1|
-|5     |dejarik_dlmb_v10            |     1|
-|6     |dejarik_ilmb_bram_if_cntlr  |     1|
-|7     |dejarik_ilmb_v10            |     1|
-|8     |dejarik_ioiptest_0          |     1|
-|9     |dejarik_lmb_bram            |     1|
-|10    |dejarik_matrix_controller_0 |     1|
-|11    |dejarik_mdm_1               |     1|
-|12    |dejarik_microblaze_0        |     1|
-|13    |dejarik_reset_inv_0         |     1|
-|14    |dejarik_rst_clk_wiz_1_100M  |     1|
-|15    |dejarik_xbar                |     1|
-|16    |IBUF                        |     2|
-|17    |OBUF                        |    21|
+|3     |dejarik_clk_generator_0     |     1|
+|4     |dejarik_clk_wiz_1           |     1|
+|5     |dejarik_dlmb_bram_if_cntlr  |     1|
+|6     |dejarik_dlmb_v10            |     1|
+|7     |dejarik_ilmb_bram_if_cntlr  |     1|
+|8     |dejarik_ilmb_v10            |     1|
+|9     |dejarik_ioiptest_0          |     1|
+|10    |dejarik_lmb_bram            |     1|
+|11    |dejarik_matrix_controller_0 |     1|
+|12    |dejarik_mdm_1               |     1|
+|13    |dejarik_microblaze_0        |     1|
+|14    |dejarik_reset_inv_0         |     1|
+|15    |dejarik_rst_clk_wiz_1_100M  |     1|
+|16    |dejarik_xbar                |     1|
+|17    |IBUF                        |     2|
+|18    |OBUF                        |    23|
 +------+----------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 1711.121 ; gain = 81.227
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1715.723 ; gain = 81.125
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 11 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:23 . Memory (MB): peak = 1711.121 ; gain = 81.227
-Synthesis Optimization Complete : Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 1711.121 ; gain = 81.227
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:22 . Memory (MB): peak = 1715.723 ; gain = 81.125
+Synthesis Optimization Complete : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1715.723 ; gain = 81.125
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.021 . Memory (MB): peak = 1723.215 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 1727.758 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1728.352 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1733.242 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Synth Design complete, checksum: 4510fa1d
+Synth Design complete, checksum: 9d8c3857
 INFO: [Common 17-83] Releasing license: Synthesis
-76 Infos, 114 Warnings, 0 Critical Warnings and 0 Errors encountered.
+79 Infos, 117 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1728.352 ; gain = 98.457
+synth_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1733.242 ; gain = 98.645
 INFO: [Common 17-1381] The checkpoint 'C:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.runs/synth_1/dejarik_wrapper.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file dejarik_wrapper_utilization_synth.rpt -pb dejarik_wrapper_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Mon Jan  8 08:01:22 2024...
+INFO: [Common 17-206] Exiting Vivado at Tue Jan  9 17:30:23 2024...

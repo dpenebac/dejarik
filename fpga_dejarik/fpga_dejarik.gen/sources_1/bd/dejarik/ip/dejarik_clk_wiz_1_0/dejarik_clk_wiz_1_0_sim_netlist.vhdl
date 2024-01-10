@@ -1,10 +1,10 @@
 -- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
--- Date        : Sat Jan  6 09:19:26 2024
+-- Date        : Mon Jan  8 15:48:13 2024
 -- Host        : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode funcsim -rename_top dejarik_clk_wiz_1_0 -prefix
---               dejarik_clk_wiz_1_0_ dejarik_clk_wiz_1_0_sim_netlist.vhdl
+-- Command     : write_vhdl -force -mode funcsim
+--               c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_clk_wiz_1_0/dejarik_clk_wiz_1_0_sim_netlist.vhdl
 -- Design      : dejarik_clk_wiz_1_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -14,16 +14,16 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity dejarik_clk_wiz_1_0_dejarik_clk_wiz_1_0_clk_wiz is
+entity dejarik_clk_wiz_1_0_clk_wiz is
   port (
     clk_out1 : out STD_LOGIC;
     reset : in STD_LOGIC;
     locked : out STD_LOGIC;
     clk_in1 : in STD_LOGIC
   );
-end dejarik_clk_wiz_1_0_dejarik_clk_wiz_1_0_clk_wiz;
+end dejarik_clk_wiz_1_0_clk_wiz;
 
-architecture STRUCTURE of dejarik_clk_wiz_1_0_dejarik_clk_wiz_1_0_clk_wiz is
+architecture STRUCTURE of dejarik_clk_wiz_1_0_clk_wiz is
   signal clk_in1_dejarik_clk_wiz_1_0 : STD_LOGIC;
   signal clk_out1_dejarik_clk_wiz_1_0 : STD_LOGIC;
   signal clkfbout_buf_dejarik_clk_wiz_1_0 : STD_LOGIC;
@@ -178,7 +178,7 @@ end dejarik_clk_wiz_1_0;
 
 architecture STRUCTURE of dejarik_clk_wiz_1_0 is
 begin
-inst: entity work.dejarik_clk_wiz_1_0_dejarik_clk_wiz_1_0_clk_wiz
+inst: entity work.dejarik_clk_wiz_1_0_clk_wiz
      port map (
       clk_in1 => clk_in1,
       clk_out1 => clk_out1,

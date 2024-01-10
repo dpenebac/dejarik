@@ -48,12 +48,13 @@
 
 
 // IP VLNV: xilinx.com:user:matrix_controller:1.0
-// IP Revision: 13
+// IP Revision: 65
 
 `timescale 1ns/1ps
 
 (* DowngradeIPIdentifiedWarnings = "yes" *)
 module dejarik_matrix_controller_0_13 (
+  master_c,
   r1,
   g1,
   b1,
@@ -93,6 +94,7 @@ module dejarik_matrix_controller_0_13 (
   s00_axi_rready
 );
 
+input wire master_c;
 output wire r1;
 output wire g1;
 output wire b1;
@@ -160,6 +162,7 @@ input wire s00_axi_rready;
     .C_S00_AXI_DATA_WIDTH(32),  // Width of S_AXI data bus
     .C_S00_AXI_ADDR_WIDTH(7)  // Width of S_AXI address bus
   ) inst (
+    .master_c(master_c),
     .r1(r1),
     .g1(g1),
     .b1(b1),

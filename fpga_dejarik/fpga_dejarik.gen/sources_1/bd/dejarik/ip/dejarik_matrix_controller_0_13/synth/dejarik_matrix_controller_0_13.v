@@ -48,13 +48,14 @@
 
 
 // IP VLNV: xilinx.com:user:matrix_controller:1.0
-// IP Revision: 13
+// IP Revision: 65
 
 (* X_CORE_INFO = "matrix_controller_v1_0,Vivado 2022.1" *)
 (* CHECK_LICENSE_TYPE = "dejarik_matrix_controller_0_13,matrix_controller_v1_0,{}" *)
-(* CORE_GENERATION_INFO = "dejarik_matrix_controller_0_13,matrix_controller_v1_0,{x_ipProduct=Vivado 2022.1,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=matrix_controller,x_ipVersion=1.0,x_ipCoreRevision=13,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED,C_S00_AXI_DATA_WIDTH=32,C_S00_AXI_ADDR_WIDTH=7}" *)
+(* CORE_GENERATION_INFO = "dejarik_matrix_controller_0_13,matrix_controller_v1_0,{x_ipProduct=Vivado 2022.1,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=matrix_controller,x_ipVersion=1.0,x_ipCoreRevision=65,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED,C_S00_AXI_DATA_WIDTH=32,C_S00_AXI_ADDR_WIDTH=7}" *)
 (* DowngradeIPIdentifiedWarnings = "yes" *)
 module dejarik_matrix_controller_0_13 (
+  master_c,
   r1,
   g1,
   b1,
@@ -94,6 +95,7 @@ module dejarik_matrix_controller_0_13 (
   s00_axi_rready
 );
 
+input wire master_c;
 output wire r1;
 output wire g1;
 output wire b1;
@@ -161,6 +163,7 @@ input wire s00_axi_rready;
     .C_S00_AXI_DATA_WIDTH(32),  // Width of S_AXI data bus
     .C_S00_AXI_ADDR_WIDTH(7)  // Width of S_AXI address bus
   ) inst (
+    .master_c(master_c),
     .r1(r1),
     .g1(g1),
     .b1(b1),

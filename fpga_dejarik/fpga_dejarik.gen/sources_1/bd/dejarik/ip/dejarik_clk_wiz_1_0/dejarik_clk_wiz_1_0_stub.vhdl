@@ -1,10 +1,10 @@
 -- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
--- Date        : Sat Jan  6 09:19:26 2024
+-- Date        : Mon Jan  8 15:48:13 2024
 -- Host        : DESKTOP-53FQC58 running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode synth_stub -rename_top dejarik_clk_wiz_1_0 -prefix
---               dejarik_clk_wiz_1_0_ dejarik_clk_wiz_1_0_stub.vhdl
+-- Command     : write_vhdl -force -mode synth_stub
+--               c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_clk_wiz_1_0/dejarik_clk_wiz_1_0_stub.vhdl
 -- Design      : dejarik_clk_wiz_1_0
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7a35ticsg324-1L
