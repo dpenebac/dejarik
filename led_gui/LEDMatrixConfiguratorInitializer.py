@@ -1,3 +1,5 @@
+import tkinter as tk
+
 '''
 GUI used to obtain configuration variables for the main GUI
 
@@ -11,6 +13,7 @@ object and assign user input variables.
         (wait for user to press "submit")
         root.user_variable.get() : returns user_variable_entry
 '''
+
 class LEDMatrixConfiguratorInitializer:
   def __init__(self, root):
     self.root = root
