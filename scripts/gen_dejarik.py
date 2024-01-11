@@ -2,6 +2,11 @@ import numpy as np
 from PIL import Image, ImageDraw
 import json
 
+'''
+Use to generate a json file of the default dejarik board.
+Still issues with symmetrical shaping which can be solved using gui
+'''
+
 def rgb_to_hex(rgb):
     return "#{:02x}{:02x}{:02x}".format(rgb[0], rgb[1], rgb[2])
 
