@@ -14,6 +14,7 @@
   "_comments" : [
     "black may not be needed as it is a default",
     "layout starts at 0x0, goes right until reaches boundry, then increments column",
-    "I belive the 'mapping' section should be pulled from another json as the rest is simply the board configuration"
+    "I belive the 'mapping' section should be pulled from another json as the rest is simply the board configuration",
+    "how will this be represented in a c/c++/python struct, ig python can just use json"
   ]
 }
