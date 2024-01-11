@@ -21,11 +21,13 @@ Features Needed
     - loads entire (board) to 0x0 
   - Load Subset
     - loads a smaller image to some specified location
+    - useful for "pieces" on a board
   - Save Full
     - saves entire (board) from 0x0 to specified sizes
   - Save Subset
     - save a subset of the full (board) starting gat specified location and end at specifed location
     - this sounds very hard
+    - how useful? probably a bit useful but interesting on how implementation will be 
 
 - Modes (explained above)
   - Live

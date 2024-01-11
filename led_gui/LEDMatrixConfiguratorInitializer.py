@@ -1,9 +1,15 @@
-import tkinter as tk
-from tkinter import filedialog
-import json
-
 '''
-Class used to grab user variables via gui
+GUI used to obtain configuration variables for the main GUI
+
+Inputs :
+  - root : GUI root tk object
+
+No returns, to obtain configuration variables use the tk.StringVar() 
+object and assign user input variables.
+  ex :  self.user_variable = tk.StringVar()
+        self.user_variable_entry = tk.Entry()
+        (wait for user to press "submit")
+        root.user_variable.get() : returns user_variable_entry
 '''
 class LEDMatrixConfiguratorInitializer:
   def __init__(self, root):
@@ -45,17 +51,3 @@ class LEDMatrixConfiguratorInitializer:
   
   def switch(self, option):
     self.selected_option.set(option)
-
-class LEDMatrixConfigurator:
-  def __init__(self, root, columns, rows):
-    self.root = root
-    self.root.title("LED Matrix Configurator")
-    self.root.resizable(False, False)
-
-if __name__ == "__main__":
-  root = tk.Tk()
-  app = LEDMatrixConfiguratorInitializer(root)
-  root.mainloop()
-  print(app.row_size_config.get())
-  print(app.column_size_config.get())
-  print(app.selected_option.get())
