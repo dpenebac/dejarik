@@ -3,6 +3,10 @@ import tkinter as tk
 '''
 GUI used to obtain configuration variables for the main GUI
 
+Configurations
+- Window Size (rows/cols)
+- Mode Select (live/design)
+
 Inputs :
   - root : GUI root tk object
 
@@ -49,7 +53,7 @@ class LEDMatrixConfiguratorInitializer:
     self.mode_menu.grid(row=2, column=0)
 
     # Submit Button
-    self.submit_button = tk.Button(root, text="Submit", command=root.destroy)
+    self.submit_button = tk.Button(root, text="Submit", command=root.destroy) # root.destroy closes this tk window
     self.submit_button.grid(row=3, column=0)
   
   def switch(self, option):

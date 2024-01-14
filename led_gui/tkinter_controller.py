@@ -8,6 +8,8 @@ from tkinter import colorchooser
 import tkinter.filedialog as filedialog
 import json
 
+from PIL import Image, ImageTk
+
 class LEDMatrixConfigurator:
     def __init__(self, root):
         self.root = root

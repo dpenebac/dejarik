@@ -12,6 +12,7 @@
     "black" : "#000000"
   },
   "_comments" : [
+    "columns/rows concern the matrix columns and rows and therefore would generally be 32x32 or 64x64 or 32x64/64x32",
     "black may not be needed as it is a default",
     "layout starts at 0x0, goes right until reaches boundry, then increments column",
     "I belive the 'mapping' section should be pulled from another json as the rest is simply the board configuration",

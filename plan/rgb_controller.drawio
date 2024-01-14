@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram name="highlevel" id="ILkNMCB-ckAdee0KeORi">
-        <mxGraphModel dx="592" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="569" dy="716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -174,7 +174,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="-IC6wg0z2GdO65AuYM95" name="gui">
-        <mxGraphModel dx="592" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="569" dy="716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -187,7 +187,7 @@
                 <mxCell id="V7rv--miyUj9_GfnPnwT-5" value="save/load" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="260" y="60" width="160" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="V7rv--miyUj9_GfnPnwT-6" value="png preview" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="V7rv--miyUj9_GfnPnwT-6" value="png preview buttons" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="260" y="180" width="160" height="160" as="geometry"/>
                 </mxCell>
                 <mxCell id="V7rv--miyUj9_GfnPnwT-7" value="other configuration buttons" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
