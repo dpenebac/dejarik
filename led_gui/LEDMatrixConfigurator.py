@@ -35,23 +35,42 @@ class LEDMatrixConfigurator:
     self.root = root
     self.root.title("LED Matrix Configurator")
     self.root.resizable(False, False) # avoid messing up matrix
-
-    # Matrix Color Configuration Initialization
     self.gui_columns_size = gui_columns
     self.gui_rows_size = gui_rows
-    
+
+    #############################
+    # Matrix Button Initialization
+    #############################
     # '#000000' is black, generates black array for default view
     self.full_matrix = [['#000000' for _ in range(display_columns)] for _ in range(display_rows)] 
     self.gui_matrix = [['#000000' for _ in range(gui_columns)] for _ in range(gui_rows)] 
     self.create_matrix()
 
-    # Dynamic Color Configurations
-
+    #############################
+    # Dynamic Color Configuration
+    #############################
     # need default colors
     # option to "load" color configurations from "connected device"
     # option to change colors (this will also update the connected display as well) 
 
+    #############################
+    # "Get" Color Button
+    #############################
+    
+    #############################
+    # Blank/Clear Button
+    #############################
+    
+    #############################
+    # Save/Load Buttons
+    #############################
+    # save full
+    # load full
+    # load 
+
+    #############################
     # Dynamic GUI Resizing
+    #############################
     resize_button = tk.Button(root, text="Resize", command=self.resize_matrix, width=10)
     resize_button.grid(row=3, column=self.gui_columns_size)
 
@@ -62,6 +81,15 @@ class LEDMatrixConfigurator:
     self.resize_row = tk.Entry(root, width=10)
     self.resize_row.insert(0, "0")
     self.resize_row.grid(row=3, column=self.gui_columns_size+20)
+
+    #############################
+    # Matrix Button Scrolling
+    #############################
+    # make sure it works dynamic gui resizing
+
+    #############################
+    # PNG Preview
+    #############################
 
   # Creates a configurable matrix using tk buttons 
   def create_matrix(self):
