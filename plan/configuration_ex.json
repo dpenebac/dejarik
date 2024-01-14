@@ -1,12 +1,12 @@
 {
   "matrix_columns" : 3,
   "matrix_rows"    : 3,
-  "layout" : [
+  "matrix_layout" : [
     ["#ffffff", "#000000", "#ff0000"],
     ["#ffffff", "#ffffff", "#ff0000"],
     ["#000000", "#ff0000", "#ff0000"]
   ], 
-  "mapping" : {
+  "color_mapping" : {
     "count" : 3,
     "red" : "#ff0000",
     "white" : "#ffffff",

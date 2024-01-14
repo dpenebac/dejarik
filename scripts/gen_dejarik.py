@@ -48,8 +48,19 @@ def generate_image(size=64, pixel_size=1, matrix_size=64):
     # Convert the 2D array to a list of hex color codes for JSON serialization
     pixel_colors_list = [[rgb_to_hex(pixel) for pixel in row] for row in pixel_colors_resized]
 
+    # Colors Definition
+    rgb_colors = [
+        ("Red", "#ff0000"),
+        ("Orange", "#ffa500"),
+        ("Yellow", "#ffff00"),
+        ("Green", "#00ff00"),
+        ("Blue", "#0000ff"),
+        ("Purple", "#8B00FF"), # violet
+    ]
+
     # Create a dictionary with matrix_size and matrix_colors
-    result_dict = {"matrix_rows" : 32, "matrix_columns" : 32, "matrix_colors": pixel_colors_list}
+    result_dict = {"matrix_rows" : 32, "matrix_columns" : 32, 
+                   "matrix_layout": pixel_colors_list, "color_mapping" : rgb_colors}
 
     # Save the dictionary as a JSON file
     with open("dejarik_board.json", "w") as json_file:
