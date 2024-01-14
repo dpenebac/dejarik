@@ -29,8 +29,8 @@ Returns :
 '''
 
 class LEDMatrixConfigurator:
-  def __init__(self, root, gui_columns=MAX_MATRIX_COLUMNS, gui_rows=MAX_MATRIX_COLUMNS
-               , display_columns=MAX_MATRIX_COLUMNS, display_rows=MAX_MATRIX_ROWS):
+  def __init__(self, root, gui_columns=MAX_MATRIX_COLUMNS, gui_rows=MAX_MATRIX_COLUMNS,
+               display_columns=MAX_MATRIX_COLUMNS, display_rows=MAX_MATRIX_ROWS):
     # Initialization
     self.root = root
     self.root.title("LED Matrix Configurator")
@@ -40,15 +40,18 @@ class LEDMatrixConfigurator:
     self.gui_columns_size = gui_columns
     self.gui_rows_size = gui_rows
     
-    # '#000000' is black, generates 64x64 black array for default view
-    # idk why I did it like this seems complicated, (probably GPT)
+    # '#000000' is black, generates black array for default view
     self.full_matrix = [['#000000' for _ in range(display_columns)] for _ in range(display_rows)] 
     self.gui_matrix = [['#000000' for _ in range(gui_columns)] for _ in range(gui_rows)] 
-    
     self.create_matrix()
 
-    # TODO, test the destroy() and create_matrix for dynamic resizing of window
+    # Dynamic Color Configurations
 
+    # need default colors
+    # option to "load" color configurations from "connected device"
+    # option to change colors (this will also update the connected display as well) 
+
+    # Dynamic GUI Resizing
     resize_button = tk.Button(root, text="Resize", command=self.resize_matrix, width=10)
     resize_button.grid(row=3, column=self.gui_columns_size)
 
@@ -60,6 +63,7 @@ class LEDMatrixConfigurator:
     self.resize_row.insert(0, "0")
     self.resize_row.grid(row=3, column=self.gui_columns_size+20)
 
+  # Creates a configurable matrix using tk buttons 
   def create_matrix(self):
     self.matrix_buttons = []
     for row in range(self.gui_rows_size):
@@ -71,11 +75,6 @@ class LEDMatrixConfigurator:
           row_buttons.append(btn)
       self.matrix_buttons.append(row_buttons)
   
-  def destroy_matrix(self):
-    for row in self.matrix_buttons:
-      for element in row:
-          element.destroy()
-
   # Destroys all of self.gui_matrix, changes gui_columns/rows_size and create_matrix()
   def resize_matrix(self):
     self.destroy_matrix()
@@ -84,6 +83,12 @@ class LEDMatrixConfigurator:
     self.gui_rows_size = int(self.resize_row.get())
     
     self.create_matrix()
+
+  # Destroys all matrix_buttons
+  def destroy_matrix(self):
+    for row in self.matrix_buttons:
+      for element in row:
+          element.destroy()
 
 if __name__ == "__main__":
   root = tk.Tk()
