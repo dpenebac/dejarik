@@ -7,6 +7,7 @@
     ["#000000", "#ff0000", "#ff0000"]
   ], 
   "mapping" : {
+    "count" : 3,
     "red" : "#ff0000",
     "white" : "#ffffff",
     "black" : "#000000"
