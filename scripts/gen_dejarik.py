@@ -49,7 +49,7 @@ def generate_image(size=64, pixel_size=1, matrix_size=64):
     pixel_colors_list = [[rgb_to_hex(pixel) for pixel in row] for row in pixel_colors_resized]
 
     # Create a dictionary with matrix_size and matrix_colors
-    result_dict = {"matrix_size": matrix_size, "matrix_colors": pixel_colors_list}
+    result_dict = {"matrix_rows" : 32, "matrix_columns" : 32, "matrix_colors": pixel_colors_list}
 
     # Save the dictionary as a JSON file
     with open("dejarik_board.json", "w") as json_file:

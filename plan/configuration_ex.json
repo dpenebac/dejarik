@@ -1,6 +1,6 @@
 {
-  "columns" : 3,
-  "rows"    : 3,
+  "matrix_columns" : 3,
+  "matrix_rows"    : 3,
   "layout" : [
     ["#ffffff", "#000000", "#ff0000"],
     ["#ffffff", "#ffffff", "#ff0000"],
