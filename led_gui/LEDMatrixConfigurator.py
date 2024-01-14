@@ -1,4 +1,5 @@
 import tkinter as tk
+from PNGPreview import PNGPreview
 
 # Useful Variables
 MAX_MATRIX_COLUMNS = 64
@@ -60,10 +61,12 @@ class LEDMatrixConfigurator:
     #############################
     # Blank/Clear Button
     #############################
+    # simply resets self.full_matrix and self.gui_matrix
     
     #############################
     # Save/Load Buttons
     #############################
+    self.file_path = "dejarik_board.png" # for now (png preview dependency)
     # save full
     # load full
     # load 
@@ -90,6 +93,16 @@ class LEDMatrixConfigurator:
     #############################
     # PNG Preview
     #############################
+    png_preview = tk.Button(root, text="Preview", 
+                            command=lambda : PNGPreview("dejarik_board.png", master=self.root), 
+                            width=10)
+    png_preview.grid(row=10, column=self.gui_columns_size)
+
+
+    #############################
+    # Error Field
+    #############################
+
 
   # Creates a configurable matrix using tk buttons 
   def create_matrix(self):
@@ -117,6 +130,10 @@ class LEDMatrixConfigurator:
     for row in self.matrix_buttons:
       for element in row:
           element.destroy()
+  
+  # Preview
+  def preview(self):
+    PNGPreview("dejarik_board.png", master=self.root)
 
 if __name__ == "__main__":
   root = tk.Tk()
