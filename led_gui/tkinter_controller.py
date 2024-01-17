@@ -17,7 +17,7 @@ class LEDMatrixConfigurator:
         self.root.resizable(False, False)
 
         self.matrix_size = 32
-        self.matrix_colors = [['#000000' for _ in range(self.matrix_size)] for _ in range(self.matrix_size)]
+        self.matrix_layout = [['#000000' for _ in range(self.matrix_size)] for _ in range(self.matrix_size)]
 
         self.selected_color = "#000000"
         self.colors = [
@@ -84,7 +84,7 @@ class LEDMatrixConfigurator:
         for row in range(self.matrix_size):
             row_buttons = []
             for col in range(self.matrix_size):
-                color = self.matrix_colors[row][col]
+                color = self.matrix_layout[row][col]
                 btn = tk.Button(self.root, width=2, height=1, bg=color, command=lambda r=row, c=col: self.toggle_color(r, c))
                 btn.grid(row=row, column=col)
                 row_buttons.append(btn)
@@ -92,15 +92,15 @@ class LEDMatrixConfigurator:
 
     def toggle_color(self, row, col):
         if not self.get:
-            current_color = self.matrix_colors[row][col]
+            current_color = self.matrix_layout[row][col]
             selected_color = self.selected_color
 
             new_color = selected_color if current_color != selected_color else '#000000'
 
-            self.matrix_colors[row][col] = new_color
+            self.matrix_layout[row][col] = new_color
             self.matrix_buttons[row][col].config(bg=new_color)
         else:
-            self.selected_color = self.matrix_colors[row][col]
+            self.selected_color = self.matrix_layout[row][col]
             self.get = 0
 
     def choose_color(self, color):
@@ -110,7 +110,7 @@ class LEDMatrixConfigurator:
         file_path = filedialog.asksaveasfilename(defaultextension=".json", filetypes=[("JSON files", "*.json")])
 
         if file_path:
-            config_data = {"matrix_size": self.matrix_size, "matrix_colors": self.matrix_colors}
+            config_data = {"matrix_size": self.matrix_size, "matrix_layout": self.matrix_layout}
             with open(file_path, "w") as file:
                 json.dump(config_data, file)
 
@@ -128,12 +128,12 @@ class LEDMatrixConfigurator:
             return
 
         # Update the entire matrix with the selected section
-        for row in range(min(self.matrix_size, len(self.config_data["matrix_colors"]))):
-            for col in range(min(self.matrix_size, len(self.config_data["matrix_colors"][row]))):
-                self.config_data["matrix_colors"][row + start_row][col + start_col] = self.matrix_colors[row][col]
+        for row in range(min(self.matrix_size, len(self.config_data["matrix_layout"]))):
+            for col in range(min(self.matrix_size, len(self.config_data["matrix_layout"][row]))):
+                self.config_data["matrix_layout"][row + start_row][col + start_col] = self.matrix_layout[row][col]
 
         # Save the entire matrix to the configuration file
-        config_data = {"matrix_size": len(self.config_data["matrix_colors"]), "matrix_colors": self.config_data["matrix_colors"]}
+        config_data = {"matrix_size": len(self.config_data["matrix_layout"]), "matrix_layout": self.config_data["matrix_layout"]}
         with open(file_path, "w") as file:
             json.dump(config_data, file)
 
@@ -155,7 +155,7 @@ class LEDMatrixConfigurator:
                 self.start_col = 0
 
                 new_matrix_colors = [
-                    row[0:self.matrix_size] for row in self.config_data["matrix_colors"][0:self.matrix_size]
+                    row[0:self.matrix_size] for row in self.config_data["matrix_layout"][0:self.matrix_size]
                 ]
 
                 self.load_matrix(new_matrix_colors)
@@ -167,8 +167,8 @@ class LEDMatrixConfigurator:
     def load_matrix(self, new_matrix_colors):
         for row in range(min(self.matrix_size, len(new_matrix_colors))):
             for col in range(min(self.matrix_size, len(new_matrix_colors[row]))):
-                if self.matrix_colors[row][col] != new_matrix_colors[row][col]:
-                    self.matrix_colors[row][col] = new_matrix_colors[row][col]
+                if self.matrix_layout[row][col] != new_matrix_colors[row][col]:
+                    self.matrix_layout[row][col] = new_matrix_colors[row][col]
                     self.matrix_buttons[row][col].config(bg=new_matrix_colors[row][col])
 
     def get_color(self):
@@ -194,12 +194,12 @@ class LEDMatrixConfigurator:
         start_col = self.start_col + col_offset
 
         # Adjust start_row and start_col to stay within valid bounds
-        start_row = max(0, min(start_row, len(self.config_data["matrix_colors"]) - self.matrix_size))
-        start_col = max(0, min(start_col, len(self.config_data["matrix_colors"][0]) - self.matrix_size))
+        start_row = max(0, min(start_row, len(self.config_data["matrix_layout"]) - self.matrix_size))
+        start_col = max(0, min(start_col, len(self.config_data["matrix_layout"][0]) - self.matrix_size))
 
         new_matrix_colors = [
             row[start_col:start_col + self.matrix_size]
-            for row in self.config_data["matrix_colors"][start_row:start_row + self.matrix_size]
+            for row in self.config_data["matrix_layout"][start_row:start_row + self.matrix_size]
         ]
 
         self.load_matrix(new_matrix_colors)
