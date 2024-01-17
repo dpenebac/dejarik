@@ -1,0 +1,66 @@
+
+There are many different versions of Dejarik
+- Simeone August 2019
+- Galaxy's Edge 2019 (Most recent Official Rules, board game style)
+- Jedi Challenges 2017 (AR game, video game style)
+- No Name Publishing 2017
+- Noth 2017
+- Steve & Ian Martin 2017
+- Joe Lutovsky 2016
+- etc.....
+
+Rules (Jedi Challenges 2017)
+Justification
+- wanted to choose official rulling
+- galaxy's edge version is hella boring
+- im also a sucker for having non random games (no name publishing)
+
+2 Players
+- Players pick four pieces
+- no limit to which, repeated
+- Role dice to choose who places piece on board first
+- place in legal position
+
+Win Status
+- Destroying all oponents pieces
+
+Board
+- 25 spaces
+- 3 rings (orbits)
+- 12 segments (rays)
+- Outer Orbit, Middle Orbit, Center Orbit (Dejarik)
+
+Play
+- move then attack
+- attack then move
+- special then move
+- move then special
+- (special replaces attack)
+- Attack Rules
+- adjacent and in range to piece (range=1 means adjacent)
+- attacked_unit.health -= attacking_unit.attack
+- 
+- Move Rules
+- must move to empty square
+- do you have to move?
+- no
+
+Pieces
+- 8 pieces, each unique
+- health
+- attack
+- range (attack range)
+- movement
+- special ability (this will be fun to implement)
+- Speical Abilities 
+- abilities
+- heal (active heal adjacent unit)
+- recovery (passive heal)
+- reach (attack several pieces at once, passive)
+- double attack (attacks twice in one turn, passive)
+- stun (active, replaces attack action, stuns 2 turns, must recharge next turn)
+- takeaways
+- both passive and active need to be handled
+- active means it replaces attack
+- stun/recharge can be implemented similarily
+- Build in a way to make ability to have more special abilities/units
