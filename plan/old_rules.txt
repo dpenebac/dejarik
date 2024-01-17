@@ -52,15 +52,15 @@ Pieces
 - range (attack range)
 - movement
 - special ability (this will be fun to implement)
-- Speical Abilities 
-- abilities
-- heal (active heal adjacent unit)
-- recovery (passive heal)
-- reach (attack several pieces at once, passive)
-- double attack (attacks twice in one turn, passive)
-- stun (active, replaces attack action, stuns 2 turns, must recharge next turn)
+
+- Speical Abilities
+  - heal (active heal adjacent unit)
+  - recovery (passive heal)
+  - reach (attack several pieces at once, passive)
+  - double attack (attacks twice in one turn, passive)
+  - stun (active, replaces attack action, stuns 2 turns, must recharge next turn)
 - takeaways
-- both passive and active need to be handled
-- active means it replaces attack
-- stun/recharge can be implemented similarily
-- Build in a way to make ability to have more special abilities/units
+  - both passive and active need to be handled
+  - active means it replaces attack
+  - stun/recharge can be implemented similarily
+  - Build in a way to make ability to have more special abilities/units
