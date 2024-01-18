@@ -2,8 +2,8 @@
  ============================================================================
  Name        : grid_gen.c
  Author      : Liam Tapper
- Version     :
- Copyright   : Your copyright notice
+ Version     : 
+ Copyright   : 
  Description : General Idea for grid generation and traversal while being O(1)
  	 	 	   or as close as possible to it.
  	 	 	   Not yet incorporating any stm32 libraries
@@ -18,9 +18,11 @@
  * TODO : Move all DEF statements and prototype functions to
  * a header file
  *
- * TODO : think about grid navigation
+ * TODO : Prototype Traversal
  *
- * TODO: Implement with stm32 libraries
+ * TODO : Implement with stm32 libraries
+ *
+ * TODO : some more shit I can't think of atm
  */
 
 #define ROWS 2
@@ -39,6 +41,8 @@ struct Tile{
 /*
  * holds an array of tiles based on the x/y coords
  * (see formula(s) below)
+ *
+ * Note: 0 is the special index for the center 'tile'
  */
 struct Grid{
     struct Tile tiles[SIZE];
@@ -54,8 +58,8 @@ int FindY(int index);
 
 int main(void) {
     struct Grid grid = CreateTiles(grid);
-    /* finds the x and y cords of the tile at index 1 */
-    printf("Row: %i\nCol: %i\n", FindX(1), FindY(1));
+    /* finds the x and y cords of the tile at index 17 */
+    // printf("Row: %i\nCol: %i\n", FindX(17), FindY(17));
 	return EXIT_SUCCESS;
 }
 
@@ -84,17 +88,11 @@ struct Grid CreateTiles(struct Grid grid){
  * within the grid array
  */
 int FindX(int index){
-	if(index == 0){
-		return 0;
-	}
-    int x = (index - 1) / COL + 1;
-    return x;
+    return (index == 0) ? 0 : ((index-1)/COL+1);
 }
 
 int FindY(int index){
-	if(index == 0){
-		return 0;
-	}
-    int y = (index - 1) % COL + 1;
-    return y;
+    return (index == 0) ? 0 : ((index-1)%COL+1);
 }
+
+
