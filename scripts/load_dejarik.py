@@ -27,7 +27,7 @@ def load_image(json_file_path):
             draw.point((j, i), fill=tuple(pixel_colors[i, j]))
 
     # Save the reconstructed image
-    image.save("reconstructed_dejarik_board.png")
+    image.save("dejarik_board.png")
 
 def hex_to_rgb(hex_color):
     return tuple(int(hex_color[i:i+2], 16) for i in (1, 3, 5))
