@@ -101,6 +101,7 @@ u8 ReceiveBuffer[TEST_BUFFER_SIZE];
 static volatile int TotalReceivedCount;
 static volatile int TotalSentCount;
 
+u8 space_count = 0;
 
 /******************************************************************************/
 /**
@@ -308,7 +309,16 @@ void RecvHandler(void *CallBackRef, unsigned int EventData)
     // Receive data into the buffer
     XUartLite_Recv(UartLitePtr, ReceiveBuffer, TEST_BUFFER_SIZE);
 
-    // Send back the received data
+    //    // Send back the received data
+    //    XUartLite_Send(UartLitePtr, ReceiveBuffer, TEST_BUFFER_SIZE);
+
+	// Update space count
+    if (ReceiveBuffer[0] == ' ') {
+        space_count++;
+    }
+
+	// Send back space count
+    ReceiveBuffer[0] = '0' + space_count;
     XUartLite_Send(UartLitePtr, ReceiveBuffer, TEST_BUFFER_SIZE);
 }
 
