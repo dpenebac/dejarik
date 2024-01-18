@@ -114,10 +114,16 @@ class LEDMatrixConfigurator:
                             width=10)
     png_preview.grid(row=10, column=self.gui_columns_size)
 
-
     #############################
     # Error Field
     #############################
+    error_label = tk.Label(root, text="Error")
+    error_label.grid(row = 8, column=self.gui_columns_size)
+
+    self.error_field = tk.Entry(root, width=10)
+    self.error_field.insert(0, "None")
+    self.error_field.grid(row = 8, column=self.gui_columns_size + 5)
+
 
   # Creates a configurable matrix using tk buttons 
   def create_matrix(self):
@@ -168,6 +174,9 @@ class LEDMatrixConfigurator:
   def load_full_matrix(self):
     # need to finish colors first
     pass
+
+  def set_error(self, error_str):
+    self.error_field.insert(0, error_str)
 
   # Preview
   def preview(self):
