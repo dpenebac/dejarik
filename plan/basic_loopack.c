@@ -39,7 +39,6 @@
 #include "xintc.h"
 #include "xil_exception.h"
 #include "xil_printf.h"
-#include "ioiptest.h"
 #include "matrix_controller.h"
 
 /************************** Constant Definitions *****************************/
@@ -129,11 +128,6 @@ int main(void)
 	}
 
 	xil_printf("Successfully ran Uartlite interrupt Example\r\n");
-
-	Xil_Out32(XPAR_IOIPTEST_0_S00_AXI_BASEADDR, 1);
-	Xil_Out32(XPAR_IOIPTEST_0_S00_AXI_BASEADDR+4, 0);
-	Xil_Out32(XPAR_IOIPTEST_0_S00_AXI_BASEADDR+8, 0);
-	Xil_Out32(XPAR_IOIPTEST_0_S00_AXI_BASEADDR+12, 0);
 
 	Xil_Out32(XPAR_MATRIX_CONTROLLER_0_S00_AXI_BASEADDR, 1);
 
