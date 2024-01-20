@@ -48,7 +48,7 @@
 
 
 // IP VLNV: xilinx.com:user:matrix_controller:1.0
-// IP Revision: 65
+// IP Revision: 71
 
 `timescale 1ns/1ps
 

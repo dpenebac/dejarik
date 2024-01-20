@@ -42,22 +42,58 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==dejarik_axi
 # IP: bd/dejarik/ip/dejarik_microblaze_0_0/dejarik_microblaze_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==dejarik_microblaze_0_0 || ORIG_REF_NAME==dejarik_microblaze_0_0} -quiet] -quiet
 
-# IP: bd/dejarik/ip/dejarik_xlconcat_0_3/dejarik_xlconcat_0_3.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==dejarik_xlconcat_0_3 || ORIG_REF_NAME==dejarik_xlconcat_0_3} -quiet] -quiet
-
 # IP: bd/dejarik/ip/dejarik_xbar_0/dejarik_xbar_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==dejarik_xbar_0 || ORIG_REF_NAME==dejarik_xbar_0} -quiet] -quiet
 
 # IP: bd/dejarik/ip/dejarik_microblaze_0_axi_periph_0/dejarik_microblaze_0_axi_periph_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==dejarik_microblaze_0_axi_periph_0 || ORIG_REF_NAME==dejarik_microblaze_0_axi_periph_0} -quiet] -quiet
 
-# IP: bd/dejarik/ip/dejarik_ioiptest_0_4/dejarik_ioiptest_0_4.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==dejarik_ioiptest_0_4 || ORIG_REF_NAME==dejarik_ioiptest_0_4} -quiet] -quiet
+# IP: bd/dejarik/ip/dejarik_xlconcat_0_5/dejarik_xlconcat_0_5.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==dejarik_xlconcat_0_5 || ORIG_REF_NAME==dejarik_xlconcat_0_5} -quiet] -quiet
 
 # IP: bd/dejarik/ip/dejarik_matrix_controller_0_13/dejarik_matrix_controller_0_13.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==dejarik_matrix_controller_0_13 || ORIG_REF_NAME==dejarik_matrix_controller_0_13} -quiet] -quiet
 
-# IP: bd/dejarik/ip/dejarik_clk_generator_0_0/dejarik_clk_generator_0_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==dejarik_clk_generator_0_0 || ORIG_REF_NAME==dejarik_clk_generator_0_0} -quiet] -quiet
+# XDC: c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_axi_intc_0_0/dejarik_axi_intc_0_0.xdc
+set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==dejarik_axi_intc_0_0 || ORIG_REF_NAME==dejarik_axi_intc_0_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
+
+# XDC: c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_axi_intc_0_0/dejarik_axi_intc_0_0_clocks.xdc
+#dup# set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==dejarik_axi_intc_0_0 || ORIG_REF_NAME==dejarik_axi_intc_0_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
+
+# XDC: c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_axi_intc_0_0/dejarik_axi_intc_0_0_ooc.xdc
+
+# XDC: c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_lmb_bram_0/dejarik_lmb_bram_0_ooc.xdc
+
+# XDC: c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_mdm_1_0/dejarik_mdm_1_0.xdc
+set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==dejarik_mdm_1_0 || ORIG_REF_NAME==dejarik_mdm_1_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
+
+# XDC: c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_mdm_1_0/dejarik_mdm_1_0_ooc_trace.xdc
+
+# XDC: c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_clk_wiz_1_0/dejarik_clk_wiz_1_0_board.xdc
+set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==dejarik_clk_wiz_1_0 || ORIG_REF_NAME==dejarik_clk_wiz_1_0} -quiet] {/inst } ]/inst ] -quiet] -quiet
+
+# XDC: c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_clk_wiz_1_0/dejarik_clk_wiz_1_0.xdc
+#dup# set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==dejarik_clk_wiz_1_0 || ORIG_REF_NAME==dejarik_clk_wiz_1_0} -quiet] {/inst } ]/inst ] -quiet] -quiet
+
+# XDC: c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_clk_wiz_1_0/dejarik_clk_wiz_1_0_ooc.xdc
+
+# XDC: c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_rst_clk_wiz_1_100M_0/dejarik_rst_clk_wiz_1_100M_0_board.xdc
+set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==dejarik_rst_clk_wiz_1_100M_0 || ORIG_REF_NAME==dejarik_rst_clk_wiz_1_100M_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
+
+# XDC: c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_rst_clk_wiz_1_100M_0/dejarik_rst_clk_wiz_1_100M_0.xdc
+#dup# set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==dejarik_rst_clk_wiz_1_100M_0 || ORIG_REF_NAME==dejarik_rst_clk_wiz_1_100M_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
+
+# XDC: c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_axi_uartlite_0_0/dejarik_axi_uartlite_0_0_board.xdc
+set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==dejarik_axi_uartlite_0_0 || ORIG_REF_NAME==dejarik_axi_uartlite_0_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
+
+# XDC: c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_axi_uartlite_0_0/dejarik_axi_uartlite_0_0_ooc.xdc
+
+# XDC: c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_axi_uartlite_0_0/dejarik_axi_uartlite_0_0.xdc
+#dup# set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==dejarik_axi_uartlite_0_0 || ORIG_REF_NAME==dejarik_axi_uartlite_0_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
+
+# XDC: c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_microblaze_0_0/dejarik_microblaze_0_0.xdc
+set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==dejarik_microblaze_0_0 || ORIG_REF_NAME==dejarik_microblaze_0_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
+
+# XDC: c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_microblaze_0_0/dejarik_microblaze_0_0_ooc_debug.xdc
 
 # XDC: c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/dejarik_ooc.xdc

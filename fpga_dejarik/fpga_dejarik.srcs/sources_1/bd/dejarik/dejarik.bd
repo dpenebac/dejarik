@@ -1,12 +1,12 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0x74E9ECE82D43527A",
+      "boundary_crc": "0x47BFAB945E5EEE23",
       "device": "xc7a35ticsg324-1L",
       "gen_directory": "../../../../fpga_dejarik.gen/sources_1/bd/dejarik",
       "name": "dejarik",
       "rev_ctrl_bd_flag": "RevCtrlBdOff",
-      "synth_flow_mode": "Hierarchical",
+      "synth_flow_mode": "None",
       "tool_version": "2022.1",
       "validated": "true"
     },
@@ -25,7 +25,6 @@
       "reset_inv_0": "",
       "axi_uartlite_0": "",
       "microblaze_0": "",
-      "xlconcat_0": "",
       "microblaze_0_axi_periph": {
         "xbar": "",
         "s00_couplers": {},
@@ -34,8 +33,7 @@
         "m02_couplers": {},
         "m03_couplers": {}
       },
-      "ioiptest_0": "",
-      "clk_generator_0": "",
+      "xlconcat_0": "",
       "matrix_controller_0": ""
     },
     "interface_ports": {
@@ -87,18 +85,6 @@
           }
         }
       },
-      "led0": {
-        "direction": "O"
-      },
-      "led1": {
-        "direction": "O"
-      },
-      "led2": {
-        "direction": "O"
-      },
-      "led3": {
-        "direction": "O"
-      },
       "matrix_outputs": {
         "direction": "O",
         "left": "15",
@@ -118,56 +104,6 @@
           },
           "PortWidth": {
             "value": "16",
-            "value_src": "ip_prop"
-          }
-        }
-      },
-      "dbg_40mhz_clk": {
-        "direction": "O",
-        "parameters": {
-          "CLK_DOMAIN": {
-            "value": "dejarik_sys_clock",
-            "value_src": "default_prop"
-          },
-          "FREQ_HZ": {
-            "value": "100000000",
-            "value_src": "user_prop"
-          },
-          "PHASE": {
-            "value": "0.0",
-            "value_src": "user_prop"
-          },
-          "PortType": {
-            "value": "clk",
-            "value_src": "ip_prop"
-          },
-          "PortType.PROP_SRC": {
-            "value": "false",
-            "value_src": "ip_prop"
-          }
-        }
-      },
-      "dbg_lat": {
-        "direction": "O",
-        "parameters": {
-          "CLK_DOMAIN": {
-            "value": "dejarik_matrix_controller_0_13_matrix_c",
-            "value_src": "default_prop"
-          },
-          "FREQ_HZ": {
-            "value": "100000000",
-            "value_src": "default_prop"
-          },
-          "PHASE": {
-            "value": "0.0",
-            "value_src": "default_prop"
-          },
-          "PortType": {
-            "value": "clk",
-            "value_src": "ip_prop"
-          },
-          "PortType.PROP_SRC": {
-            "value": "false",
             "value_src": "ip_prop"
           }
         }
@@ -497,17 +433,6 @@
           "KEEP_HIERARCHY": {
             "value": "yes",
             "value_src": "default"
-          }
-        }
-      },
-      "xlconcat_0": {
-        "vlnv": "xilinx.com:ip:xlconcat:2.1",
-        "xci_name": "dejarik_xlconcat_0_3",
-        "xci_path": "ip\\dejarik_xlconcat_0_3\\dejarik_xlconcat_0_3.xci",
-        "inst_hier_path": "xlconcat_0",
-        "parameters": {
-          "NUM_PORTS": {
-            "value": "16"
           }
         }
       },
@@ -1051,65 +976,14 @@
           }
         }
       },
-      "ioiptest_0": {
-        "vlnv": "xilinx.com:user:ioiptest:1.0",
-        "xci_name": "dejarik_ioiptest_0_4",
-        "xci_path": "ip\\dejarik_ioiptest_0_4\\dejarik_ioiptest_0_4.xci",
-        "inst_hier_path": "ioiptest_0"
-      },
-      "clk_generator_0": {
-        "vlnv": "xilinx.com:module_ref:clk_generator:1.0",
-        "xci_name": "dejarik_clk_generator_0_0",
-        "xci_path": "ip\\dejarik_clk_generator_0_0\\dejarik_clk_generator_0_0.xci",
-        "inst_hier_path": "clk_generator_0",
-        "reference_info": {
-          "ref_type": "hdl",
-          "ref_name": "clk_generator",
-          "boundary_crc": "0x0"
-        },
-        "ports": {
-          "clk": {
-            "type": "clk",
-            "direction": "I",
-            "parameters": {
-              "ASSOCIATED_RESET": {
-                "value": "reset",
-                "value_src": "constant"
-              },
-              "CLK_DOMAIN": {
-                "value": "dejarik_sys_clock",
-                "value_src": "default_prop"
-              }
-            }
-          },
-          "reset": {
-            "type": "rst",
-            "direction": "I"
-          },
-          "clk_o": {
-            "direction": "O",
-            "parameters": {
-              "CLK_DOMAIN": {
-                "value": "dejarik_matrix_controller_0_13_matrix_c",
-                "value_src": "default_prop"
-              },
-              "FREQ_HZ": {
-                "value": "100000000",
-                "value_src": "default_prop"
-              },
-              "PHASE": {
-                "value": "0.0",
-                "value_src": "default_prop"
-              },
-              "PortType": {
-                "value": "clk",
-                "value_src": "ip_prop"
-              },
-              "PortType.PROP_SRC": {
-                "value": "false",
-                "value_src": "ip_prop"
-              }
-            }
+      "xlconcat_0": {
+        "vlnv": "xilinx.com:ip:xlconcat:2.1",
+        "xci_name": "dejarik_xlconcat_0_5",
+        "xci_path": "ip\\dejarik_xlconcat_0_5\\dejarik_xlconcat_0_5.xci",
+        "inst_hier_path": "xlconcat_0",
+        "parameters": {
+          "NUM_PORTS": {
+            "value": "16"
           }
         }
       },
@@ -1151,12 +1025,6 @@
           "axi_uartlite_0/S_AXI"
         ]
       },
-      "microblaze_0_axi_periph_M02_AXI": {
-        "interface_ports": [
-          "microblaze_0_axi_periph/M02_AXI",
-          "ioiptest_0/S00_AXI"
-        ]
-      },
       "microblaze_0_axi_periph_M03_AXI": {
         "interface_ports": [
           "microblaze_0_axi_periph/M03_AXI",
@@ -1189,46 +1057,16 @@
           "axi_intc_0/intr"
         ]
       },
-      "clk_generator_0_clk_o": {
-        "ports": [
-          "clk_generator_0/clk_o",
-          "dbg_lat"
-        ]
-      },
       "clk_wiz_1_locked": {
         "ports": [
           "clk_wiz_1/locked",
           "rst_clk_wiz_1_100M/dcm_locked"
         ]
       },
-      "ioiptest_0_GPIO_0": {
-        "ports": [
-          "ioiptest_0/GPIO_0",
-          "led0"
-        ]
-      },
-      "ioiptest_0_GPIO_1": {
-        "ports": [
-          "ioiptest_0/GPIO_1",
-          "led1"
-        ]
-      },
-      "ioiptest_0_GPIO_2": {
-        "ports": [
-          "ioiptest_0/GPIO_2",
-          "led2"
-        ]
-      },
-      "ioiptest_0_GPIO_3": {
-        "ports": [
-          "ioiptest_0/GPIO_3",
-          "led3"
-        ]
-      },
       "matrix_controller_0_HA": {
         "ports": [
           "matrix_controller_0/HA",
-          "xlconcat_0/In10"
+          "xlconcat_0/In3"
         ]
       },
       "matrix_controller_0_HB": {
@@ -1240,61 +1078,61 @@
       "matrix_controller_0_HC": {
         "ports": [
           "matrix_controller_0/HC",
-          "xlconcat_0/In12"
+          "xlconcat_0/In2"
         ]
       },
       "matrix_controller_0_HD": {
         "ports": [
           "matrix_controller_0/HD",
-          "xlconcat_0/In13"
+          "xlconcat_0/In10"
         ]
       },
       "matrix_controller_0_HE": {
         "ports": [
           "matrix_controller_0/HE",
-          "xlconcat_0/In14"
+          "xlconcat_0/In12"
         ]
       },
       "matrix_controller_0_OE": {
         "ports": [
           "matrix_controller_0/OE",
-          "xlconcat_0/In15"
+          "xlconcat_0/In0"
         ]
       },
       "matrix_controller_0_b1": {
         "ports": [
           "matrix_controller_0/b1",
-          "xlconcat_0/In2"
+          "xlconcat_0/In6"
         ]
       },
       "matrix_controller_0_b2": {
         "ports": [
           "matrix_controller_0/b2",
-          "xlconcat_0/In5"
+          "xlconcat_0/In4"
         ]
       },
       "matrix_controller_0_g1": {
         "ports": [
           "matrix_controller_0/g1",
-          "xlconcat_0/In1"
+          "xlconcat_0/In15"
         ]
       },
       "matrix_controller_0_g2": {
         "ports": [
           "matrix_controller_0/g2",
-          "xlconcat_0/In4"
+          "xlconcat_0/In13"
         ]
       },
       "matrix_controller_0_gnd0": {
         "ports": [
           "matrix_controller_0/gnd0",
-          "xlconcat_0/In6"
+          "xlconcat_0/In8"
         ]
       },
       "matrix_controller_0_gnd1": {
         "ports": [
           "matrix_controller_0/gnd1",
-          "xlconcat_0/In7"
+          "xlconcat_0/In14"
         ]
       },
       "matrix_controller_0_lat": {
@@ -1306,19 +1144,19 @@
       "matrix_controller_0_matrix_c": {
         "ports": [
           "matrix_controller_0/matrix_c",
-          "xlconcat_0/In8"
+          "xlconcat_0/In1"
         ]
       },
       "matrix_controller_0_r1": {
         "ports": [
           "matrix_controller_0/r1",
-          "xlconcat_0/In0"
+          "xlconcat_0/In7"
         ]
       },
       "matrix_controller_0_r2": {
         "ports": [
           "matrix_controller_0/r2",
-          "xlconcat_0/In3"
+          "xlconcat_0/In5"
         ]
       },
       "mdm_1_debug_sys_rst": {
@@ -1341,7 +1179,6 @@
           "microblaze_0_axi_periph/M01_ACLK",
           "microblaze_0_axi_periph/M02_ACLK",
           "microblaze_0_axi_periph/M03_ACLK",
-          "ioiptest_0/s00_axi_aclk",
           "matrix_controller_0/s00_axi_aclk"
         ]
       },
@@ -1349,8 +1186,7 @@
         "ports": [
           "reset_0",
           "rst_clk_wiz_1_100M/ext_reset_in",
-          "reset_inv_0/Op1",
-          "clk_generator_0/reset"
+          "reset_inv_0/Op1"
         ]
       },
       "reset_inv_0_Res": {
@@ -1382,7 +1218,6 @@
           "microblaze_0_axi_periph/M01_ARESETN",
           "microblaze_0_axi_periph/M02_ARESETN",
           "microblaze_0_axi_periph/M03_ARESETN",
-          "ioiptest_0/s00_axi_aresetn",
           "matrix_controller_0/s00_axi_aresetn"
         ]
       },
@@ -1390,8 +1225,6 @@
         "ports": [
           "sys_clock",
           "clk_wiz_1/clk_in1",
-          "dbg_40mhz_clk",
-          "clk_generator_0/clk",
           "matrix_controller_0/master_c"
         ]
       },
@@ -1422,13 +1255,6 @@
                 "offset": "0x00000000",
                 "range": "64K",
                 "offset_high_param": "C_HIGHADDR"
-              },
-              "SEG_ioiptest_0_S00_AXI_reg": {
-                "address_block": "/ioiptest_0/S00_AXI/S00_AXI_reg",
-                "offset": "0x44A00000",
-                "range": "64K",
-                "offset_base_param": "C_S00_AXI_BASEADDR",
-                "offset_high_param": "C_S00_AXI_HIGHADDR"
               },
               "SEG_matrix_controller_0_S00_AXI_reg": {
                 "address_block": "/matrix_controller_0/S00_AXI/S00_AXI_reg",

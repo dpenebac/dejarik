@@ -77,12 +77,6 @@
 -makelib xcelium_lib/xil_defaultlib \
   "../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_microblaze_0_0/sim/dejarik_microblaze_0_0.vhd" \
 -endlib
--makelib xcelium_lib/xlconcat_v2_1_4 \
-  "../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ipshared/4b67/hdl/xlconcat_v2_1_vl_rfs.v" \
--endlib
--makelib xcelium_lib/xil_defaultlib \
-  "../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_xlconcat_0_3/sim/dejarik_xlconcat_0_3.v" \
--endlib
 -makelib xcelium_lib/generic_baseblocks_v2_1_0 \
   "../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v" \
 -endlib
@@ -109,13 +103,15 @@
 -endlib
 -makelib xcelium_lib/xil_defaultlib \
   "../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_xbar_0/sim/dejarik_xbar_0.v" \
-  "../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ipshared/a73b/hdl/ioiptest_v1_0_S00_AXI.v" \
-  "../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ipshared/a73b/hdl/ioiptest_v1_0.v" \
-  "../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_ioiptest_0_4/sim/dejarik_ioiptest_0_4.v" \
-  "../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ipshared/2509/hdl/matrix_controller_v1_0_S00_AXI.v" \
-  "../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ipshared/2509/hdl/matrix_controller_v1_0.v" \
+-endlib
+-makelib xcelium_lib/xlconcat_v2_1_4 \
+  "../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ipshared/4b67/hdl/xlconcat_v2_1_vl_rfs.v" \
+-endlib
+-makelib xcelium_lib/xil_defaultlib \
+  "../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_xlconcat_0_5/sim/dejarik_xlconcat_0_5.v" \
+  "../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ipshared/849a/hdl/matrix_controller_v1_0_S00_AXI.v" \
+  "../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ipshared/849a/hdl/matrix_controller_v1_0.v" \
   "../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_matrix_controller_0_13/sim/dejarik_matrix_controller_0_13.v" \
-  "../../../../fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_clk_generator_0_0/sim/dejarik_clk_generator_0_0.v" \
   "../../../../fpga_dejarik.gen/sources_1/bd/dejarik/sim/dejarik.v" \
 -endlib
 -makelib xcelium_lib/xil_defaultlib \
