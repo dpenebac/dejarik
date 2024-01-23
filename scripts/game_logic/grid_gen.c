@@ -21,13 +21,16 @@
  *
  * TODO : Prototype Traversal
  *
- * TODO : Implement with stm32 libraries
+ * TODO : learn how turns work to create a 'move queue'
  *
- * TODO : some more shit I can't think of atm
+ * TODO : REMOVE STDIO AND STDLIB WHEN FINISHED
+ *
+ * TODO : Find file to Change tab space to 2 before P.R.
  */
 
 #define ROWS 2
 #define COL 12
+#define MAX_CHARACTERS 8
 #define SIZE ((ROWS*COL)+1)
 
 /*
@@ -38,6 +41,7 @@ struct Tile{
 	unsigned int index;
 	unsigned int visitor_flag;
 };
+
 
 /*
  * holds an array of tiles based on the x/y coords
@@ -57,20 +61,31 @@ struct Character{
 	 */
 };
 
+/*
+ * Controls all game logic
+ */
+struct GameManager{
+	struct Grid grid;
+	struct Character characters[MAX_CHARACTERS];
+};
+
 struct Grid CreateTiles(struct Grid grid);
-struct Character InitializeCharacter(int x, int y);
+struct Character InitializeCharacter(int x, int y, struct Grid grid);
+void SetCharacterTile(int x, int y, struct Grid grid, struct GameManager gm, int characterIndex);
 int FindX(int index);
 int FindY(int index);
+int CheckTile(int x, int y, struct Grid grid);
 /*
- * Notes: Ensure that the grid/tiles are not freed/lost at any point
+ * Notes: Ensure that the grid/tiles are not lost at any point
  * while game loop is running
  */
 
 int main(void) {
-    struct Grid grid = CreateTiles(grid);
-    struct Character newChar = InitializeCharacter(2,7);
+    struct GameManager gm;
+    gm.grid = CreateTiles(gm.grid);
+    gm.characters[0] = InitializeCharacter(2,7,gm.grid);
     printf("newCharacterIndex: %i\nx:%i\ny:%i\n",
-    		newChar.index, FindX(newChar.index), FindY(newChar.index));
+    		gm.characters[0].index, FindX(gm.characters[0].index), FindY(gm.characters[0].index));
     /* finds the x and y cords of the tile at index 17 */
     // printf("Row: %i\nCol: %i\n", FindX(17), FindY(17));
 	return EXIT_SUCCESS;
@@ -99,6 +114,8 @@ struct Grid CreateTiles(struct Grid grid){
 /*
  * Finds the x and y cords on the board given the index of the tiles
  * within the grid array
+ * Say we throw index 17 into Find x and y,
+ * it will spit out the row and collumn for the given grid array index :)
  */
 int FindX(int index){
     return (index == 0) ? 0 : ((index-1)/COL+1);
@@ -112,11 +129,43 @@ int FindY(int index){
  * Character Initialization
  * A return character of index -1 marks failed initialization
  */
-struct Character InitializeCharacter(int x, int y){
+struct Character InitializeCharacter(int x, int y, struct Grid grid){
 	struct Character newCharacter = { .index = -1 };
-	if(x < 0 || y < 0)
+	if(CheckTile(x,y,grid) == -1)
 		return newCharacter;
-	if(((x*y)+1) > ((ROWS*COL)+1))
-		return newCharacter;
+	grid.tiles[(x*COL+y)-COL].visitor_flag = 1;
 	return (struct Character){ .index = (x*COL+y)-COL };
 }
+
+/*
+ * Move to target position
+ * CharacterNum currently is the index to the characters array
+ * Needs fixing (like a queue system for a turn-based system,
+ * but I dont know how a turn works yet)
+ */
+void SetCharacterTile(int x, int y, struct Grid grid, struct GameManager gm, int characterNum){
+	if(CheckTile(x,y,grid) == -1)
+		return;
+	int characterIndex = gm.characters[characterNum].index;
+	gm.grid.tiles[characterIndex].visitor_flag = 0;
+	gm.characters[characterNum].index = (x*COL+y)-COL;
+	gm.grid.tiles[(x*COL+y)-COL].visitor_flag = 1;
+	return;
+}
+
+/*
+ * Check if the tile is valid
+ */
+int CheckTile(int x, int y, struct Grid grid){
+	if(x < 0 || y < 0)
+		return -1;
+	if(((x*y)+1) > ((ROWS*COL)+1))
+		return -1;
+	if (grid.tiles[(x*COL+y)-COL].visitor_flag == 1)
+		return -1;
+
+	return 1;
+}
+
+
+
