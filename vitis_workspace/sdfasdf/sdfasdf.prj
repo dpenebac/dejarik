@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="sdfasdf" location="C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/sdfasdf" platform="C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/dejarik_wrapper.xpfm" platformUID="xilinx:arty-a7-35::0.0(custom)" systemProject="sdfasdf_system" sysConfig="dejarik_wrapper" runtime="cpp" cpu="standalone_microblaze_0" cpuInstance="microblaze_0" os="standalone" mssSignature="074af14f0645063da2f9fd2d1d5a9507">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.947892998">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.797775260" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

@@ -1,0 +1,974 @@
+10:08:02 DEBUG : Logs will be stored at 'C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/IDE.log'.
+10:08:05 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\peneb\Desktop\git\dejarik\vitis_workspace\temp_xsdb_launch_script.tcl
+10:08:05 INFO  : Registering command handlers for Vitis TCF services
+10:08:05 INFO  : Platform repository initialization has completed.
+10:08:07 INFO  : XSCT server has started successfully.
+10:08:07 INFO  : Successfully done setting XSCT server connection channel  
+10:08:07 INFO  : plnx-install-location is set to ''
+10:08:07 INFO  : Successfully done setting workspace for the tool. 
+10:08:07 INFO  : Successfully done query RDI_DATADIR 
+10:08:48 INFO  : Result from executing command 'getProjects': dejarik_wrapper
+10:08:48 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/xilinx_vck190_base_202210_1.xpfm;xilinx_vck190_base_dfx_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_vck190_base_dfx_202210_1/xilinx_vck190_base_dfx_202210_1.xpfm;xilinx_vmk180_base_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_vmk180_base_202210_1/xilinx_vmk180_base_202210_1.xpfm;xilinx_zcu102_base_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+10:08:49 WARN  : An unexpected exception occurred in the module 'platform project logging'
+10:08:50 INFO  : Platform 'dejarik_wrapper' is added to custom repositories.
+10:08:52 INFO  : Platform 'dejarik_wrapper' is added to custom repositories.
+10:09:22 INFO  : Result from executing command 'getProjects': dejarik_wrapper
+10:09:22 INFO  : Result from executing command 'getPlatforms': dejarik_wrapper|C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/dejarik_wrapper.xpfm;xilinx_vck190_base_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/xilinx_vck190_base_202210_1.xpfm;xilinx_vck190_base_dfx_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_vck190_base_dfx_202210_1/xilinx_vck190_base_dfx_202210_1.xpfm;xilinx_vmk180_base_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_vmk180_base_202210_1/xilinx_vmk180_base_202210_1.xpfm;xilinx_zcu102_base_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+10:09:22 INFO  : Checking for BSP changes to sync application flags for project 'dejarik'...
+10:09:30 INFO  : Checking for BSP changes to sync application flags for project 'dejarik'...
+10:09:42 INFO  : Checking for BSP changes to sync application flags for project 'dejarik'...
+10:10:04 INFO  : Checking for BSP changes to sync application flags for project 'dejarik'...
+10:10:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:10:15 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B5837EA' is selected.
+10:10:15 INFO  : 'jtag frequency' command is executed.
+10:10:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B5837EA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B5837EA-0362d093-0"}' command is executed.
+10:10:16 INFO  : Device configured successfully with "C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/_ide/bitstream/dejarik_wrapper.bit"
+10:10:16 INFO  : Context for processor 'microblaze_0' is selected.
+10:10:16 INFO  : Hardware design and registers information is loaded from 'C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/hw/dejarik_wrapper.xsa'.
+10:10:16 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+10:10:16 INFO  : Context for processor 'microblaze_0' is selected.
+10:10:16 INFO  : System reset is completed.
+10:10:19 INFO  : 'after 3000' command is executed.
+10:10:19 INFO  : Context for processor 'microblaze_0' is selected.
+10:10:19 INFO  : The application 'C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/Debug/dejarik.elf' is downloaded to processor 'microblaze_0'.
+10:10:19 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B5837EA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B5837EA-0362d093-0"}
+fpga -file C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/_ide/bitstream/dejarik_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/hw/dejarik_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/Debug/dejarik.elf
+----------------End of Script----------------
+
+10:10:19 INFO  : Context for processor 'microblaze_0' is selected.
+10:10:20 INFO  : 'con' command is executed.
+10:10:20 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+10:10:20 INFO  : Launch script is exported to file 'C:\Users\peneb\Desktop\git\dejarik\vitis_workspace\dejarik_system\_ide\scripts\debugger_dejarik-default.tcl'
+10:44:26 INFO  : Result from executing command 'getProjects': dejarik_wrapper
+10:44:26 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/xilinx_vck190_base_202210_1.xpfm;xilinx_vck190_base_dfx_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_vck190_base_dfx_202210_1/xilinx_vck190_base_dfx_202210_1.xpfm;xilinx_vmk180_base_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_vmk180_base_202210_1/xilinx_vmk180_base_202210_1.xpfm;xilinx_zcu102_base_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+10:44:28 INFO  : Platform 'dejarik_wrapper' is added to custom repositories.
+10:44:30 INFO  : Platform 'dejarik_wrapper' is added to custom repositories.
+10:44:41 INFO  : Result from executing command 'getProjects': dejarik_wrapper
+10:44:41 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/xilinx_vck190_base_202210_1.xpfm;xilinx_vck190_base_dfx_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_vck190_base_dfx_202210_1/xilinx_vck190_base_dfx_202210_1.xpfm;xilinx_vmk180_base_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_vmk180_base_202210_1/xilinx_vmk180_base_202210_1.xpfm;xilinx_zcu102_base_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+10:44:42 INFO  : Checking for BSP changes to sync application flags for project 'dejar'...
+10:44:47 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:45:02 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B5837EA' is selected.
+10:45:02 INFO  : 'jtag frequency' command is executed.
+10:45:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B5837EA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B5837EA-0362d093-0"}' command is executed.
+10:45:06 INFO  : Device configured successfully with "C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejar/_ide/bitstream/dejarik_wrapper.bit"
+10:45:06 INFO  : Context for processor 'microblaze_0' is selected.
+10:45:06 INFO  : Hardware design and registers information is loaded from 'C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/hw/dejarik_wrapper.xsa'.
+10:45:06 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+10:45:06 INFO  : Context for processor 'microblaze_0' is selected.
+10:45:06 INFO  : System reset is completed.
+10:45:09 INFO  : 'after 3000' command is executed.
+10:45:09 INFO  : Context for processor 'microblaze_0' is selected.
+10:45:09 INFO  : The application 'C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejar/Debug/dejar.elf' is downloaded to processor 'microblaze_0'.
+10:45:09 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B5837EA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B5837EA-0362d093-0"}
+fpga -file C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejar/_ide/bitstream/dejarik_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/hw/dejarik_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejar/Debug/dejar.elf
+----------------End of Script----------------
+
+10:45:10 INFO  : Context for processor 'microblaze_0' is selected.
+10:45:10 INFO  : 'con' command is executed.
+10:45:10 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+10:45:10 INFO  : Launch script is exported to file 'C:\Users\peneb\Desktop\git\dejarik\vitis_workspace\dejar_system\_ide\scripts\debugger_dejar-default.tcl'
+10:45:29 INFO  : Checking for BSP changes to sync application flags for project 'dejar'...
+10:45:33 INFO  : Disconnected from the channel tcfchan#2.
+10:45:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:45:49 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B5837EA' is selected.
+10:45:49 INFO  : 'jtag frequency' command is executed.
+10:45:52 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B5837EA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B5837EA-0362d093-0"}' command is executed.
+10:45:54 INFO  : Device configured successfully with "C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejar/_ide/bitstream/dejarik_wrapper.bit"
+10:45:54 INFO  : Context for processor 'microblaze_0' is selected.
+10:45:54 INFO  : Hardware design and registers information is loaded from 'C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/hw/dejarik_wrapper.xsa'.
+10:45:54 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+10:45:54 INFO  : Context for processor 'microblaze_0' is selected.
+10:45:54 INFO  : System reset is completed.
+10:45:57 INFO  : 'after 3000' command is executed.
+10:45:57 INFO  : Context for processor 'microblaze_0' is selected.
+10:45:57 INFO  : The application 'C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejar/Debug/dejar.elf' is downloaded to processor 'microblaze_0'.
+10:45:57 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B5837EA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B5837EA-0362d093-0"}
+fpga -file C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejar/_ide/bitstream/dejarik_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/hw/dejarik_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejar/Debug/dejar.elf
+----------------End of Script----------------
+
+10:45:57 INFO  : Context for processor 'microblaze_0' is selected.
+10:45:57 INFO  : 'con' command is executed.
+10:45:57 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+10:45:57 INFO  : Launch script is exported to file 'C:\Users\peneb\Desktop\git\dejarik\vitis_workspace\dejar_system\_ide\scripts\debugger_dejar-default.tcl'
+11:29:59 INFO  : Checking for BSP changes to sync application flags for project 'dejar'...
+11:30:08 INFO  : Disconnected from the channel tcfchan#4.
+11:30:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:30:25 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B5837EA' is selected.
+11:30:25 INFO  : 'jtag frequency' command is executed.
+11:30:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B5837EA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B5837EA-0362d093-0"}' command is executed.
+11:30:29 INFO  : Device configured successfully with "C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejar/_ide/bitstream/dejarik_wrapper.bit"
+11:30:29 INFO  : Context for processor 'microblaze_0' is selected.
+11:30:29 INFO  : Hardware design and registers information is loaded from 'C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/hw/dejarik_wrapper.xsa'.
+11:30:29 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:30:29 INFO  : Context for processor 'microblaze_0' is selected.
+11:30:29 INFO  : System reset is completed.
+11:30:32 INFO  : 'after 3000' command is executed.
+11:30:32 INFO  : Context for processor 'microblaze_0' is selected.
+11:30:32 INFO  : The application 'C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejar/Debug/dejar.elf' is downloaded to processor 'microblaze_0'.
+11:30:32 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B5837EA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B5837EA-0362d093-0"}
+fpga -file C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejar/_ide/bitstream/dejarik_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/hw/dejarik_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejar/Debug/dejar.elf
+----------------End of Script----------------
+
+11:30:32 INFO  : Context for processor 'microblaze_0' is selected.
+11:30:32 INFO  : 'con' command is executed.
+11:30:32 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:30:32 INFO  : Launch script is exported to file 'C:\Users\peneb\Desktop\git\dejarik\vitis_workspace\dejar_system\_ide\scripts\debugger_dejar-default.tcl'
+11:33:06 INFO  : Result from executing command 'getProjects': dejarik_wrapper
+11:33:06 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/xilinx_vck190_base_202210_1.xpfm;xilinx_vck190_base_dfx_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_vck190_base_dfx_202210_1/xilinx_vck190_base_dfx_202210_1.xpfm;xilinx_vmk180_base_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_vmk180_base_202210_1/xilinx_vmk180_base_202210_1.xpfm;xilinx_zcu102_base_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+11:33:07 INFO  : Platform 'dejarik_wrapper' is added to custom repositories.
+11:33:09 INFO  : Platform 'dejarik_wrapper' is added to custom repositories.
+11:33:21 INFO  : Result from executing command 'getProjects': dejarik_wrapper
+11:33:21 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/xilinx_vck190_base_202210_1.xpfm;xilinx_vck190_base_dfx_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_vck190_base_dfx_202210_1/xilinx_vck190_base_dfx_202210_1.xpfm;xilinx_vmk180_base_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_vmk180_base_202210_1/xilinx_vmk180_base_202210_1.xpfm;xilinx_zcu102_base_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+11:33:22 INFO  : Checking for BSP changes to sync application flags for project 'dejarik'...
+11:33:32 INFO  : Checking for BSP changes to sync application flags for project 'dejarik'...
+11:33:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:33:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:33:57 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B5837EA' is selected.
+11:33:57 INFO  : 'jtag frequency' command is executed.
+11:34:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B5837EA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B5837EA-0362d093-0"}' command is executed.
+11:34:08 INFO  : Device configured successfully with "C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/_ide/bitstream/dejarik_wrapper.bit"
+11:34:11 INFO  : Context for processor 'microblaze_0' is selected.
+11:34:11 INFO  : Hardware design and registers information is loaded from 'C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/hw/dejarik_wrapper.xsa'.
+11:34:11 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:34:14 INFO  : Context for processor 'microblaze_0' is selected.
+11:34:14 INFO  : System reset is completed.
+11:34:17 INFO  : 'after 3000' command is executed.
+11:34:20 INFO  : Context for processor 'microblaze_0' is selected.
+11:34:20 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B5837EA' is selected.
+11:34:20 ERROR : Memory write error at 0x2D38. MicroBlaze is not being clocked
+11:34:20 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B5837EA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B5837EA-0362d093-0"}
+fpga -file C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/_ide/bitstream/dejarik_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/hw/dejarik_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/Debug/dejarik.elf
+----------------End of Script----------------
+
+11:34:20 ERROR : Memory write error at 0x2D38. MicroBlaze is not being clocked
+11:34:20 INFO  : 'jtag frequency' command is executed.
+11:34:23 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B5837EA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B5837EA-0362d093-0"}' command is executed.
+11:34:24 INFO  : Device configured successfully with "C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/_ide/bitstream/dejarik_wrapper.bit"
+11:34:24 INFO  : Context for processor 'microblaze_0' is selected.
+11:34:24 INFO  : Hardware design and registers information is loaded from 'C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/hw/dejarik_wrapper.xsa'.
+11:34:24 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:34:24 INFO  : Context for processor 'microblaze_0' is selected.
+11:34:24 INFO  : System reset is completed.
+11:34:27 INFO  : 'after 3000' command is executed.
+11:34:27 INFO  : Context for processor 'microblaze_0' is selected.
+11:34:28 INFO  : The application 'C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/Debug/dejarik.elf' is downloaded to processor 'microblaze_0'.
+11:34:28 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B5837EA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B5837EA-0362d093-0"}
+fpga -file C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/_ide/bitstream/dejarik_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/hw/dejarik_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/Debug/dejarik.elf
+----------------End of Script----------------
+
+11:34:28 INFO  : Context for processor 'microblaze_0' is selected.
+11:34:28 INFO  : 'con' command is executed.
+11:34:28 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:34:28 INFO  : Launch script is exported to file 'C:\Users\peneb\Desktop\git\dejarik\vitis_workspace\dejarik_system\_ide\scripts\debugger_dejarik-default.tcl'
+11:34:48 INFO  : Disconnected from the channel tcfchan#5.
+11:34:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:35:04 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B5837EA' is selected.
+11:35:04 INFO  : 'jtag frequency' command is executed.
+11:35:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B5837EA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B5837EA-0362d093-0"}' command is executed.
+11:35:09 INFO  : Device configured successfully with "C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/_ide/bitstream/dejarik_wrapper.bit"
+11:35:09 INFO  : Context for processor 'microblaze_0' is selected.
+11:35:09 INFO  : Hardware design and registers information is loaded from 'C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/hw/dejarik_wrapper.xsa'.
+11:35:09 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:35:09 INFO  : Context for processor 'microblaze_0' is selected.
+11:35:09 INFO  : System reset is completed.
+11:35:12 INFO  : 'after 3000' command is executed.
+11:35:12 INFO  : Context for processor 'microblaze_0' is selected.
+11:35:12 INFO  : The application 'C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/Debug/dejarik.elf' is downloaded to processor 'microblaze_0'.
+11:35:12 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B5837EA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B5837EA-0362d093-0"}
+fpga -file C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/_ide/bitstream/dejarik_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/hw/dejarik_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/Debug/dejarik.elf
+----------------End of Script----------------
+
+11:35:12 INFO  : Context for processor 'microblaze_0' is selected.
+11:35:12 INFO  : 'con' command is executed.
+11:35:12 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:35:12 INFO  : Launch script is exported to file 'C:\Users\peneb\Desktop\git\dejarik\vitis_workspace\dejarik_system\_ide\scripts\debugger_dejarik-default.tcl'
+11:37:10 INFO  : Disconnected from the channel tcfchan#7.
+11:37:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:37:26 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B5837EA' is selected.
+11:37:26 INFO  : 'jtag frequency' command is executed.
+11:37:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B5837EA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B5837EA-0362d093-0"}' command is executed.
+11:37:30 INFO  : Device configured successfully with "C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/_ide/bitstream/dejarik_wrapper.bit"
+11:37:30 INFO  : Context for processor 'microblaze_0' is selected.
+11:37:30 INFO  : Hardware design and registers information is loaded from 'C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/hw/dejarik_wrapper.xsa'.
+11:37:31 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:37:31 INFO  : Context for processor 'microblaze_0' is selected.
+11:37:31 INFO  : System reset is completed.
+11:37:34 INFO  : 'after 3000' command is executed.
+11:37:34 INFO  : Context for processor 'microblaze_0' is selected.
+11:37:34 INFO  : The application 'C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/Debug/dejarik.elf' is downloaded to processor 'microblaze_0'.
+11:37:34 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B5837EA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B5837EA-0362d093-0"}
+fpga -file C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/_ide/bitstream/dejarik_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/hw/dejarik_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/Debug/dejarik.elf
+----------------End of Script----------------
+
+11:37:34 INFO  : Context for processor 'microblaze_0' is selected.
+11:37:34 INFO  : 'con' command is executed.
+11:37:34 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:37:34 INFO  : Launch script is exported to file 'C:\Users\peneb\Desktop\git\dejarik\vitis_workspace\dejarik_system\_ide\scripts\debugger_dejarik-default.tcl'
+11:38:04 INFO  : Disconnected from the channel tcfchan#8.
+11:38:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:38:21 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B5837EA' is selected.
+11:38:21 INFO  : 'jtag frequency' command is executed.
+11:38:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B5837EA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B5837EA-0362d093-0"}' command is executed.
+11:38:25 INFO  : Device configured successfully with "C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/_ide/bitstream/dejarik_wrapper.bit"
+11:38:25 INFO  : Context for processor 'microblaze_0' is selected.
+11:38:25 INFO  : Hardware design and registers information is loaded from 'C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/hw/dejarik_wrapper.xsa'.
+11:38:25 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:38:25 INFO  : Context for processor 'microblaze_0' is selected.
+11:38:25 INFO  : System reset is completed.
+11:38:28 INFO  : 'after 3000' command is executed.
+11:38:28 INFO  : Context for processor 'microblaze_0' is selected.
+11:38:28 INFO  : The application 'C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/Debug/dejarik.elf' is downloaded to processor 'microblaze_0'.
+11:38:28 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B5837EA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B5837EA-0362d093-0"}
+fpga -file C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/_ide/bitstream/dejarik_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/hw/dejarik_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/Debug/dejarik.elf
+----------------End of Script----------------
+
+11:38:28 INFO  : Context for processor 'microblaze_0' is selected.
+11:38:28 INFO  : 'con' command is executed.
+11:38:28 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:38:28 INFO  : Launch script is exported to file 'C:\Users\peneb\Desktop\git\dejarik\vitis_workspace\dejarik_system\_ide\scripts\debugger_dejarik-default.tcl'
+11:39:21 INFO  : Disconnected from the channel tcfchan#9.
+11:39:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:39:38 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B5837EA' is selected.
+11:39:38 INFO  : 'jtag frequency' command is executed.
+11:39:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B5837EA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B5837EA-0362d093-0"}' command is executed.
+11:39:42 INFO  : Device configured successfully with "C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/_ide/bitstream/dejarik_wrapper.bit"
+11:39:42 INFO  : Context for processor 'microblaze_0' is selected.
+11:39:42 INFO  : Hardware design and registers information is loaded from 'C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/hw/dejarik_wrapper.xsa'.
+11:39:42 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:39:42 INFO  : Context for processor 'microblaze_0' is selected.
+11:39:42 INFO  : System reset is completed.
+11:39:45 INFO  : 'after 3000' command is executed.
+11:39:45 INFO  : Context for processor 'microblaze_0' is selected.
+11:39:45 INFO  : The application 'C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/Debug/dejarik.elf' is downloaded to processor 'microblaze_0'.
+11:39:45 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B5837EA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B5837EA-0362d093-0"}
+fpga -file C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/_ide/bitstream/dejarik_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/hw/dejarik_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/Debug/dejarik.elf
+----------------End of Script----------------
+
+11:39:45 INFO  : Context for processor 'microblaze_0' is selected.
+11:39:45 INFO  : 'con' command is executed.
+11:39:45 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:39:45 INFO  : Launch script is exported to file 'C:\Users\peneb\Desktop\git\dejarik\vitis_workspace\dejarik_system\_ide\scripts\debugger_dejarik-default.tcl'
+11:41:50 INFO  : Disconnected from the channel tcfchan#10.
+11:41:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:42:06 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B5837EA' is selected.
+11:42:06 INFO  : 'jtag frequency' command is executed.
+11:42:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B5837EA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B5837EA-0362d093-0"}' command is executed.
+11:42:11 INFO  : Device configured successfully with "C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/_ide/bitstream/dejarik_wrapper.bit"
+11:42:11 INFO  : Context for processor 'microblaze_0' is selected.
+11:42:11 INFO  : Hardware design and registers information is loaded from 'C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/hw/dejarik_wrapper.xsa'.
+11:42:11 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:42:11 INFO  : Context for processor 'microblaze_0' is selected.
+11:42:11 INFO  : System reset is completed.
+11:42:14 INFO  : 'after 3000' command is executed.
+11:42:14 INFO  : Context for processor 'microblaze_0' is selected.
+11:42:14 INFO  : The application 'C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/Debug/dejarik.elf' is downloaded to processor 'microblaze_0'.
+11:42:14 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B5837EA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B5837EA-0362d093-0"}
+fpga -file C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/_ide/bitstream/dejarik_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/hw/dejarik_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/Debug/dejarik.elf
+----------------End of Script----------------
+
+11:42:14 INFO  : Context for processor 'microblaze_0' is selected.
+11:42:14 INFO  : 'con' command is executed.
+11:42:14 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:42:14 INFO  : Launch script is exported to file 'C:\Users\peneb\Desktop\git\dejarik\vitis_workspace\dejarik_system\_ide\scripts\debugger_dejarik-default.tcl'
+11:42:25 INFO  : Disconnected from the channel tcfchan#11.
+11:42:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:42:41 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B5837EA' is selected.
+11:42:41 INFO  : 'jtag frequency' command is executed.
+11:42:44 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B5837EA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B5837EA-0362d093-0"}' command is executed.
+11:42:45 INFO  : Device configured successfully with "C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/_ide/bitstream/dejarik_wrapper.bit"
+11:42:45 INFO  : Context for processor 'microblaze_0' is selected.
+11:42:45 INFO  : Hardware design and registers information is loaded from 'C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/hw/dejarik_wrapper.xsa'.
+11:42:45 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:42:45 INFO  : Context for processor 'microblaze_0' is selected.
+11:42:45 INFO  : System reset is completed.
+11:42:48 INFO  : 'after 3000' command is executed.
+11:42:48 INFO  : Context for processor 'microblaze_0' is selected.
+11:42:48 INFO  : The application 'C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/Debug/dejarik.elf' is downloaded to processor 'microblaze_0'.
+11:42:48 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B5837EA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B5837EA-0362d093-0"}
+fpga -file C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/_ide/bitstream/dejarik_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/hw/dejarik_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/Debug/dejarik.elf
+----------------End of Script----------------
+
+11:42:48 INFO  : Context for processor 'microblaze_0' is selected.
+11:42:48 INFO  : 'con' command is executed.
+11:42:48 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:42:48 INFO  : Launch script is exported to file 'C:\Users\peneb\Desktop\git\dejarik\vitis_workspace\dejarik_system\_ide\scripts\debugger_dejarik-default.tcl'
+11:51:54 INFO  : Checking for BSP changes to sync application flags for project 'dejarik'...
+11:51:56 INFO  : Disconnected from the channel tcfchan#12.
+11:51:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:51:58 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B5837EA' is selected.
+11:51:58 INFO  : 'jtag frequency' command is executed.
+11:51:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B5837EA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B5837EA-0362d093-0"}' command is executed.
+11:51:59 INFO  : Device configured successfully with "C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/_ide/bitstream/dejarik_wrapper.bit"
+11:51:59 INFO  : Context for processor 'microblaze_0' is selected.
+11:51:59 INFO  : Hardware design and registers information is loaded from 'C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/hw/dejarik_wrapper.xsa'.
+11:51:59 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:51:59 INFO  : Context for processor 'microblaze_0' is selected.
+11:51:59 INFO  : System reset is completed.
+11:52:02 INFO  : 'after 3000' command is executed.
+11:52:02 INFO  : Context for processor 'microblaze_0' is selected.
+11:52:02 INFO  : The application 'C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/Debug/dejarik.elf' is downloaded to processor 'microblaze_0'.
+11:52:02 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B5837EA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B5837EA-0362d093-0"}
+fpga -file C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/_ide/bitstream/dejarik_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/hw/dejarik_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/Debug/dejarik.elf
+----------------End of Script----------------
+
+11:52:02 INFO  : Context for processor 'microblaze_0' is selected.
+11:52:02 INFO  : 'con' command is executed.
+11:52:02 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:52:02 INFO  : Launch script is exported to file 'C:\Users\peneb\Desktop\git\dejarik\vitis_workspace\dejarik_system\_ide\scripts\debugger_dejarik-default.tcl'
+11:56:53 INFO  : Disconnected from the channel tcfchan#13.
+11:56:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:56:54 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B5837EA' is selected.
+11:56:54 INFO  : 'jtag frequency' command is executed.
+11:56:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B5837EA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B5837EA-0362d093-0"}' command is executed.
+11:56:55 INFO  : Device configured successfully with "C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/_ide/bitstream/dejarik_wrapper.bit"
+11:56:55 INFO  : Context for processor 'microblaze_0' is selected.
+11:56:55 INFO  : Hardware design and registers information is loaded from 'C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/hw/dejarik_wrapper.xsa'.
+11:56:55 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:56:55 INFO  : Context for processor 'microblaze_0' is selected.
+11:56:55 INFO  : System reset is completed.
+11:56:58 INFO  : 'after 3000' command is executed.
+11:56:58 INFO  : Context for processor 'microblaze_0' is selected.
+11:56:58 INFO  : The application 'C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/Debug/dejarik.elf' is downloaded to processor 'microblaze_0'.
+11:56:58 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B5837EA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B5837EA-0362d093-0"}
+fpga -file C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/_ide/bitstream/dejarik_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/hw/dejarik_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/Debug/dejarik.elf
+----------------End of Script----------------
+
+11:56:58 INFO  : Context for processor 'microblaze_0' is selected.
+11:56:59 INFO  : 'con' command is executed.
+11:56:59 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:56:59 INFO  : Launch script is exported to file 'C:\Users\peneb\Desktop\git\dejarik\vitis_workspace\dejarik_system\_ide\scripts\debugger_dejarik-default.tcl'
+11:57:06 INFO  : Disconnected from the channel tcfchan#14.
+11:57:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:57:07 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B5837EA' is selected.
+11:57:07 INFO  : 'jtag frequency' command is executed.
+11:57:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B5837EA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B5837EA-0362d093-0"}' command is executed.
+11:57:08 INFO  : Device configured successfully with "C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/_ide/bitstream/dejarik_wrapper.bit"
+11:57:08 INFO  : Context for processor 'microblaze_0' is selected.
+11:57:08 INFO  : Hardware design and registers information is loaded from 'C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/hw/dejarik_wrapper.xsa'.
+11:57:08 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:57:08 INFO  : Context for processor 'microblaze_0' is selected.
+11:57:08 INFO  : System reset is completed.
+11:57:11 INFO  : 'after 3000' command is executed.
+11:57:11 INFO  : Context for processor 'microblaze_0' is selected.
+11:57:11 INFO  : The application 'C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/Debug/dejarik.elf' is downloaded to processor 'microblaze_0'.
+11:57:11 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B5837EA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B5837EA-0362d093-0"}
+fpga -file C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/_ide/bitstream/dejarik_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/hw/dejarik_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/Debug/dejarik.elf
+----------------End of Script----------------
+
+11:57:11 INFO  : Context for processor 'microblaze_0' is selected.
+11:57:11 INFO  : 'con' command is executed.
+11:57:11 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:57:11 INFO  : Launch script is exported to file 'C:\Users\peneb\Desktop\git\dejarik\vitis_workspace\dejarik_system\_ide\scripts\debugger_dejarik-default.tcl'
+11:57:15 INFO  : Disconnected from the channel tcfchan#15.
+11:57:16 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:57:16 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B5837EA' is selected.
+11:57:16 INFO  : 'jtag frequency' command is executed.
+11:57:17 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B5837EA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B5837EA-0362d093-0"}' command is executed.
+11:57:18 INFO  : Device configured successfully with "C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/_ide/bitstream/dejarik_wrapper.bit"
+11:57:18 INFO  : Context for processor 'microblaze_0' is selected.
+11:57:18 INFO  : Hardware design and registers information is loaded from 'C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/hw/dejarik_wrapper.xsa'.
+11:57:18 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:57:18 INFO  : Context for processor 'microblaze_0' is selected.
+11:57:18 INFO  : System reset is completed.
+11:57:21 INFO  : 'after 3000' command is executed.
+11:57:21 INFO  : Context for processor 'microblaze_0' is selected.
+11:57:21 INFO  : The application 'C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/Debug/dejarik.elf' is downloaded to processor 'microblaze_0'.
+11:57:21 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B5837EA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B5837EA-0362d093-0"}
+fpga -file C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/_ide/bitstream/dejarik_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/hw/dejarik_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/Debug/dejarik.elf
+----------------End of Script----------------
+
+11:57:21 INFO  : Context for processor 'microblaze_0' is selected.
+11:57:21 INFO  : 'con' command is executed.
+11:57:21 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:57:21 INFO  : Launch script is exported to file 'C:\Users\peneb\Desktop\git\dejarik\vitis_workspace\dejarik_system\_ide\scripts\debugger_dejarik-default.tcl'
+12:06:10 INFO  : Disconnected from the channel tcfchan#16.
+12:06:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:06:26 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B5837EA' is selected.
+12:06:26 INFO  : 'jtag frequency' command is executed.
+12:06:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B5837EA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B5837EA-0362d093-0"}' command is executed.
+12:06:31 INFO  : Device configured successfully with "C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/_ide/bitstream/dejarik_wrapper.bit"
+12:06:31 INFO  : Context for processor 'microblaze_0' is selected.
+12:06:31 INFO  : Hardware design and registers information is loaded from 'C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/hw/dejarik_wrapper.xsa'.
+12:06:31 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:06:31 INFO  : Context for processor 'microblaze_0' is selected.
+12:06:31 INFO  : System reset is completed.
+12:06:34 INFO  : 'after 3000' command is executed.
+12:06:34 INFO  : Context for processor 'microblaze_0' is selected.
+12:06:34 INFO  : The application 'C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/Debug/dejarik.elf' is downloaded to processor 'microblaze_0'.
+12:06:34 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B5837EA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B5837EA-0362d093-0"}
+fpga -file C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/_ide/bitstream/dejarik_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/hw/dejarik_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik/Debug/dejarik.elf
+----------------End of Script----------------
+
+12:06:34 INFO  : Context for processor 'microblaze_0' is selected.
+12:06:34 INFO  : 'con' command is executed.
+12:06:34 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:06:34 INFO  : Launch script is exported to file 'C:\Users\peneb\Desktop\git\dejarik\vitis_workspace\dejarik_system\_ide\scripts\debugger_dejarik-default.tcl'
+12:10:26 INFO  : Result from executing command 'getProjects': dejarik_wrapper
+12:10:26 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/xilinx_vck190_base_202210_1.xpfm;xilinx_vck190_base_dfx_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_vck190_base_dfx_202210_1/xilinx_vck190_base_dfx_202210_1.xpfm;xilinx_vmk180_base_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_vmk180_base_202210_1/xilinx_vmk180_base_202210_1.xpfm;xilinx_zcu102_base_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+12:10:28 INFO  : Platform 'dejarik_wrapper' is added to custom repositories.
+12:10:29 INFO  : Platform 'dejarik_wrapper' is added to custom repositories.
+12:11:53 INFO  : Result from executing command 'getProjects': dejarik_wrapper
+12:11:53 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/xilinx_vck190_base_202210_1.xpfm;xilinx_vck190_base_dfx_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_vck190_base_dfx_202210_1/xilinx_vck190_base_dfx_202210_1.xpfm;xilinx_vmk180_base_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_vmk180_base_202210_1/xilinx_vmk180_base_202210_1.xpfm;xilinx_zcu102_base_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+12:11:53 INFO  : Checking for BSP changes to sync application flags for project 'asd'...
+12:11:58 INFO  : Checking for BSP changes to sync application flags for project 'asd'...
+12:12:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:12:24 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B5837EA' is selected.
+12:12:24 INFO  : 'jtag frequency' command is executed.
+12:12:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B5837EA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B5837EA-0362d093-0"}' command is executed.
+12:12:29 INFO  : Device configured successfully with "C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/asd/_ide/bitstream/dejarik_wrapper.bit"
+12:12:29 INFO  : Context for processor 'microblaze_0' is selected.
+12:12:29 INFO  : Hardware design and registers information is loaded from 'C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/hw/dejarik_wrapper.xsa'.
+12:12:29 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:12:29 INFO  : Context for processor 'microblaze_0' is selected.
+12:12:29 INFO  : System reset is completed.
+12:12:32 INFO  : 'after 3000' command is executed.
+12:12:32 INFO  : Context for processor 'microblaze_0' is selected.
+12:12:32 INFO  : The application 'C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/asd/Debug/asd.elf' is downloaded to processor 'microblaze_0'.
+12:12:32 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B5837EA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B5837EA-0362d093-0"}
+fpga -file C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/asd/_ide/bitstream/dejarik_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/hw/dejarik_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/asd/Debug/asd.elf
+----------------End of Script----------------
+
+12:12:32 INFO  : Context for processor 'microblaze_0' is selected.
+12:12:32 INFO  : 'con' command is executed.
+12:12:32 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:12:32 INFO  : Launch script is exported to file 'C:\Users\peneb\Desktop\git\dejarik\vitis_workspace\asd_system\_ide\scripts\debugger_asd-default.tcl'
+12:12:48 INFO  : Disconnected from the channel tcfchan#17.
+12:12:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:13:04 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B5837EA' is selected.
+12:13:04 INFO  : 'jtag frequency' command is executed.
+12:13:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B5837EA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B5837EA-0362d093-0"}' command is executed.
+12:13:08 INFO  : Device configured successfully with "C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/asd/_ide/bitstream/dejarik_wrapper.bit"
+12:13:08 INFO  : Context for processor 'microblaze_0' is selected.
+12:13:08 INFO  : Hardware design and registers information is loaded from 'C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/hw/dejarik_wrapper.xsa'.
+12:13:08 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:13:08 INFO  : Context for processor 'microblaze_0' is selected.
+12:13:08 INFO  : System reset is completed.
+12:13:11 INFO  : 'after 3000' command is executed.
+12:13:11 INFO  : Context for processor 'microblaze_0' is selected.
+12:13:12 INFO  : The application 'C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/asd/Debug/asd.elf' is downloaded to processor 'microblaze_0'.
+12:13:12 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B5837EA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B5837EA-0362d093-0"}
+fpga -file C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/asd/_ide/bitstream/dejarik_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/hw/dejarik_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/asd/Debug/asd.elf
+----------------End of Script----------------
+
+12:13:12 INFO  : Context for processor 'microblaze_0' is selected.
+12:13:12 INFO  : 'con' command is executed.
+12:13:12 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:13:12 INFO  : Launch script is exported to file 'C:\Users\peneb\Desktop\git\dejarik\vitis_workspace\asd_system\_ide\scripts\debugger_asd-default.tcl'
+12:22:51 INFO  : Disconnected from the channel tcfchan#19.
+12:22:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:23:07 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B5837EA' is selected.
+12:23:07 INFO  : 'jtag frequency' command is executed.
+12:23:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B5837EA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B5837EA-0362d093-0"}' command is executed.
+12:23:12 INFO  : Device configured successfully with "C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/asd/_ide/bitstream/dejarik_wrapper.bit"
+12:23:12 INFO  : Context for processor 'microblaze_0' is selected.
+12:23:12 INFO  : Hardware design and registers information is loaded from 'C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/hw/dejarik_wrapper.xsa'.
+12:23:12 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:23:12 INFO  : Context for processor 'microblaze_0' is selected.
+12:23:12 INFO  : System reset is completed.
+12:23:15 INFO  : 'after 3000' command is executed.
+12:23:15 INFO  : Context for processor 'microblaze_0' is selected.
+12:23:15 INFO  : The application 'C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/asd/Debug/asd.elf' is downloaded to processor 'microblaze_0'.
+12:23:15 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B5837EA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B5837EA-0362d093-0"}
+fpga -file C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/asd/_ide/bitstream/dejarik_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/hw/dejarik_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/asd/Debug/asd.elf
+----------------End of Script----------------
+
+12:23:15 INFO  : Context for processor 'microblaze_0' is selected.
+12:23:15 INFO  : 'con' command is executed.
+12:23:15 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:23:15 INFO  : Launch script is exported to file 'C:\Users\peneb\Desktop\git\dejarik\vitis_workspace\asd_system\_ide\scripts\debugger_asd-default.tcl'
+12:50:59 INFO  : Result from executing command 'getProjects': dejarik_wrapper
+12:50:59 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/xilinx_vck190_base_202210_1.xpfm;xilinx_vck190_base_dfx_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_vck190_base_dfx_202210_1/xilinx_vck190_base_dfx_202210_1.xpfm;xilinx_vmk180_base_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_vmk180_base_202210_1/xilinx_vmk180_base_202210_1.xpfm;xilinx_zcu102_base_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+12:51:01 INFO  : Platform 'dejarik_wrapper' is added to custom repositories.
+12:51:02 INFO  : Platform 'dejarik_wrapper' is added to custom repositories.
+12:51:17 INFO  : Result from executing command 'getProjects': dejarik_wrapper
+12:51:17 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/xilinx_vck190_base_202210_1.xpfm;xilinx_vck190_base_dfx_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_vck190_base_dfx_202210_1/xilinx_vck190_base_dfx_202210_1.xpfm;xilinx_vmk180_base_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_vmk180_base_202210_1/xilinx_vmk180_base_202210_1.xpfm;xilinx_zcu102_base_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+12:51:18 INFO  : Checking for BSP changes to sync application flags for project 'afdsasdf'...
+12:51:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:51:46 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B5837EA' is selected.
+12:51:46 INFO  : 'jtag frequency' command is executed.
+12:51:49 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B5837EA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B5837EA-0362d093-0"}' command is executed.
+12:51:50 INFO  : Device configured successfully with "C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/afdsasdf/_ide/bitstream/dejarik_wrapper.bit"
+12:51:50 INFO  : Context for processor 'microblaze_0' is selected.
+12:51:50 INFO  : Hardware design and registers information is loaded from 'C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/hw/dejarik_wrapper.xsa'.
+12:51:50 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:51:50 INFO  : Context for processor 'microblaze_0' is selected.
+12:51:50 INFO  : System reset is completed.
+12:51:53 INFO  : 'after 3000' command is executed.
+12:51:53 INFO  : Context for processor 'microblaze_0' is selected.
+12:51:53 INFO  : The application 'C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/afdsasdf/Debug/afdsasdf.elf' is downloaded to processor 'microblaze_0'.
+12:51:53 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B5837EA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B5837EA-0362d093-0"}
+fpga -file C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/afdsasdf/_ide/bitstream/dejarik_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/hw/dejarik_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/afdsasdf/Debug/afdsasdf.elf
+----------------End of Script----------------
+
+12:51:54 INFO  : Context for processor 'microblaze_0' is selected.
+12:51:54 INFO  : 'con' command is executed.
+12:51:54 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:51:54 INFO  : Launch script is exported to file 'C:\Users\peneb\Desktop\git\dejarik\vitis_workspace\afdsasdf_system\_ide\scripts\debugger_afdsasdf-default_1.tcl'
+13:24:31 INFO  : Disconnected from the channel tcfchan#20.
+13:24:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:24:47 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B5837EA' is selected.
+13:24:47 INFO  : 'jtag frequency' command is executed.
+13:24:51 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B5837EA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B5837EA-0362d093-0"}' command is executed.
+13:24:52 INFO  : Device configured successfully with "C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/afdsasdf/_ide/bitstream/dejarik_wrapper.bit"
+13:24:52 INFO  : Context for processor 'microblaze_0' is selected.
+13:24:52 INFO  : Hardware design and registers information is loaded from 'C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/hw/dejarik_wrapper.xsa'.
+13:24:52 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:24:52 INFO  : Context for processor 'microblaze_0' is selected.
+13:24:52 INFO  : System reset is completed.
+13:24:55 INFO  : 'after 3000' command is executed.
+13:24:55 INFO  : Context for processor 'microblaze_0' is selected.
+13:24:55 INFO  : The application 'C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/afdsasdf/Debug/afdsasdf.elf' is downloaded to processor 'microblaze_0'.
+13:24:55 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B5837EA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B5837EA-0362d093-0"}
+fpga -file C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/afdsasdf/_ide/bitstream/dejarik_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/hw/dejarik_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/afdsasdf/Debug/afdsasdf.elf
+----------------End of Script----------------
+
+13:24:55 INFO  : Context for processor 'microblaze_0' is selected.
+13:24:55 INFO  : 'con' command is executed.
+13:24:55 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:24:55 INFO  : Launch script is exported to file 'C:\Users\peneb\Desktop\git\dejarik\vitis_workspace\afdsasdf_system\_ide\scripts\debugger_afdsasdf-default_1.tcl'
+13:38:19 INFO  : Checking for BSP changes to sync application flags for project 'afdsasdf'...
+13:38:21 INFO  : Disconnected from the channel tcfchan#22.
+13:38:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:38:38 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B5837EA' is selected.
+13:38:38 INFO  : 'jtag frequency' command is executed.
+13:38:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B5837EA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B5837EA-0362d093-0"}' command is executed.
+13:38:42 INFO  : Device configured successfully with "C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/afdsasdf/_ide/bitstream/dejarik_wrapper.bit"
+13:38:42 INFO  : Context for processor 'microblaze_0' is selected.
+13:38:42 INFO  : Hardware design and registers information is loaded from 'C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/hw/dejarik_wrapper.xsa'.
+13:38:42 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:38:42 INFO  : Context for processor 'microblaze_0' is selected.
+13:38:42 INFO  : System reset is completed.
+13:38:45 INFO  : 'after 3000' command is executed.
+13:38:45 INFO  : Context for processor 'microblaze_0' is selected.
+13:38:45 INFO  : The application 'C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/afdsasdf/Debug/afdsasdf.elf' is downloaded to processor 'microblaze_0'.
+13:38:45 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B5837EA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B5837EA-0362d093-0"}
+fpga -file C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/afdsasdf/_ide/bitstream/dejarik_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/hw/dejarik_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/afdsasdf/Debug/afdsasdf.elf
+----------------End of Script----------------
+
+13:38:45 INFO  : Context for processor 'microblaze_0' is selected.
+13:38:45 INFO  : 'con' command is executed.
+13:38:45 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:38:45 INFO  : Launch script is exported to file 'C:\Users\peneb\Desktop\git\dejarik\vitis_workspace\afdsasdf_system\_ide\scripts\debugger_afdsasdf-default_1.tcl'
+13:43:21 WARN  : channel "tcfchan#2" closed
+13:43:21 WARN  : channel "tcfchan#5" closed
+13:43:21 WARN  : channel "tcfchan#17" closed
+13:43:21 WARN  : channel "tcfchan#20" closed
+13:43:21 INFO  : Disconnected from the channel tcfchan#23.
+14:08:56 DEBUG : Logs will be stored at 'C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/IDE.log'.
+14:09:03 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\peneb\Desktop\git\dejarik\vitis_workspace\temp_xsdb_launch_script.tcl
+14:09:05 INFO  : XSCT server has started successfully.
+14:09:05 INFO  : plnx-install-location is set to ''
+14:09:05 INFO  : Successfully done setting XSCT server connection channel  
+14:09:05 INFO  : Successfully done setting workspace for the tool. 
+14:09:06 INFO  : Registering command handlers for Vitis TCF services
+14:09:06 INFO  : Platform repository initialization has completed.
+14:09:07 INFO  : Successfully done query RDI_DATADIR 
+14:09:53 INFO  : Checking for BSP changes to sync application flags for project 'afdsasdf'...
+14:09:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:10:14 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B5837EA' is selected.
+14:10:14 INFO  : 'jtag frequency' command is executed.
+14:10:17 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B5837EA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B5837EA-0362d093-0"}' command is executed.
+14:10:19 INFO  : Device configured successfully with "C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/afdsasdf/_ide/bitstream/dejarik_wrapper.bit"
+14:10:19 INFO  : Context for processor 'microblaze_0' is selected.
+14:10:19 INFO  : Hardware design and registers information is loaded from 'C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/hw/dejarik_wrapper.xsa'.
+14:10:19 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:10:19 INFO  : Context for processor 'microblaze_0' is selected.
+14:10:19 INFO  : System reset is completed.
+14:10:22 INFO  : 'after 3000' command is executed.
+14:10:22 INFO  : Context for processor 'microblaze_0' is selected.
+14:10:22 INFO  : The application 'C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/afdsasdf/Debug/afdsasdf.elf' is downloaded to processor 'microblaze_0'.
+14:10:22 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B5837EA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B5837EA-0362d093-0"}
+fpga -file C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/afdsasdf/_ide/bitstream/dejarik_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/hw/dejarik_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/afdsasdf/Debug/afdsasdf.elf
+----------------End of Script----------------
+
+14:10:22 INFO  : Context for processor 'microblaze_0' is selected.
+14:10:22 INFO  : 'con' command is executed.
+14:10:22 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+14:10:22 INFO  : Launch script is exported to file 'C:\Users\peneb\Desktop\git\dejarik\vitis_workspace\afdsasdf_system\_ide\scripts\debugger_afdsasdf-default_1.tcl'
+14:12:32 INFO  : Disconnected from the channel tcfchan#1.
+10:14:57 DEBUG : Logs will be stored at 'C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/IDE.log'.
+10:14:58 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\peneb\Desktop\git\dejarik\vitis_workspace\temp_xsdb_launch_script.tcl
+10:15:02 INFO  : XSCT server has started successfully.
+10:15:02 INFO  : plnx-install-location is set to ''
+10:15:02 INFO  : Successfully done setting XSCT server connection channel  
+10:15:02 INFO  : Successfully done setting workspace for the tool. 
+10:15:03 INFO  : Registering command handlers for Vitis TCF services
+10:15:03 INFO  : Platform repository initialization has completed.
+10:15:06 INFO  : Successfully done query RDI_DATADIR 
+10:15:12 WARN  : An unexpected exception occurred in the module 'platform project logging'
+10:23:16 INFO  : Result from executing command 'getProjects': dejarik_wrapper
+10:23:16 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/xilinx_vck190_base_202210_1.xpfm;xilinx_vck190_base_dfx_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_vck190_base_dfx_202210_1/xilinx_vck190_base_dfx_202210_1.xpfm;xilinx_vmk180_base_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_vmk180_base_202210_1/xilinx_vmk180_base_202210_1.xpfm;xilinx_zcu102_base_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+10:23:17 WARN  : An unexpected exception occurred in the module 'platform project logging'
+10:23:17 INFO  : Platform 'dejarik_wrapper' is added to custom repositories.
+10:23:20 INFO  : Platform 'dejarik_wrapper' is added to custom repositories.
+10:23:41 INFO  : Result from executing command 'getProjects': dejarik_wrapper
+10:23:41 INFO  : Result from executing command 'getPlatforms': dejarik_wrapper|C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/dejarik_wrapper.xpfm;xilinx_vck190_base_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/xilinx_vck190_base_202210_1.xpfm;xilinx_vck190_base_dfx_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_vck190_base_dfx_202210_1/xilinx_vck190_base_dfx_202210_1.xpfm;xilinx_vmk180_base_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_vmk180_base_202210_1/xilinx_vmk180_base_202210_1.xpfm;xilinx_zcu102_base_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|C:/Users/peneb/Desktop/FPGA/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+10:23:42 INFO  : Checking for BSP changes to sync application flags for project 'sdfasdf'...
+10:23:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:23:53 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B5837EA' is selected.
+10:23:53 INFO  : 'jtag frequency' command is executed.
+10:23:53 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B5837EA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B5837EA-0362d093-0"}' command is executed.
+10:23:54 INFO  : Device configured successfully with "C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/sdfasdf/_ide/bitstream/dejarik_wrapper.bit"
+10:23:54 INFO  : Context for processor 'microblaze_0' is selected.
+10:23:55 INFO  : Hardware design and registers information is loaded from 'C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/hw/dejarik_wrapper.xsa'.
+10:23:55 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+10:23:55 INFO  : Context for processor 'microblaze_0' is selected.
+10:23:55 INFO  : System reset is completed.
+10:23:58 INFO  : 'after 3000' command is executed.
+10:23:58 INFO  : Context for processor 'microblaze_0' is selected.
+10:23:58 INFO  : The application 'C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/sdfasdf/Debug/sdfasdf.elf' is downloaded to processor 'microblaze_0'.
+10:23:58 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B5837EA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B5837EA-0362d093-0"}
+fpga -file C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/sdfasdf/_ide/bitstream/dejarik_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/hw/dejarik_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/peneb/Desktop/git/dejarik/vitis_workspace/sdfasdf/Debug/sdfasdf.elf
+----------------End of Script----------------
+
+10:23:58 INFO  : Context for processor 'microblaze_0' is selected.
+10:23:58 INFO  : 'con' command is executed.
+10:23:58 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+10:23:58 INFO  : Launch script is exported to file 'C:\Users\peneb\Desktop\git\dejarik\vitis_workspace\sdfasdf_system\_ide\scripts\debugger_sdfasdf-default.tcl'
+10:26:01 INFO  : Disconnected from the channel tcfchan#2.

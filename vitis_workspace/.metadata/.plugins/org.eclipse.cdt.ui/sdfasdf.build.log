@@ -1,0 +1,30 @@
+10:23:42 **** Build of configuration Debug for project sdfasdf ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IC:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/sw/dejarik_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'UartLiteIntrExample':
+../src/helloworld.c:167:13: warning: unused variable 'Index' [-Wunused-variable]
+  167 |         int Index;
+      |             ^~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -IC:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/sw/dejarik_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: sdfasdf.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/peneb/Desktop/git/dejarik/vitis_workspace/dejarik_wrapper/export/dejarik_wrapper/sw/dejarik_wrapper/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sdfasdf.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sdfasdf.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sdfasdf.elf  |tee "sdfasdf.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  11508	    336	   3348	  15192	   3b58	sdfasdf.elf
+'Finished building: sdfasdf.elf.size'
+' '
+
+10:23:43 Build Finished (took 1s.424ms)
+

@@ -1,0 +1,39 @@
+timestamp=[2024-01-19 10:08:04], mode=WORKBENCH_START, duration=0:00:04.105, duration_ms=4105, data={}
+timestamp=[2024-01-19 10:08:04], mode=WORKBENCH_UI_INIT, duration=0:00:00.337, duration_ms=337, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2024-01-19 10:08:05], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.868, duration_ms=868, data={}
+timestamp=[2024-01-19 10:08:51], mode=APP_CREATION, duration=0:00:05.202, duration_ms=5202, data={name=dejarik, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=dejarik_wrapper, application_type=application}
+timestamp=[2024-01-19 10:09:22], mode=PLATFORM_GENERATION, duration=0:00:07.653, duration_ms=7653, data={name=dejarik_wrapper}
+timestamp=[2024-01-19 10:09:23], mode=BUILD, duration=0:00:00.383, duration_ms=383, data={name=dejarik, configuration=Debug, clean_build=false}
+timestamp=[2024-01-19 10:09:31], mode=BUILD, duration=0:00:00.385, duration_ms=385, data={name=dejarik, configuration=Debug, clean_build=false}
+timestamp=[2024-01-19 10:09:43], mode=BUILD, duration=0:00:01.246, duration_ms=1246, data={name=dejarik, configuration=Debug, clean_build=false}
+timestamp=[2024-01-19 10:10:04], mode=BUILD, duration=0:00:00.136, duration_ms=136, data={name=dejarik, configuration=Debug, clean_build=false}
+timestamp=[2024-01-19 10:44:29], mode=APP_CREATION, duration=0:00:04.097, duration_ms=4097, data={name=dejar, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=dejarik_wrapper, application_type=application}
+timestamp=[2024-01-19 10:44:42], mode=PLATFORM_GENERATION, duration=0:00:07.076, duration_ms=7076, data={name=dejarik_wrapper}
+timestamp=[2024-01-19 10:44:43], mode=BUILD, duration=0:00:01.120, duration_ms=1120, data={name=dejar, configuration=Debug, clean_build=false}
+timestamp=[2024-01-19 10:45:29], mode=BUILD, duration=0:00:00.749, duration_ms=749, data={name=dejar, configuration=Debug, clean_build=false}
+timestamp=[2024-01-19 11:29:59], mode=BUILD, duration=0:00:00.193, duration_ms=193, data={name=dejar, configuration=Debug, clean_build=false}
+timestamp=[2024-01-19 11:30:00], mode=BUILD, duration=0:00:00.133, duration_ms=133, data={name=dejar_system, configuration=Debug, clean_build=false}
+timestamp=[2024-01-19 11:33:08], mode=APP_CREATION, duration=0:00:03.848, duration_ms=3848, data={name=dejarik, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=dejarik_wrapper, application_type=application}
+timestamp=[2024-01-19 11:33:22], mode=PLATFORM_GENERATION, duration=0:00:07.517, duration_ms=7517, data={name=dejarik_wrapper}
+timestamp=[2024-01-19 11:33:23], mode=BUILD, duration=0:00:01.060, duration_ms=1060, data={name=dejarik, configuration=Debug, clean_build=false}
+timestamp=[2024-01-19 11:33:33], mode=BUILD, duration=0:00:00.752, duration_ms=752, data={name=dejarik, configuration=Debug, clean_build=false}
+timestamp=[2024-01-19 11:51:54], mode=BUILD, duration=0:00:00.326, duration_ms=326, data={name=dejarik, configuration=Debug, clean_build=false}
+timestamp=[2024-01-19 12:10:29], mode=APP_CREATION, duration=0:00:04.169, duration_ms=4169, data={name=asd, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=dejarik_wrapper, application_type=application}
+timestamp=[2024-01-19 12:11:53], mode=PLATFORM_GENERATION, duration=0:00:09.487, duration_ms=9487, data={name=dejarik_wrapper}
+timestamp=[2024-01-19 12:11:55], mode=BUILD, duration=0:00:01.247, duration_ms=1247, data={name=asd, configuration=Debug, clean_build=false}
+timestamp=[2024-01-19 12:11:55], mode=BUILD, duration=0:00:00.128, duration_ms=128, data={name=asd_system, configuration=Debug, clean_build=false}
+timestamp=[2024-01-19 12:11:59], mode=BUILD, duration=0:00:00.768, duration_ms=768, data={name=asd, configuration=Debug, clean_build=false}
+timestamp=[2024-01-19 12:51:02], mode=APP_CREATION, duration=0:00:03.954, duration_ms=3954, data={name=afdsasdf, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=dejarik_wrapper, application_type=application}
+timestamp=[2024-01-19 12:51:18], mode=PLATFORM_GENERATION, duration=0:00:07.252, duration_ms=7252, data={name=dejarik_wrapper}
+timestamp=[2024-01-19 12:51:19], mode=BUILD, duration=0:00:01.123, duration_ms=1123, data={name=afdsasdf, configuration=Debug, clean_build=false}
+timestamp=[2024-01-19 13:38:19], mode=BUILD, duration=0:00:00.137, duration_ms=137, data={name=afdsasdf, configuration=Debug, clean_build=false}
+timestamp=[2024-01-19 14:09:05], mode=WORKBENCH_START, duration=0:00:11.996, duration_ms=11996, data={}
+timestamp=[2024-01-19 14:09:05], mode=WORKBENCH_UI_INIT, duration=0:00:00.673, duration_ms=673, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,afdsasdf,afdsasdf_system,dejarik_wrapper}
+timestamp=[2024-01-19 14:09:06], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.767, duration_ms=767, data={}
+timestamp=[2024-01-19 14:09:53], mode=BUILD, duration=0:00:00.183, duration_ms=183, data={name=afdsasdf, configuration=Debug, clean_build=false}
+timestamp=[2024-01-20 10:15:01], mode=WORKBENCH_START, duration=0:00:09.307, duration_ms=9307, data={}
+timestamp=[2024-01-20 10:15:02], mode=WORKBENCH_UI_INIT, duration=0:00:00.952, duration_ms=952, data={editors_count=2, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,afdsasdf,afdsasdf_system,dejarik_wrapper}
+timestamp=[2024-01-20 10:15:03], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.184, duration_ms=1184, data={}
+timestamp=[2024-01-20 10:23:20], mode=APP_CREATION, duration=0:00:05.658, duration_ms=5658, data={name=sdfasdf, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=dejarik_wrapper, application_type=application}
+timestamp=[2024-01-20 10:23:42], mode=PLATFORM_GENERATION, duration=0:00:08.537, duration_ms=8537, data={name=dejarik_wrapper}
+timestamp=[2024-01-20 10:23:43], mode=BUILD, duration=0:00:01.439, duration_ms=1439, data={name=sdfasdf, configuration=Debug, clean_build=false}

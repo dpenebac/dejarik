@@ -3,12 +3,12 @@
 // SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
 // Vivado v2022.1 (64-bit)
 // Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
-// Created on Tuesday January 09, 2024 - 05:28:48 pm, from:
+// Created on Saturday January 20, 2024 - 10:12:58 am, from:
 //
 //     Map file     - c:\Users\peneb\Desktop\git\dejarik\fpga_dejarik\fpga_dejarik.gen\sources_1\bd\dejarik\dejarik.bmm
 //     Data file(s) - c:/Users/peneb/Desktop/git/dejarik/fpga_dejarik/fpga_dejarik.gen/sources_1/bd/dejarik/ip/dejarik_microblaze_0_0/data/mb_bootloop_le.elf
 //
-// Address space 'dejarik_i_microblaze_0.dejarik_i_microblaze_0_local_memory_lmb_bram_64K_9_ADDR_SPACE', bit lane [31:0].
+// Address space 'dejarik_i_microblaze_0.dejarik_i_microblaze_0_local_memory_lmb_bram_ADDR_SPACE', bit lane [31:0].
 //
 // Bus width = 32 bits, number of bus blocks = 1.
 
