@@ -6,8 +6,6 @@
  Copyright   :
  Description : General Idea for grid generation and traversal while being O(1)
  	 	 	   or as close as possible to it.
- 	 	 	   Not yet incorporating any stm32 libraries
- 	 	 	   (will have to convert later)
  	 	 	   This just holds basic game logic
  ============================================================================
  */
@@ -26,6 +24,8 @@
  * TODO : REMOVE STDIO AND STDLIB WHEN FINISHED
  *
  * TODO : Find file to Change tab space to 2 before P.R.
+ *
+ * TODO : Create new branch + PR for character movement and turn queues
  */
 
 #define ROWS 2
@@ -50,7 +50,7 @@ struct Tile{
  * Note: 0 is the special index for the center 'tile'
  */
 struct Grid{
-    struct Tile tiles[SIZE];
+	struct Tile tiles[SIZE];
 };
 
 
@@ -82,14 +82,12 @@ void PrintBoard(struct Grid grid);
  */
 
 int main(void) {
-    struct GameManager gm;
-    gm.grid = CreateTiles(gm.grid);
-    gm = InitializeCharacter(2,7,gm);
-    printf("newCharacterIndex: %i\nx:%i\ny:%i\n",
-    		gm.characters[0].index, FindX(gm.characters[0].index), FindY(gm.characters[0].index));
-    /* finds the x and y cords of the tile at index 17 */
-    // printf("Row: %i\nCol: %i\n", FindX(17), FindY(17));
-    PrintBoard(gm.grid);
+	struct GameManager gm;
+	gm.grid = CreateTiles(gm.grid);
+	gm = InitializeCharacter(2,7,gm);
+	printf("newCharacterIndex: %i\nx:%i\ny:%i\n",
+			gm.characters[0].index, FindX(gm.characters[0].index), FindY(gm.characters[0].index));
+	PrintBoard(gm.grid);
 	return EXIT_SUCCESS;
 }
 
@@ -100,17 +98,16 @@ int main(void) {
  * of ROWS and COL (constant iteration count).
  */
 struct Grid CreateTiles(struct Grid grid){
-    for(int i = 1; i <= ROWS; i++){
-        for (int j = 1; j <= COL; j++){
-            struct Tile tile;
-
-            tile.index = (i*COL+j)-COL;
-            grid.tiles[tile.index] = tile;
-        }
-    }
-    struct Tile specialTile = { .index = 0 };
-    grid.tiles[0] = specialTile;
-    return grid;
+	for(int i = 1; i <= ROWS; i++){
+		for (int j = 1; j <= COL; j++){
+			struct Tile tile;
+			tile.index = (i*COL+j)-COL;
+			grid.tiles[tile.index] = tile;
+		}
+	}
+	struct Tile specialTile = { .index = 0 };
+	grid.tiles[0] = specialTile;
+	return grid;
 }
 
 /*
@@ -120,11 +117,11 @@ struct Grid CreateTiles(struct Grid grid){
  * it will spit out the row and collumn for the given grid array index :)
  */
 int FindX(int index){
-    return (index == 0) ? 0 : ((index-1)/COL+1);
+	return (index == 0) ? 0 : ((index-1)/COL+1);
 }
 
 int FindY(int index){
-    return (index == 0) ? 0 : ((index-1)%COL+1);
+	return (index == 0) ? 0 : ((index-1)%COL+1);
 }
 
 /*
@@ -172,14 +169,16 @@ int CheckTile(int x, int y, struct Grid grid){
 	return 1;
 }
 
-
+/*
+ * remove later
+ */
 void PrintBoard(struct Grid grid){
-    for(int i = 1; i <= ROWS; i++){
-        for (int j = 1; j <= COL; j++){
-        	printf("(%i, %i):%i ", i, j, grid.tiles[(i*COL+j)-COL].visitor_flag);
-        }
-        printf("\n");
-    }
+	for(int i = 1; i <= ROWS; i++){
+		for (int j = 1; j <= COL; j++){
+			printf("(%i, %i):%i ", i, j, grid.tiles[(i*COL+j)-COL].visitor_flag);
+		}
+		printf("\n");
+	}
 }
 
 
