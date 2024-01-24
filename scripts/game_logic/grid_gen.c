@@ -70,11 +70,12 @@ struct GameManager{
 };
 
 struct Grid CreateTiles(struct Grid grid);
-struct Character InitializeCharacter(int x, int y, struct Grid grid);
+struct GameManager InitializeCharacter(int x, int y, struct GameManager gm);
 void SetCharacterTile(int x, int y, struct Grid grid, struct GameManager gm, int characterIndex);
 int FindX(int index);
 int FindY(int index);
 int CheckTile(int x, int y, struct Grid grid);
+void PrintBoard(struct Grid grid);
 /*
  * Notes: Ensure that the grid/tiles are not lost at any point
  * while game loop is running
@@ -83,11 +84,12 @@ int CheckTile(int x, int y, struct Grid grid);
 int main(void) {
     struct GameManager gm;
     gm.grid = CreateTiles(gm.grid);
-    gm.characters[0] = InitializeCharacter(2,7,gm.grid);
+    gm = InitializeCharacter(2,7,gm);
     printf("newCharacterIndex: %i\nx:%i\ny:%i\n",
     		gm.characters[0].index, FindX(gm.characters[0].index), FindY(gm.characters[0].index));
     /* finds the x and y cords of the tile at index 17 */
     // printf("Row: %i\nCol: %i\n", FindX(17), FindY(17));
+    PrintBoard(gm.grid);
 	return EXIT_SUCCESS;
 }
 
@@ -129,12 +131,15 @@ int FindY(int index){
  * Character Initialization
  * A return character of index -1 marks failed initialization
  */
-struct Character InitializeCharacter(int x, int y, struct Grid grid){
+struct GameManager InitializeCharacter(int x, int y, struct GameManager gm){
 	struct Character newCharacter = { .index = -1 };
-	if(CheckTile(x,y,grid) == -1)
-		return newCharacter;
-	grid.tiles[(x*COL+y)-COL].visitor_flag = 1;
-	return (struct Character){ .index = (x*COL+y)-COL };
+	if(CheckTile(x,y,gm.grid) == -1){
+		return gm;
+	}
+	gm.grid.tiles[(x*COL+y)-COL].visitor_flag = 1;
+	printf("%i\n%i", (x*COL+y)-COL, gm.grid.tiles[(x*COL+y)-COL].visitor_flag);
+	gm.characters[0] = (struct Character){ .index = (x*COL+y)-COL };
+	return gm;
 }
 
 /*
@@ -167,5 +172,14 @@ int CheckTile(int x, int y, struct Grid grid){
 	return 1;
 }
 
+
+void PrintBoard(struct Grid grid){
+    for(int i = 1; i <= ROWS; i++){
+        for (int j = 1; j <= COL; j++){
+        	printf("(%i, %i):%i ", i, j, grid.tiles[(i*COL+j)-COL].visitor_flag);
+        }
+        printf("\n");
+    }
+}
 
 
