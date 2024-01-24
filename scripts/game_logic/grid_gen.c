@@ -12,74 +12,15 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-
+#include "grid.h"
 /*
- * TODO : Move all DEF statements and prototype functions to
- * a header file
- *
- * TODO : Prototype Traversal
- *
  * TODO : learn how turns work to create a 'move queue'
  *
  * TODO : REMOVE STDIO AND STDLIB WHEN FINISHED
  *
- * TODO : Find file to Change tab space to 2 before P.R.
- *
  * TODO : Create new branch + PR for character movement and turn queues
  */
 
-#define ROWS 2
-#define COL 12
-#define MAX_CHARACTERS 8
-#define SIZE ((ROWS*COL)+1)
-
-/*
- * Holds the position of the tile via index
- * If the tile holds a 'character' the visitor flag is high, else low
- */
-struct Tile{
-	unsigned int index;
-	unsigned int visitor_flag;
-};
-
-
-/*
- * holds an array of tiles based on the x/y coords
- * (see formula(s) below)
- *
- * Note: 0 is the special index for the center 'tile'
- */
-struct Grid{
-	struct Tile tiles[SIZE];
-};
-
-
-struct Character{
-	unsigned int index;
-	/*
-	 * apply whatever stats later, just interested in traversal atm
-	 */
-};
-
-/*
- * Controls all game logic
- */
-struct GameManager{
-	struct Grid grid;
-	struct Character characters[MAX_CHARACTERS];
-};
-
-struct Grid CreateTiles(struct Grid grid);
-struct GameManager InitializeCharacter(int x, int y, struct GameManager gm);
-void SetCharacterTile(int x, int y, struct Grid grid, struct GameManager gm, int characterIndex);
-int FindX(int index);
-int FindY(int index);
-int CheckTile(int x, int y, struct Grid grid);
-void PrintBoard(struct Grid grid);
-/*
- * Notes: Ensure that the grid/tiles are not lost at any point
- * while game loop is running
- */
 
 int main(void) {
 	struct GameManager gm;
