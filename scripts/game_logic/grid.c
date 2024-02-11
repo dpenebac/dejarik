@@ -103,15 +103,14 @@ void SetCharacterTile(int x, int y, struct Grid grid, struct GameManager gm, int
  * or greater than the number or allows rows/col
  */
 int TileValid(int x, int y, struct Grid grid) {
-  if(x < 0 || y < 0) {
+	if(x < 0 || y < 0) {
 		print("Tile Error: Can't have x or y position < 0");
-    return -1;
+		return -1;
 	}
-  if(((x*y)+1) > ((ROWS*COL)+1)) {
+	if(((x*y)+1) > ((ROWS*COL)+1)) {
 		print("Tile Error: Tile index out of range");
-    return -1;
+		return -1;
 	}
-  
 	return 1;
 }
 /*
