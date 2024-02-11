@@ -13,8 +13,8 @@
 #define NOT_EMBEDDED
 
 #ifdef NOT_EMBEDDED
-	#include <stdio.h>
-	#include <stdlib.h>
+  #include <stdio.h>
+  #include <stdlib.h>
 #endif
 
 #include "grid.h"
@@ -145,11 +145,11 @@ void PrintBoard(struct Grid grid){
  * Comment out IS_EMBEDDED to ignore printf's
  */
 void Print(char s[100]){
-	#ifdef NOT_EMBEDDED
-		printf("%s\n", s);
-	#endif
-	#ifndef NOT_EMBEDDED
-		// write over uart
-	#endif
+  #ifdef NOT_EMBEDDED
+    printf("%s\n", s);
+  #endif
+  #ifndef NOT_EMBEDDED
+    // write over uart
+  #endif
 }
 
