@@ -9,18 +9,16 @@
          This just holds basic game logic
  ============================================================================
  */
+//comment out this line to ignore stdio & stdlib functionality
+#define NOT_EMBEDDED
 
-#include <stdio.h>
-#include <stdlib.h>
+#ifdef NOT_EMBEDDED
+	#include <stdio.h>
+	#include <stdlib.h>
+#endif
+
 #include "grid.h"
-/*
- * TODO : learn how turns work to create a 'move queue'
- *
- * TODO : REMOVE STDIO AND STDLIB WHEN FINISHED
- *
- * TODO : Create new branch + PR for character movement and turn queues
- */
-
+#include "debug.h"
 
 int main(void) {
   struct GameManager gm;
@@ -70,11 +68,14 @@ int FindY(int index){
  */
 struct GameManager InitializeCharacter(int x, int y, struct GameManager gm){
   struct Character newCharacter = { .index = -1 };
-  if(CheckTile(x,y,gm.grid) == -1){
+	// The Two Functions create their own error messages
+  if(TileValid(x,y,gm.grid) == -1 || TileContainsPiece(x,y,gm.grid) == -1){
     return gm;
   }
   gm.grid.tiles[(x*COL+y)-COL].visitor_flag = 1;
-  printf("%i\n%i", (x*COL+y)-COL, gm.grid.tiles[(x*COL+y)-COL].visitor_flag);
+  #ifdef NOT_EMBEDDED
+    printf("%i\n%i", (x*COL+y)-COL, gm.grid.tiles[(x*COL+y)-COL].visitor_flag);
+  #endif
   gm.characters[0] = (struct Character){ .index = (x*COL+y)-COL };
   return gm;
 }
@@ -86,7 +87,8 @@ struct GameManager InitializeCharacter(int x, int y, struct GameManager gm){
  * but I dont know how a turn works yet)
  */
 void SetCharacterTile(int x, int y, struct Grid grid, struct GameManager gm, int characterNum){
-  if(CheckTile(x,y,grid) == -1)
+  // The Two Functions create their own error messages
+  if(TileValid(x,y,gm.grid) == -1 || TileContainsPiece(x,y,gm.grid) == -1)
     return;
   int characterIndex = gm.characters[characterNum].index;
   gm.grid.tiles[characterIndex].visitor_flag = 0;
@@ -96,15 +98,31 @@ void SetCharacterTile(int x, int y, struct Grid grid, struct GameManager gm, int
 }
 
 /*
- * Check if the tile is valid
+ * Check if the tile is valid:
+ * returns false if x/y is ever less than 0 
+ * or greater than the number or allows rows/col
  */
-int CheckTile(int x, int y, struct Grid grid){
-  if(x < 0 || y < 0)
+int TileValid(int x, int y, struct Grid grid) {
+  if(x < 0 || y < 0) {
+		print("Tile Error: Can't have x or y position < 0");
     return -1;
-  if(((x*y)+1) > ((ROWS*COL)+1))
+	}
+  if(((x*y)+1) > ((ROWS*COL)+1)) {
+		print("Tile Error: Tile index out of range");
     return -1;
-  if (grid.tiles[(x*COL+y)-COL].visitor_flag == 1)
+	}
+  
+	return 1;
+}
+/*
+ * Checks if a tile is occupied
+ * returns false if so, true otherwise
+ */ 
+int TileContainsPiece(int x, int y, struct Grid grid){
+  if (grid.tiles[(x*COL+y)-COL].visitor_flag == 1){
+    print("Tile Error: Tile already Occupied");
     return -1;
+  }
 
   return 1;
 }
@@ -113,11 +131,26 @@ int CheckTile(int x, int y, struct Grid grid){
  * remove later
  */
 void PrintBoard(struct Grid grid){
-  for(int i = 1; i <= ROWS; i++){
-    for (int j = 1; j <= COL; j++){
-      printf("(%i, %i):%i ", i, j, grid.tiles[(i*COL+j)-COL].visitor_flag);
+  #ifdef NOT_EMBEDDED
+    for(int i = 1; i <= ROWS; i++){
+      for (int j = 1; j <= COL; j++){
+        printf("(%i, %i):%i ", i, j, grid.tiles[(i*COL+j)-COL].visitor_flag);
+      }
+      printf("\n");
     }
-    printf("\n");
-  }
+  #endif
+}
+
+/*
+ * Prints out an error message
+ * Comment out IS_EMBEDDED to ignore printf's
+ */
+void Print(char s[100]){
+	#ifdef NOT_EMBEDDED
+		printf("%s\n", s);
+	#endif
+	#ifndef NOT_EMBEDDED
+		// write over uart
+	#endif
 }
 

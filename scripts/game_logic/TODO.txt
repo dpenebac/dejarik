@@ -1,0 +1,15 @@
+GRID.C
+
+TODO : learn how turns work to create a 'move queue'
+
+TODO : REMOVE STDIO AND STDLIB WHEN FINISHED
+
+TODO : Create new branch + PR for character movement and turn queues
+
+TODO: Add parameters to custom print function
+
+END
+
+Character.C
+
+END

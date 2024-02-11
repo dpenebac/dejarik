@@ -46,6 +46,10 @@ struct GameManager InitializeCharacter(int x, int y, struct GameManager gm);
 void SetCharacterTile(int x, int y, struct Grid grid, struct GameManager gm, int characterIndex);
 int FindX(int index);
 int FindY(int index);
-int CheckTile(int x, int y, struct Grid grid);
+//int CheckTile(int x, int y, struct Grid grid);
 void PrintBoard(struct Grid grid);
+int TileValid(int x, int y, struct Grid grid);
+int TileContainsPiece(int x, int y, struct Grid grid);
+
+
 
