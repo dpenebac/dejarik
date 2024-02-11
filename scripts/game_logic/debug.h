@@ -1,2 +1,2 @@
 /* Prototype Functions */
-void print(char * s);
+void Print(char * s);

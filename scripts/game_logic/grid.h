@@ -2,6 +2,7 @@
 #define COL 12
 #define MAX_CHARACTERS 8
 #define SIZE ((ROWS*COL)+1)
+#include "character.h"
 
 /*
  * Holds the position of the tile via index
@@ -23,13 +24,6 @@ struct Grid{
   struct Tile tiles[SIZE];
 };
 
-
-struct Character{
-  unsigned int index;
-  /*
-   * apply whatever stats later, just interested in traversal atm
-   */
-};
 
 /*
  * Controls all game logic

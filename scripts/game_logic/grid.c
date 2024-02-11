@@ -42,10 +42,12 @@ struct Grid CreateTiles(struct Grid grid){
       struct Tile tile;
       tile.index = (i*COL+j)-COL;
       grid.tiles[tile.index] = tile;
+      grid.tiles[tile.index].visitor_flag = 0;
     }
   }
   struct Tile specialTile = { .index = 0 };
   grid.tiles[0] = specialTile;
+  grid.tiles[0].visitor_flag = 0;
   return grid;
 }
 /*
@@ -104,11 +106,11 @@ void SetCharacterTile(int x, int y, struct Grid grid, struct GameManager gm, int
  */
 int TileValid(int x, int y, struct Grid grid) {
 	if(x < 0 || y < 0) {
-		print("Tile Error: Can't have x or y position < 0");
+		Print("Tile Error: Can't have x or y position < 0");
 		return -1;
 	}
 	if(((x*y)+1) > ((ROWS*COL)+1)) {
-		print("Tile Error: Tile index out of range");
+		Print("Tile Error: Tile index out of range");
 		return -1;
 	}
 	return 1;
@@ -119,7 +121,7 @@ int TileValid(int x, int y, struct Grid grid) {
  */ 
 int TileContainsPiece(int x, int y, struct Grid grid){
   if (grid.tiles[(x*COL+y)-COL].visitor_flag == 1){
-    print("Tile Error: Tile already Occupied");
+    Print("Tile Error: Tile already Occupied");
     return -1;
   }
 
