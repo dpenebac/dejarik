@@ -20,7 +20,13 @@ enum ActiveAbility{
   STUN
 };
 
+enum AbilityType {
+    PASSIVE_ABILITY,
+    ACTIVE_ABILITY
+};
+
 /*
+ * For more info: https://stackoverflow.com/questions/252552/why-do-we-need-c-unions
  * Never actually used unions for any reason until today
  * stores different data in the same memory location.
  * one ability can contain a value (passive or active) at any given time.
@@ -30,7 +36,6 @@ union Ability {
   enum ActiveAbility active_ability;
 };
 
-
 struct characterStats{
   int hp;
   int atk_power;
@@ -38,11 +43,17 @@ struct characterStats{
   int move_range;
 };
 
+
+/*
+ * all character attributes are held here
+ */
 struct Character{
   /*
    * this index is important for deciphering the x,y cords
    */
-  unsigned int index;
+  unsigned int index;i
+
+	enum AbilityType ability_type;
   /*
    * This ensures that we either have one passive or active ability at a time
    * all while using the same memory location! WOOT!
